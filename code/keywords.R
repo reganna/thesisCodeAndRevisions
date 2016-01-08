@@ -3,7 +3,6 @@ library(qdap)
 
 getTxtFreqs <- function(txtfile, raw=FALSE, rel=TRUE, vec=FALSE){
   text.v <- scan(txtfile, what="character", sep="\n")
-  #text.v <- gsub('([0-9])([[:alpha:]])', '\\1 \\2', text.v)
   novel.v <- paste(text.v, collapse=" ")
   novel.lower.v <- tolower(novel.v)
   novel.words.l <- strsplit(novel.lower.v, "\\W")
@@ -80,9 +79,9 @@ keywords <- function(directoryName){
   
 }
 
-galdos <- as.vector(corpKeywords[[6]])
-stylo(gui = FALSE, mfw.min=1000, mfw.max=1000, corpus.lang="Spanish", features = galdos)
-
-classify()
-Reduce(intersect, list(maria, amalia, galdos))
+# galdos <- as.vector(corpKeywords[[6]])
+# stylo(gui = FALSE, mfw.min=1000, mfw.max=1000, corpus.lang="Spanish", features = galdos)
+# 
+# classify()
+# Reduce(intersect, list(maria, amalia, galdos))
 

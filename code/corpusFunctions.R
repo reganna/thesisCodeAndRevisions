@@ -47,9 +47,11 @@ ttrDirectory <- function(directoryName, mn=FALSE){
     token <- ttr_df[,2]
     ratios <- type/token
     ttrMean <- mean(ratios)
+    rownames(ttr_df) <- getAuthorNames(directoryName)
     return(ttrMean)
   }
   else{
+    rownames(ttr_df) <- getAuthorNames(directoryName)
     return(ttr_df)
     
   }
@@ -57,7 +59,7 @@ ttrDirectory <- function(directoryName, mn=FALSE){
 
 getAuthorNames <- function(directoryName){
   authors <- list()
-  files_v <- dir(path="corpus", pattern="*")
+  files_v <- dir(path=directoryName, pattern="*")
   names <- sapply(files_v, strsplit, '_')
   names <- sapply(names, "[[", 1)
   for (i in files_v){
