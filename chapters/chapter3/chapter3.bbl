@@ -1,0 +1,114 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{Civantos2000}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1bec29527397ff17ecf803976346c714}{Civantos}{C\bibinitperiod}{Christina}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1bec29527397ff17ecf803976346c714}
+      \strng{fullhash}{1bec29527397ff17ecf803976346c714}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Latin American Literary Review}
+      \field{number}{59}
+      \field{title}{Exile Inside (and) Out: Woman, Nation, and the Exiled Intellectual in José Mármol's \textit{Amalia}}
+      \field{volume}{30}
+      \field{year}{2000}
+      \field{pages}{55\bibrangedash 78}
+      \range{pages}{24}
+      \verb{file}
+      \verb Civantos2000_exileWomanNationAmalia.pdf:Civantos2000_exileWomanNationAmalia.pdf:PDF;Civantos2000_exileWomanNationAmalia.pdf:lit_rep_bak/Civantos2000_exileWomanNationAmalia.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Ludmer1991}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=13971cbceb694cb27a8cb09937337ed7}{Ludmer}{L\bibinitperiod}{Josefina}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{13971cbceb694cb27a8cb09937337ed7}
+      \strng{fullhash}{13971cbceb694cb27a8cb09937337ed7}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Crítica Literaria Latinoamericana}
+      \field{number}{33}
+      \field{title}{Oralidad y {e}scritura en el {g}enero {g}auchesco como {n}ucleo del {n}acionalismo}
+      \field{volume}{17}
+      \field{year}{1991}
+      \field{pages}{29\bibrangedash 33}
+      \range{pages}{5}
+      \verb{file}
+      \verb Ludmer1991_oralidadGauchescoNacionalismo.pdf:Ludmer1991_oralidadGauchescoNacionalismo.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Shumway1991}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=00200399ad66caa0f84835f3ee44b04f}{Shumway}{S\bibinitperiod}{Nicolas}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berkeley}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{00200399ad66caa0f84835f3ee44b04f}
+      \strng{fullhash}{00200399ad66caa0f84835f3ee44b04f}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Invention of Argentina}
+      \field{year}{1991}
+    \endentry
+    \entry{Sommer1991}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=dd269190586976367d58b06e08818f24}{Sommer}{S\bibinitperiod}{Doris}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berkeley}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{dd269190586976367d58b06e08818f24}
+      \strng{fullhash}{dd269190586976367d58b06e08818f24}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Foundational Fictions}
+      \field{title}{Foundational Fictions: the National Romances of Latin America}
+      \field{year}{1991}
+    \endentry
+  \endsortlist
+  \missing{Cvrcek https://www.aatseel.org/100111/pdf/4a8_3_cvrek.pdf}
+  \missing{Marmol1926}
+  \missing{Leavitt1926}
+  \missing{Blasco1991}
+\endrefsection
+\endinput
+

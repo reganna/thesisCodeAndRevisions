@@ -1,0 +1,6 @@
+<<SetParent, include=FALSE>>=
+library(knitr)
+set_parent('../main_thesis.Rnw')
+@
+
+\makeworkscited

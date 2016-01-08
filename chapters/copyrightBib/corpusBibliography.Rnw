@@ -1,0 +1,18 @@
+<<SetParent, include=FALSE>>=
+library(knitr)
+set_parent('../main_thesis.Rnw')
+@
+
+
+\nocite{Carrasquilla1896}
+\nocite{Lizardi1884}
+\nocite{Galdos1873}
+\nocite{Gomez1841}
+\nocite{Hernandez1897}
+\nocite{Isaacs1894}
+\nocite{Marmol1877}
+\nocite{Mitre1847}
+\nocite{Palacios1886}
+\nocite{Samper1867}
+
+\makeworkscited

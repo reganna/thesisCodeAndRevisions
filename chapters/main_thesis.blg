@@ -1,0 +1,15 @@
+[0] Config.pm:325> INFO - This is Biber 2.1
+[0] Config.pm:328> INFO - Logfile is 'main_thesis.blg'
+[38] biber:276> INFO - === jue dic 31, 2015, 12:02:01
+[38] Biber.pm:334> INFO - Reading 'main_thesis.bcf'
+[127] Biber.pm:646> INFO - Found 10 citekeys in bib section 0
+[141] Biber.pm:2978> INFO - Processing section 0
+[153] Biber.pm:3116> INFO - Looking for bibtex format file '/home/randy/Documents/references/references.bib' for section 0
+[170] bibtex.pm:1010> INFO - Decoding LaTeX character macros into UTF-8
+[185] bibtex.pm:884> INFO - Found BibTeX data source '/home/randy/Documents/references/references.bib'
+[328] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[328] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[328] Biber.pm:2855> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[328] Biber.pm:2859> INFO - No sort tailoring available for locale 'en-US'
+[346] bbl.pm:505> INFO - Writing 'main_thesis.bbl' with encoding 'UTF-8'
+[347] bbl.pm:596> INFO - Output to main_thesis.bbl

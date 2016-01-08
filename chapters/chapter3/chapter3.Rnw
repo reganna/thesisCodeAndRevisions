@@ -1,0 +1,213 @@
+<<SetParent, include=FALSE>>=
+library(knitr)
+set_parent('../main_thesis.Rnw')
+@
+
+
+<<LoadNovelInfo, echo=FALSE, out.width=250, out.height=250, cache=TRUE>>=
+source('~/Documents/thesis/code/corpusFunctions.R')
+amalia <-as.data.frame(getTxtFreqs('~/Documents/thesis/corpus/corpus/marmol_amalia_argentina.txt', raw=TRUE))
+fierro <-as.data.frame(getTxtFreqs('~/Documents/thesis/corpus/corpus/hernandez_martinFierro_argentina.txt', raw=TRUE))
+
+@
+
+%<<AmaliaVgc, echo=FALSE, out.width=250, out.height=250, cache=TRUE>>=
+
+
+@
+
+\begin{singlespace}
+
+\chapter{Marmol's \textit{Amalia}}
+
+\end{singlespace}
+
+\section{Introduction: set up the problem}
+
+In his analysis of José Mármol's \textit{Amalia}, Cristina Civantos comments: \enquote{Although the co-existence of various \textit{patrias chicas} could suggest a more fluid, plural formulation of the nation, it would only be so if the nation were also allowed to be free form} \autocite[67]{Civantos2000}. The struggle between the co-existence of regional affiliation and an allegiance to the \textit{patria grande} is present not only in Mármol and Agentina but in nationalist forums around the globe. The clash between broad 
+
+Civantos argues that novels serve the purpose of giving nationalism what Benedict Anderson calls \enquote{the emotional legitimacy of nationalism} \autocite[Anderson in][69]{Civantos2000}.
+
+As mentioned in Chapter 2, \textit{Martin Fierro} has usurped the position of \enquote{Argentina's national epic} from José Marmol's \textit{Amalia} \cite[111]{Sommer1991}.
+However, earlier critics saw \textit{Amalia} as \enquote{the most popular of Argentine novels} \autocite{Leavitt1926}.
+Rosanna Barragan
+
+Sinclair Thomson
+
+Gobat
+
+
+\section{Review of literature}
+
+
+\subsection{general info on the text}
+Sommer introduces \textit{Amalia} as Mármol's \enquote{rambling} serialized novel published in Montevideo's \textit{La Semana} in 1851 \autocite[83]{Sommer1991}.
+However, as Civantos catalogs in her article, the publishing history of the full novel was as lengthy and disjointed as the final product \autocite[74]{Civantos2000}. 
+
+
+
+\subsection{Plot summary}
+
+The novel opens with six men attempting a late night escape from Buenos Aires on a clandestine whaling ship. The group is attacked en route and only Eduardo Belgrano survives due to the serendipitous intervention of Daniel Bello. The pair rushes to find safety at the home of Daniel’s cousin, the title character Amalia. Daniel assembles his trusted friend Dr. Alcorta to help mend Eduardo's near fatal wounds. Daniel sends a letter to Florencia employing her to uncover gossip of the attack from María Josefa Ezcurra, the sister-in-law of Jaun Manuel Rosas. Maria Josefa takes the opportunity to warn Florencia of what she finds to be an indecent number of visits to his cousin Amalia's house. The reader is introduced to Juan Manuel Rosas and his cohort as well as the political manipulation through the gossip of María Josefa. Florencia approaches Daniel with her accusations of impropriety but is satisfied when he reveals to her to gravity of the situation with Eduardo. Rosas efforts to eliminate \enquote{los salvajes unitarios} takes \enquote{comandante} Mariño to María Josefa in search of help uncovering the true nature of what they know to be a mysterious man in Amalia's house. General Cuitiño pays a visit to Daniel and Amalia but leaves assured that the story regarding Eduardo is merely a trap put in the mind of María Josefa by the \enquote{unitarios}. Mariño sets out to fulfill he and María Josefa's plot to ensnare Amalia in a trap to give up Eduardo. She rejects him and is subject to a police search of the home as a reprisal. The group hides out in an old abandon house but are discovered by the persistent Mariño. Eventually, Eduardo and Amalia are married just in time for their hideout to be stormed by Rosas men. Eduardo is killed moments before Rosas storms in and saves Daniel, his son, and the others.
+ 
+\subsection{Critical reception}
+In her discussion, Sommer notes that the political efforts of Juan Bautista Alberdi championed an openness to religious and racial intermixing for the purposes of producing \enquote{legitimate, homegrown inheritors of local power and foreign capital} \autocite[103]{Sommer1991}.
+While Echeverría's \textit{El matadero} left a longer lasting impression on the literature of Argentina, Sommer points out that it was his poem \textit{La cautiva} that \enquote{blasted open a new American literary terrain} \autocite[104]{Sommer1991}.
+She claims that by \enquote{inscrib(ing) popular regionalisms}, one of several stylistic choices that were managing to \enquote{melt traditional literary barriers} \autocite[104]{Sommer1991}.
+It is interesting that Sarmiento's founding work shares these characteristics with Hernández's supposedly ground breaking work.
+As Chapter 2 pointed out, the focus on including new registers of language into popular fiction was a widespread phenomenon, apparent in countless nineteenth-century authors but more skillfully employed by some.
+The distinction is articulated in Gala Blasco's summary of \textit{Martín Fierro} which claims that Hernández \enquote{no imita el lenguaje gaucho, como los escritores gauchescos: lo usa como idioma propioy con su propia sensibilidad concurre a enriquecerlo y formarlo} \autocite[400]{Blasco1991}.
+In the Spanish speaking America's, vocabulary, which Sommer says \enquote{exceeds standard Spanish}, was the principal means for readers to recognize a familiar, yet unique, social identity within literatures that shared a common colonial language but not a common culture.
+In fact she says of Argentina's generation of 1837, \enquote{the Romantics pointed out that their language was Argentine not Spanish} \autocite[105]{Sommer1991}.
+
+According to Nicolas Shumway the second half of the nineteenth-century is when Argentina's nationalist thought \enquote{came into full bloom} \autocite[216]{Shumway1991}. He points out that during this second wave of nationalist fervor Argentines experienced \enquote{a revindication of the Spanish, Latin heritage in which liberalism's enthrallment to French, English, and North American model's is seen as \enquote{anti-argentine}} \autocite*[216]{Shumway1991}. It is also during this time that the rural gaucho image is advanced as \enquote{a victim of the oligarchy's selfish ambition} \autocite[216]{Shumway1991}.
+
+Blasco et al. discuss the many linguistic changes that occurred in distinct geographical locations in the Americas.
+One in particular is the solidification of the use of \textit{vos} throughout Argentina, a phenomenon that Blasco et al. assert may have a connection with the Rosas dictatorship (45).
+They note that \textit{voseo} is found throughout Rosas' speeches and that \enquote{el auge y triunfo de rozismo coincide con la reinstauración del\textit{vos} entre quienes usaban el \textit{tú}} as well as pointing out that during this period other forms of address were also changing, something reflected in \textit{Amalia}(45).
+In the novel, Rosas' sister-in-law María Josefa says \enquote{No me diga Usía [...] Ahora somos todos iguales [...] porque todos somos federales} \autocite[Mármol in][45]{Blasco1991}.
+
+The role of literary language in national imagining is particularly salient in Argentina.
+The complex dichotomy between an overtly European identity and the provincial gaucho image was exploited by Argentina's writers.
+The success of Hernández's epic poem can be attributed to the readerly connection established through his use of \enquote{authentic} language \autocite[110]{Sommer1991}.
+The balance of regional and standard vocabulary, I argue, was an important factor in determining a novel's success. 
+The inclusion of regional vernacular did not ensure a successful readership, however, Blasco et al. point out \enquote{en ocasiones estos usos regionales limitaban la difusión de las obras, pero ello no arredraba a los románticos, quienes veían en este vocabulario parte de su alma genuinamente americana} \autocite[47]{Blasco1991}.
+It is important to point out that this manipulation of the expectation of standard Spanish in literary registers was not an historical coincidence.
+In Argentina the prominent role of language in political debates was reflected in the Romantic writers who \enquote{se ocuparon teóricamente de su forma de expresión como refejo de su independencia respecto de la metrópoli} \autocite[51]{Blasco1991}.
+The inclusion of \textit{gaucho} vernacular was, more accurately, \enquote{una invención literaria creada por los primeros autores a partir de ciertas características reales} \autocite[48]{Blasco1991}.
+It is this nostalgic attachment to regional vernacular that drives the most successful of founding fictions, and the reason that looking at literature under such broad a rubric as Latin American, can be misleading.
+
+Chapter 2 pointed out the political importance of the debate over Spanish orthography and Domingo Faustino Sarmiento advocated his own series of linguistic changes.
+Sarmiento emphasized his belief that Spanish American language represented colonial independence saying \enquote{creía que España no tenía nada que hacer en América y, por lo que hace a la escritura, que cada nación podía adoptar su propia ortografía} \autocite[58]{Blasco1991}.
+The changes proposed by Sarmiento and Andrés Bello were not adopted in general use.
+However, Blasco et al. point out that some changes were maintained as markers of anti-colonial political resistance.
+They point out that \enquote{en Cuba su uso significó una lucha política contra el español y se decretó prisión para más de un usuario} \autocite[60]{Blasco1991}.
+The purpose here is not to catalog the vast linguistic changes that Spanish underwent throughout the nineteenth-century but to point out that the writers of what later become founding fictions were aware of the socio-political gravity of linguistic choices.
+
+According to Josefina Ludmer, the creation of the literary voice of the gaucho helped to alter the image of the vagrant delinquent into \enquote{el guacho patriota, el gaucho argentino} (30).
+Ludmer attributes the \textit{gaucho} voice with being the \enquote{nucleo del nacionalismo} and goes on to say that \enquote{la voz del gaucho encarna la esencia del hombre argentino que lucha por la libertad y la justicia} \autocite[33]{Ludmer1991}.
+She elaborates that even after the genre has passed into history, the voice of the gaucho continued to accompany evolving ideals surrounding nation (31).
+The genre's ability to establish appropriate inclusion and exclusion from society and unite the poetic with the political gave it the ability to link differences with a common universal bond, \enquote{lo argentino} \autocite[33]{Ludmer1991}.
+Adding Ludmer's elaboration to the commentary of Blasco et al. points out that, in Argentina, a linguistic identity resulting from literary invention became the uniting image of nation.
+While in this case it came to constitute an entire genre, other efforts at expropriating language as an idealistic marker were less renowned in literary history.
+Isaacs \textit{María}, I would argue, is one example of an isolated attempt at assume language markers as idealistic signs.
+Further developing methods such as keyword analysis will allow more quantifiable discussion of language and socio-political ideals and how they relate to geopolitical borders.
+
+\subsubsection{Where does your analysis fit into the debate}
+\enquote{una época de sangre y de crímenes, que debía traer al duelo y el espanto a la infeliz Buenos Aires} \autocite[30]{Marmol1926}
+physical appearance and intelligence describing Daniel \enquote{este jóven de una fisonomía en que estaba el sello elocuente de la inteligencia}
+then describing Padre Viguá \enquote{en cuyo conjunto de facciones informes estaba pintada la degeneración de la inteligencia humana, y el sello de la imbecilidad}	
+and later describing the daughter of Rosas \enquote{el color de su tez era ese pálido oscuro que distingue comúnmente a las personas de temperamento nervioso}
+\autocite[41]{Marmol1926}
+\enquote{conversaban familiarmente con un soldado de chiripá punzó, y de una fisonomía en que no podía distinguirse donde acababa la bestia y comenzaba el hombre} \autocite[52]{Marmol1926}
+love of family and patria \enquote{Don Antonio Bello, sin embargo, tenía un amor más profundo que el de la Federación: y era el amor por su hijo} \autocite[34]{Marmol1926}. 
+
+The role of the house of gossip in both \textit{Trafalgar} and \textit{Amalia}
+
+\section{State the problem and propose solution}
+It is in this chapter that we see the particular limitations of using type token ratio as in chapter 1.
+\textit{Amalia} as mentioned earlier is a sprawling novel published over several years.
+The result is an overall token count of \Sexpr{sum(amalia[,2])} in a novel with only \Sexpr{length(amalia[,1])} types.
+The low type token ratio of \textit{Amalia} does not necessarily indicate a sparse vocabulary as such a long work will be more inclined to repeat a larger number of words.
+Again, plotting extrapolated vocabulary growth curves offers a better comparison.
+
+
+
+In Argentina, extra-textual factors of author popularity are worth mentioning. José Hernández was part of the leading \enquote{Confederation thinkers} that supported the anti-porteño Urquiza government.
+
+The connection between the writers of these founding fictions and political office was prevalent throughout the Americas, but particularly strong in Argentina.
+Mitre, Mármol, Sarmiento, and Hernández were involved politically in the process of developing the Argentine state and its nationalist corollary.
+Their deep involvement in the nation-building process may have encouraged the thematic characteristics of their respective literature, whereas in Colombia, Isaacs, who also held office, never managed to become a central political figure.
+Isaacs lack of involvement in state formation is reflected in the distinct nostalgia and pessimism found in \textit{María}.
+
+
+\section{Presentation of the digital data}
+Chapters 1 demonstrated that clustering supports the possibility of nationally aligned stylistic textual characteristics. Chapter 2 supports the idea that authors of Spanish language novels identified as representative of a particular nation chose to use vocabulary that either sever regional affiliations or establish national bonds.
+0
+
+Figure ...
+<<Figure 1, echo=FALSE, message=FALSE, warning=FALSE, results='hide', out.width=350, out.height=350, eval=FALSE>>=
+library(stylo)
+source('~/Documents/thesis/code/keywords.R')
+
+stylo(gui = FALSE, mfw.min=1000, mfw.max=1000, corpus.lang="Spanish", features = novel)
+@
+
+chiripá punzó	1
+
+Cvrček points out that keyword analysis is an extension of usage-based grammar thus, \enquote{just as language usage shapes grammar, language usage shapes the interpretation of the text} \autocite{Cvrcek https://www.aatseel.org/100111/pdf/4a8_3_cvrek.pdf}. 
+This includes not only critical interpretation but also that of a texts readership, in this case, the broad audience of a nineteenth-century novel.
+Keyword analysis supports a comparative approach to literature by going beyond words that only appear in a given work or geography.
+By looking at words that are used more broadly but statistically more prevalent in one work or region, it is possible to make more accurate critical comparisons.
+
+\section{Interpretation of digital data}
+
+
+
+
+\section{Solve the problem}
+
+
+
+
+
+\section{Draw out the implications}
+Cristóbal Pera points out that the effect of globalization on literature has been that authors adapt \enquote{la forma y el contenido de su escritura para poder ser leídos-comprados por un lector implícito mundial no adscrito a una cultura particular} \autocite*[101]{Pera2012}.
+Just as Stefán Gries has argued for new methods of demarcating the temporal boundaries of historical linguistic phenomenon that are derived naturally from data, cultural studies stand to benefit from similar analysis of geopolitical phenomenon. 
+
+
+Spain throughout the late eighteenth and early nineteenth-century was regarding more as a southern neighbor to European nations.
+The view of Spain as \enquote{other} versus latin america as other in the western hemisphere
+
+Volpi points out that in literature, Latin America was viewed as homogeneous throughout the late twentieth-century when his studies in Spain led him to realize that \enquote{los latinoamericanos éramos asociados, irremediablemente, con García Márquez y el realismo mágico} \autocite*[102]{Pera2012}.
+Pera points out that Volpi argues for the \enquote{reivindicación de un lugar en el canon que no dependa de una visión externa que asume la literatura de América Latina como una extensión del \enquote{realismo mágico}} (102).
+The connection to the previous centuries' novels studied in this thesis is the continuing stylistic stereotyping across an artificial cultural-geographic area such as Latin America. 
+As Gobat has shown, the very idea of Latin America was developed to protect and unify elite classes throughout the Americas.
+
+
+
+Pera point outs that Bernat Castany viewed the Boom as \enquote{un intento de corregir el imaginario nacional sin pretender deshacerse de él} \autocite[Castany in][103]{Pera2012}.
+Castany goes on to state that the linguistic and cultural unity of Latin America permitted the marketers of the movement to claim a stylistic unity across the region (103).
+In fact, the marketing of the Boom required perpetuating the idea of Latin American literary unity, wresting what Castany calls \enquote{autonomía identitaria} from distinct regional literatures, preventing them from being able to \enquote{discutirle a los detentadores de la \enquote{universalidad} la parte que le pertoca} \autocite[Castany in][103]{Pera2012}.
+As mentioned by Franco Moretti in Chapter 1, the establishment of a work as canonical is driven by popular readership and only later adopted into academia \cite[]{Moretti2013}.
+Consequently, the marketing of Boom novels as Latin America's literature perpetuated the idea of literary homogeneity in critical circles as well.
+
+Pera goes on to examine Roberto Bolaño's comments regarding a poem by Nicanor Parra's which states \enquote{Los cuatro grandes poetas de Chile/son tres:/Alonso de Ercilla y Rubén Darío}.
+Bolaño said of the verses \enquote{La segunda enseñanza del poema de Parra es que el nacionalismo es nesfato y cae por su propio peso} \autocite[108]{Pera2012}.
+I would argue that this is the extension of the problem being discussed in this thesis.
+In the nineteenth-century the affiliation of \enquote{nation} was often that of a region or city as opposed to the nation-state that emerged at the end of the century \autocite{Chiaramonte2004}.
+Literature was a marketing tool for Spanish American ideologues in the nineteenth-century as well. 
+In that context, nation obscured region, city obscured rural, and 
+
+
+Also relatively distinct in the case of Argentina is the overt nature of the xenophobic rhetoric from the founding oligarchy.
+María Fernánda Lander categorizes the goal of the early Argentine nationalists as \enquote{organizar a la minoría ilustrada para encargarse del gobierno del nuevo e inexperto país argentino} \autocite[44]{Lander2010}.
+Epitomized by Sarmiento's \textit{Facundo: Civilización y barbarie}, the stark definition of those that constituted the \enquote{other} in Argentine culture is one reason for the success of of the \enquote{guachesco} genre.
+She points out that \enquote{el género es la ficción de reproducción escrita de la palabra oral, \textit{oída, del otro como palabra del otro}, y no como la del que escribe} \autocite[emphasis added][30]{Ludmer1991}.
+
+
+
+Según Echevarría, esta "narrativa  latinoamericana":
+no  estaría  construida  por  la  suma  de  las  narrativas  nacionales,  sino
+más bien por  una selección  interesada de ellas, que no se realizaría  con
+criterios representativos, ni mucho  menos, tampoco con criterios exclu-
+sivos de comercialidad  o de calidad,  sino  con  criterios, sobre  todo,  de
+intercambiabilidad.  Conforme  a ello, lo que colocaría a un  determinado
+narrador  en  el circuito  de la narrativa  latinoamericana  sería, antes  que
+nada,  su  traducibilidad  al idioma  propio  de esa entidad  específica—la
+narrativa latinoamericana—que  no alude tanto a una comunidad  como
+a  un  mercado  y que,  en  cuanto  tal, carece  propiamente  de  identidad.
+(26-27)
+?worth adding ercilla to corpus?
+
+
+Brunei (1991) discusses related ideas under the rubric of “canonicity
+and breach,” noting that “to be worth telling, a tale must be about how
+an implicit canonical script has been breached, violated, or deviated from
+in a manner to do violence to the ‘legitimacy’ of the canonical script” \cite[239]{Herman}
+Could the breach in legitimacy for the LA found...fict be the departure from traditional linguistic patterns?
+
+
+
+
+\makeworkscited

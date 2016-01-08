@@ -1,0 +1,258 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{Carrasquilla1896}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7d1147ca998fa52ad0932ac77b02468f}{Carrasquilla}{C\bibinitperiod}{Tomás}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Bogotá}%
+      }
+      \list{publisher}{1}{%
+        {Libreria nueva}%
+      }
+      \strng{namehash}{7d1147ca998fa52ad0932ac77b02468f}
+      \strng{fullhash}{7d1147ca998fa52ad0932ac77b02468f}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Frutos de mi {t}ierra}
+      \field{year}{1896}
+      \verb{url}
+      \verb https://ia801407.us.archive.org/5/items/frutosdemitierr00carrgoog/frutosdemitierr00carrgoog.pdf
+      \endverb
+    \endentry
+    \entry{Samper1867}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6f7392831ea179a9c6ae0e71067f0955}{Samper}{S\bibinitperiod}{Soledad\bibnamedelima Acosta}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d4cd0dabcf4caa22ad92fab40844c786}{NA}{N\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {NA}%
+      }
+      \list{publisher}{1}{%
+        {NP}%
+      }
+      \strng{namehash}{6f7392831ea179a9c6ae0e71067f0955}
+      \strng{fullhash}{6f7392831ea179a9c6ae0e71067f0955}
+      \field{sortinit}{d}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dolores}
+      \field{year}{1867}
+      \verb{url}
+      \verb http://www.biblioteca.org.ar/libros/130522.pdf
+      \endverb
+    \endentry
+    \entry{Lizardi1884}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0e2128bbeb424f72abcbbf1b1da0a2b6}{Fernández\bibnamedelimb de\bibnamedelima Lizardi}{F\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim L\bibinitperiod}{José\bibnamedelima Joaquin}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Mexico}%
+      }
+      \list{publisher}{1}{%
+        {J Valdes y Cueva, R. Araujo}%
+      }
+      \strng{namehash}{0e2128bbeb424f72abcbbf1b1da0a2b6}
+      \strng{fullhash}{0e2128bbeb424f72abcbbf1b1da0a2b6}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El Periquillo Sarniento}
+      \field{year}{1884}
+      \verb{url}
+      \verb http://babel.hathitrust.org/cgi/pt?id=hvd.hwyp9v;view=1up;seq=5
+      \endverb
+    \endentry
+    \entry{Galdos1873}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ab8e765a472a8a099c472c8395cd6900}{Galdós}{G\bibinitperiod}{Benito\bibnamedelima Pérez}{B\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Madrid}%
+      }
+      \list{publisher}{1}{%
+        {Imp. de J. Noguera, A cargo de M. Martínez}%
+      }
+      \strng{namehash}{ab8e765a472a8a099c472c8395cd6900}
+      \strng{fullhash}{ab8e765a472a8a099c472c8395cd6900}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Trafalgar}
+      \field{year}{1873}
+      \verb{url}
+      \verb https://books.google.com/books?id=bT1EAQAAMAAJ&pg=PA3#v=onepage&q&f=false
+      \endverb
+    \endentry
+    \entry{Gomez1841}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=96a7a339140d03149528555c3af7182c}{Gómez\bibnamedelimb de\bibnamedelima Avellaneda}{G\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim A\bibinitperiod}{Gertrudis}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Madrid}%
+      }
+      \list{publisher}{1}{%
+        {Imprenta Calle del Banco num 26}%
+      }
+      \strng{namehash}{96a7a339140d03149528555c3af7182c}
+      \strng{fullhash}{96a7a339140d03149528555c3af7182c}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sab: Novela original}
+      \field{year}{1841}
+      \verb{url}
+      \verb https://books.google.com/books?id=RJArAQAAMAAJ&dq=sab%20avellaneda&pg=PA1#v=onepage&q=sab%20avellaneda&f=false
+      \endverb
+    \endentry
+    \entry{Hernandez1897}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=79ea5811c803e9445c7fb2b9b7045f3a}{Hernández}{H\bibinitperiod}{José}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Librería Martín Fierro}%
+      }
+      \strng{namehash}{79ea5811c803e9445c7fb2b9b7045f3a}
+      \strng{fullhash}{79ea5811c803e9445c7fb2b9b7045f3a}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El {g}aucho Martín Fierro}
+      \field{year}{1897}
+      \verb{url}
+      \verb http://babel.hathitrust.org/cgi/pt?id=uiuo.ark:/13960/t21c2887g
+      \endverb
+    \endentry
+    \entry{Isaacs1894}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ff60b6fc862ed513709d7268aac7a637}{Isaacs}{I\bibinitperiod}{Jorge}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Libreria Garnier {h}ermanos}%
+      }
+      \strng{namehash}{ff60b6fc862ed513709d7268aac7a637}
+      \strng{fullhash}{ff60b6fc862ed513709d7268aac7a637}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Maria: {N}ovela {a}mericana}
+      \field{year}{1894}
+      \verb{url}
+      \verb https://books.google.com/books?id=kooCAAAAYAAJ&printsec=frontcover#v=onepage&q&f=falsehttps://books.google.com/books?id=kooCAAAAYAAJ&printsec=frontcover#v=onepage&q&f=false
+      \endverb
+    \endentry
+    \entry{Marmol1877}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=23232c0761694ae200f8bb687f35a976}{Mármol}{M\bibinitperiod}{José}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{23232c0761694ae200f8bb687f35a976}
+      \strng{fullhash}{23232c0761694ae200f8bb687f35a976}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Amalia}
+      \field{year}{1877}
+      \verb{url}
+      \verb https://ia801407.us.archive.org/25/items/amalia04mrgoog/amalia04mrgoog.pdf
+      \endverb
+    \endentry
+    \entry{Mitre1847}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=165481379de6161a862e701049c82134}{Mitre}{M\bibinitperiod}{Bartolomé}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Paz de Ayacucho}%
+      }
+      \list{publisher}{1}{%
+        {Imprenta de la Época}%
+      }
+      \strng{namehash}{165481379de6161a862e701049c82134}
+      \strng{fullhash}{165481379de6161a862e701049c82134}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Soledad}
+      \field{year}{1847}
+      \verb{url}
+      \verb http://www.cervantesvirtual.com/obra-visor-din/soledad-novela-original--0/html/ff1eaee6-82b1-11df-acc7-002185ce6064_2.html#I_0_
+      \endverb
+    \endentry
+    \entry{Palacios1886}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7208241a76e3970cfbeb744cd660de62}{Palacios}{P\bibinitperiod}{Eustaquio}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {NA}%
+      }
+      \list{publisher}{1}{%
+        {NP}%
+      }
+      \strng{namehash}{7208241a76e3970cfbeb744cd660de62}
+      \strng{fullhash}{7208241a76e3970cfbeb744cd660de62}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{El {a}lferez {r}eal}
+      \field{year}{1886}
+      \verb{url}
+      \verb http://www.colombiaaprende.edu.co/html/productos/1685/articles-200229_alferez.pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

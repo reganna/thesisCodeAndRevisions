@@ -1,0 +1,300 @@
+\documentclass[12pt]{report}
+\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\newcommand{\SweaveOpts}[1]{}  % do not interfere with LaTeX
+\newcommand{\SweaveInput}[1]{} % because they are not real TeX commands
+\newcommand{\Sexpr}[1]{}       % will only be parsed by R
+
+
+
+\usepackage{/home/randy/thesis/chapters/thesis}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{setspace}
+\usepackage[titles]{tocloft}
+\renewcommand\cfttoctitlefont{\normalsize}
+\setlength\cftchapindent{0pt}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage}
+\fancyhead[R]{}
+\renewcommand{\headrulewidth}{0pt}
+
+%%%% smaller caption size for R plots %%%%
+\usepackage[font=scriptsize]{caption}
+
+%%%% clears notes in bibliograhpy %%%%
+\AtEveryBibitem{\clearfield{note}}
+
+\makeatletter
+\newcommand\iraggedright{%
+	\let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
+	\leftskip\z@skip}
+\makeatother
+
+\usepackage{titlesec}
+\titlespacing*{\chapter}{0pt}{2in}{0pt}
+\titleformat{\chapter}[display]{\normalfont}{\chaptertitlename\ \thechapter}{12pt}{\normalfont}
+\titleformat*{\section}{\normalsize\bfseries} 
+\titleformat*{\subsection}{\normalsize\itshape} 
+\titlespacing*{\section}{0pt}{0ex plus 1ex minus .2ex}{0ex plus .2ex} 
+\titlespacing*{\subsection}{0pt}{0ex plus 1ex minus .2ex}{0ex plus .2ex}
+
+\renewcommand{\chaptername}{{CHAPTER}}
+
+\title{Cracks in the foundation: The myth of Latin American national literatures}
+
+
+
+
+
+\begin{document}
+
+
+\begin{singlespace}
+	\chapter{Introduction}
+\end{singlespace}
+
+%\enquote{You shall know a word by the company it keeps} J.R. Firth
+
+\noindent
+Randy Gannaway
+
+\noindent
+Thesis Proposal
+
+\begin{center}
+CRACKS IN THE FOUNDATION: THE MYTH OF LATIN AMERICAN NATIONAL LITERATURES
+\end{center}
+
+In his analysis \textit{Imagined Communities}, Benedict Anderson outlines several factors that came together in the nineteenth-century in order for the modern concept of \enquote{nation} to come about. 
+Specifically that nations were \enquote{imagined} by an otherwise unconnected community bound by a limited geographical space under a politically sovereign leadership\nocite{Anderson2006}. 
+Doris Sommer, in \textit{Foundational Fictions}, takes Anderson's focus on the role of print media in nation building and elaborates what she terms \enquote{passionate patriotism} \autocite*[33]{Sommer1991}. 
+While Anderson emphasizes the role of newspapers in \enquote{imagining communities,} Sommer explores the contribution of nineteenth century romance novels, which often debuted in national newspapers. 
+Her objective is to \enquote{describe the allegory in Latin Americas national novels as an interlocking, not parallel, relationship between erotics and politics} \autocite[43]{Sommer1991}. 
+While many critics have explored the allegorical potential of novels written during independence, contemporary criticism often attempts to force onto regional phenomenon constructs based on a shared colonial past.
+
+In a related approach, Fernando Unzueta points out that beyond the allegorical functions of romance novels in Latin America, novels in general during the nineteenth century introduced \enquote{a radical shift and an opening of the scenes of reading} \autocite*[78]{Unzueta2002}. 
+Unzueta further maintains that this shift allowed for a closer identification between \enquote{readers and characters, public and nation} \autocite*[78]{Unzueta2002}. 
+The relationship between reader and nation is supported by Rita Felski's discussion on reader recognition. According to Felski, \enquote{it is via the snare of a fictional subjectivity that individuals are folded into the state apparatus and rendered acquiescent to the status quo} \autocite*[27]{Felski2008}. As is apparent in the juxtaposition of the terms \enquote{public} and \enquote{nation,} any progress towards a more unified view on literature and nationalism requires an evaluation of nationalist terminology. Neither Sommer nor Unzueta are particularly concerned with the historical semantics of nation, however, historical context helps to situate the importance of the new discourse brought about by many forms and genres of print throughout the Americas. 
+For this historical context, José Carlos Chiaramonte offers an exploration of the diachronic connotations of nation and state throughout history in his book \textit{Nación y estado en Iberoamérica}\nocite{Chiaramonte2004}. In each of these analyses there is an attempt to evaluate the contribution of literature in the broader Latin American context.
+
+In order to address the meaning of these national literatures in their historical moment, it is necessary to contextualize not only the language in which they were written, but also the vocabulary by which they were defined. Chiaramonte insists that the most prominent scholarship on nationalist literatures has failed to carry out the latter (30)\nocite{Chiaramonte2004}. 
+In fact he finds that at the root of the problem there exists \enquote{un equívoco concerniente a la datación del concepto político de nación} \autocite[32]{Chiaramonte2004}. 
+Taking the point one step further, he adds that \enquote{entre los mejores trabajos aparecidos recientemente subyace una confusión respecto de las relacions del concepto de nación con la revolución francesa} \autocite[31]{Chiaramonte2004}. 
+This has left an evaluation of the historical meaning of nation based on ethnicity in favor of the more recent connotation of unity under a common political entity \autocite[33]{Chiaramonte2004}. His scholarship does not propose a new definition of \enquote{nación} and other terms of nationalism but rather attempts to contextualize their meaning over time. 
+This look at how the concept of nationalism evolved in terms of the words that define it provides a point of departure for the textual analysis of the vocabulary of nineteenth century novels. 
+As Unzueta has noted \enquote{the authors of the nineteenth century wrote for a much wider public thanks to the genre's larger circulation, and to the languages and styles that they used} (80)\nocite{Unzueta2002}. 
+It is the introduction of this new discourse into Latin American novels, which Unzueta likens to mass media, that sets them apart not only for their newly independent readers, but also for the algorithms of the 21st century. 
+By using the languages and styles discussed by Unzueta as a point of analysis I will highlight textual conventions established by these authors, demonstrate how these texts do not conform to national imagining, and show how they reveal the artificiality of literary analysis based on geopolitical divisions.
+
+
+A broader look into the use of language supports Unzueta's claim that these novels contained conventions that served to include a broader public. 
+It is Angel Rama's view that \enquote{la manera de combatir a la ciudad letrada y disminuir sus abusivos privilegios consistió en reconocer palmariamente el imperio de la letra, introduciendo en ella a nuevos grupos sociales} \autocite[72]{Rama2002}. 
+Education took on an increasingly divisive political role in the newly independent colonies. 
+Rama notes that Liberal intellectuals used university centers to incorporate the demands of lower classes into their agenda \autocite[75]{Rama2002}. 
+However, it was never the Liberal intention to abandon their own role in the evolving hierarchy of the newly formed states. 
+Sommer agrees that \enquote{the writing elite was loathe to give up its hierarchical privilege} \autocite[51]{Sommer1991}. 
+The importance of Rama's argument here is to highlight that the cooperation between power and literacy had very old roots in the administrative centers of New Spain. 
+It became apparent that outside of the colonial apparatus a new vision of the possibilities of education would have to be incorporated into the evolving definition of nation. 
+As Nancy Vogeley observes \enquote{in Mexico at independence, a secularized sense of human reason suggested that criollos could use their own capacities to arrive at new knowledge to their lesser classes} \autocite[135]{Vogeley2001}. 
+The dynamic between language, power and nationalism persists today even in modern societies far removed from independence. 
+Rachelle Vessey uses a large corpus of French and English words from Canadian newspapers to show how a macro level view of language use can reveal connotations that individual readers may overlook. 
+By using what is termed \enquote{corpus assisted discourse analysis} to identify the contexts in which key words occur Vessey highlights that \enquote{what language connotes by being a marker of difference may take precedence over its referential or informative value} \autocite[177]{Vessey2014}. 
+Her observations help to validate the need for broader exploration of the role of literature in the conceptualization of nation. 
+
+Sommer admits her awareness of the possibility of individual readers overlooking literary patterns outside of traditional boundaries. 
+She maintains that her intention is \enquote{to speculate on what may account for the generic coherence that individual readings will necessarily miss} \autocite*[31]{Sommer1991}. 
+The ability to look into a broader corpus can help alleviate Sommer's need to speculate and possibly uncover patterns that either strengthens current views on this topic or unveils new ideas unapparent in single novels. 
+While the conversation about nationalism and literature in Latin America has had a surge of opinions in recent decades, scholars have not exhausted the possibilities. Comparing the characteristics of language and style across novels and nations will lead to a better understanding of the relationship between literature and geopolitical divisions. 
+%The reason for this is twofold. 
+%First, as Sommer has pointed out individual texts could fail more nuanced patterns. 
+%In the case of nationalism this is a particularly influential phenomenon given the complex evolution of an \enquote{imagined community.} 
+%I propose winnowing these complex cultural variables to small groups of texts through a computer assisted analysis of a larger corpus. 
+Similar approaches are proving fruitful for other areas of cultural inquiry such that using analytical methods as a point of departure for discovering patterns beyond the constructs of nation or Latin America is a logical next step. 
+
+Matthew Jockers demonstrates a similar approach in his book \textit{Macroanalysis}.
+Jockers comes to the conclusion that \enquote{nations have habits of style} that can be traced using textual analysis \autocite*[2017]{Jockers2013}.
+This stylistic manifestation along national boundaries not only supports existing scholarship such as that of Sommer and Unzueta but it also demands a refinement of ideas that are based on limiting geo-political categories.
+Brian Boyd emphasizes the importance of realizing that fiction, in human evolution, is not for \enquote{just one thing} \autocite*{Boyd2009}. 
+This holds true in the debate on its role in the development of regional literatures as well as Boyd's evolutionary context. 
+If fiction serves numerous purposes in the societal evolution of each imagined community, then what sets the national fiction of Colombia apart from that of Argentina? 
+The theories addressed so far undertake the establishment of a rather universal view without differentiating how the contribution of fiction differed from nation to nation. 
+The answer to the question, I believe, can be found by looking for subtle patterns --often overlooked by human readers but easily uncovered by \enquote{corpus assisted discourse analysis}-- that provide textual links between diverse ideas of community beyond traditional historical divisions. 
+
+In his study comparing word frequencies in texts from Britain and Ireland to the United States, Jockers was able to highlight \enquote{stylistic signals [...] external to what we might call authorial style} \autocite*[2018]{Jockers2013}. Jockers' analysis relies heavily on high frequency features such as articles and pronouns. There is a particularly important role for computer analysis in regards to these features because \enquote{it is about accessing details that are otherwise unavailable, forgotten, ignored, or impossible to extract} \autocite[588]{Jockers2013}. He quotes Ben Zimmer who exclaims \enquote{mere mortals, as opposed to infallible computers, are woefully bad at keeping track of the ebb and flow of words, especially the tiny, stealthy ones} \autocite[589]{Jockers2013}. High frequency features certainly serve the purposes of this investigation, however, in the context of the nation forming novels of Latin America it is equally helpful to look at other words that may define these texts along geographical lines. The most obvious, indigenous borrowings, do not require an algorithm for detection in individual novels. Yet at a larger scale, computer analysis will reveal their more significant contribution to the national discourse.
+
+It is at the intersection of text and receiver that Unzueta investigates how the novels of the nineteenth century created readers as subjects. His work explores the way reading, especially public reading, helped these novels gain wide popularity. The content of the nineteenth century novel, he argues, \enquote{democratized literature by portraying lower social classes, previously excluded from serious representation} adding that \enquote{it did so in a language that they could understand} \autocite*[81]{Unzueta2002}. 
+Unzueta's examination of how novelists forged the genre conventions of the nineteenth century reinforces the need for a broader stylistic look at these foundational texts. Unzueta's final point, that he wishes to explore whether reading actually changed people's lives, and not just lives of fictional characters, offers an opportunity to apply the patterns found through text analysis to a practical question. 
+By noting the diachronic change in vocabulary and discourse it is possible to show how these ideas changed the way people thought by looking at how they used language. It is due to this strong identification by their national readership that certain works have been, in Sommer's words, \enquote{institutionalized in the schools and that are now indistinguishable from patriotic histories} \autocite*[30]{Sommer1991}. 
+To be sure, Sommer maintains that the \enquote{programmatic centrality of novels came a generation later [...] after renewed internal oppositions pulled the image of an ideal nation away from the existing state} \autocite*[30]{Sommer1991}. 
+What is lacking is an explanation for why certain novels have come to fulfill this iconic role and many others have not. 
+
+%Several defining novels of the nineteenth century are ubiquitous with classic scholarship on literature and nationalism. 
+This thesis will explore  current analysis of three novels for two purposes. 
+%First, to provide literary context for the broader analysis of the styles of nations and nationalism. 
+First, it will highlight through close readings the characteristics that have led scholars to associate these novels with the formation of nations. 
+The analysis itself will consist of scrutinizing the results of several separate methods. 
+One method will be to examine words that appear at an unusually high frequency in a given novel when compared to a larger corpus of Spanish word frequencies. 
+This method, the needle-in-a-haystack approach, will shed light on the lexical uniqueness of these works\nocite{Cvrcek2014}. For diachronic context these keywords can then be evaluated by their historical frequency in order to analyze the evolving localized lexicon that was promoted in these purportedly unifying texts. 
+Another method, topic modeling a select group of foundational novels to generate groups of words in common discourse, will provide the context for exploring why some novels became iconic and others have been passed over for the status of national treasures. 
+In addition, it provides a quantitative link to Unzueta's contention that public readings fomented the national \enquote{imagining} of the nineteenth century. 
+Those novels most suited to oral style, he maintains, gained greater \enquote{readership,} in his broad understanding of reading. 
+An analysis of this orality will show unique topic groupings in contrast to more abstrusely composed works that also failed to gain popular following, and consequently, institutionalized status. 
+Both methods will provide a more inclusive look at those patterns that Sommer stated one might otherwise miss. 
+Second, to determine if a statistical look at the lexical diversity  in each novel does indeed make connections to a wider movement. 
+Superimposing the vocabulary of several nineteenth century novels on the larger idea of founding the nation requires demonstrating that they reflect trend not anomaly. 
+Comparing stylistic features will show how the novels contained unique rich vocabulary that aided a particular regional agenda. 
+Examining lexical richness using practices outlined by Harold R. Baayen in \textit{Analyzing Linguistic Data} will serve to validate that their status does not derive from a frivolously rich vocabulary but rather from a limited and intentional lexicon aimed at connecting with their local readership\nocite{Baayen2008}.
+
+
+
+Some insight can be gained from analyzing words that are completely unique to a target corpus (a novel or group of novels in this case) in comparison to a reference corpus. The reference corpus I will be using is the collection of all Spanish language texts available from Project Gutenberg \autocite{Gutenberg2015}. 
+The target corpus consists of the novels chosen for close reading and those mentioned frequently in the scholarship analyzing those particular texts. In examining \textit{María,} for example, I find numerous words that are introduced to wide scale printing by Isaacs' work by examining historical usage of words not apparent in the larger Gutenberg corpus using Google's n-gram data and cross referencing with the more extensively annotated \textit{Corpus del Español}\nocite{Michel2011, Davies2012}. 
+This method leaves unexamined a vast vocabulary that may occur with only slight frequency in the reference corpus but whose increased usage in the novels examined may point to interesting lexical features. 
+It is from this point that Unzueta's argument can be connected with another approach to textual analysis proposed by Václav Cvrček and Masako Fidler, the needle-in-a-haystack method (NHM) for keyword selection. 
+These can then be applied to the classification of texts from a larger corpus in order to highlight the stylistic differences between nations. Adam Kilgarriff discusses several different versions of keyword selection and I will be using the method which forms the basis of NHM \nocite{Kilgarriff}. Any code that has been written and executed by myself is owed in part or full to two resources: 1) Matthew Jocker's pivotal introduction \textit{Text Analysis with R for Students of Literature;} 2) Harold R. Baayen's \textit{Analyzing Linguistic Data} \nocite{Jockers2014}\nocite{Baayen2008}. 
+
+
+%For this thesis, I have chosen to examine novels based on their importance in current theories regarding the development of nation in Latin America. 
+
+%\textit{Soledad}, by Bartolomé Mitre, offers an example less central to the canon of romanticism and that Bellini claims holds "escaso valor" \autocite[226]{Bellini1997}\nocite{Mitre}. 
+%Unzueta, on the other hand, sees in \textit{Soledad} the "paradigmatic national romance" \autocite[132]{Unzueta2003}. Figuring earlier in the evolution of nation is Joaquín Fernando de Lizardi's \textit{El Periquillo Sarniento}. 
+%Setting apart from the later genre of romance, \textit{El Periquillo} is in Anderson's view the first Latin American novel and a quintessential example of "national imagination at work" \autocite[27]{Anderson2006}. 	
+%Galdós exhibits a use of language aimed not to highlight regional uniqueness as in the American case but rather to offer nation as the superstrata taking precedence over regional allegiance.
+%As a result, the role of literature in national imaginings will manifest different patterns of discourse and vocabulary. 
+%Is it possible that they are simply a chronological coincidence? 
+
+
+Chapter 1 examines Jorge Isaacs' use of regional language in the novel \textit{María}. 
+\textit{María} has become not only an essential part of Colombian literary history but also, according to Giuseppe Bellini \enquote{una novela profundamente americana, de indudable valor no sólo como testimonio de la narrativa romántica, sino también de la historia de la novela hispanoamericana} \autocite[290]{Bellini1997}\nocite{Isaacs2012}. 
+The analysis in this chapter will show that \textit{María} connected thematically with a broad global audience. 
+However, keyword comparison helps show that, stylistically, it could be read as a declaration of regional pride. 
+Sommer points out that, in her opinion, the success of Colombia's founding fiction \textit{María} as a nation-building piece of literature is somewhat of an anomaly when compared to the other novels she has examined. 
+Looking at its lexical characteristics, this thesis will show that the novel is anomalous when viewed through the lens of artificially delimited cultural boundaries.
+
+Chapter 2 focuses on the exploitation of language in Galdós' \textit{Trafalgar} and a discussion of the importance of digital analysis. 
+Examining the novel \textit{Trafalgar} by Benitez Pérez Galdós offers a distinct contrast to the Latin American example and also highlights the inherent differences despite their shared language.
+Isaacs attempted to use vocabulary to highlight the regional differences obscured beneath a shared colonial language. 
+This chapter will show how Galdós employed an audience uniting vernacular to incite national sentiment and erode regional sympathies. 
+%In the nineteenth century Spain underwent its own struggle with identity and nationhood. 
+However, the novel had an established relationship with the Spanish public and Castilian as a national identity had established a firmer place in its evolution.
+Chapter 2 then discusses why using corpus comparison in historical literary analysis can help redefine previously biased classifications of cultural boundaries.
+
+Chapter 3 examines critic's views José Marmol's novel \textit{Amalia}, emphasizing claims that lost its place in the \enquote{foundational ficitons} because other works connected better with the language of the masses \autocite{Sommer1991}. 
+According to Sommer, \textit{Amalia} failed to usurp the canonical spot in Argentina from \textit{Martin Fierro} \autocite*[111]{Sommer1991}.
+%There remains a question posed by Sommer in regards to national romances that is applicable to the larger context novels as nation forming catalysts. 
+She maintains that now, \textit{Amalia} \enquote{is read more as a period piece than as a founding text} \cite[111]{Sommer1991}. 
+The discussion highlights the zeitgeist that literature was an unstoppable cultural force viewed as possessing the ability to shape the morals of society and feared by ruling classes. 
+The analysis in Chapter 3 will demonstrate the central role of regional language features in connecting with readers and, as a result, integrating their identity into the state construct.
+A final look at a broader group of texts will show the dangers of seeing literature through the lens of an artificial hypernym like \enquote{Latin American.}
+
+
+This thesis will explore current analysis of three of these works for two purposes. First, to provide literary context for the broader analysis of the styles of nations and nationalism. Second, to highlight through close readings the characteristics found in distant reading. While it is straightforward to elaborate a broad view of nation that incorporates Anderson's theory on the role of print media as well as Chiaramonte's historical modifications, it is more challenging to reconcile the function of literature throughout the panoply of cultures under the rubric \enquote{Latin America.} This investigation proposes taking advantage of recent trends in computer assisted textual analysis in order to highlight the strengths and weakness of current scholarship on the question of the role of literature in the formation of nations. 
+By applying NHM, I will show that the there exists a supporting nationalist lexicon that has evolved alongside the concept of nation itself, which sets the most canonical nationalist works apart, and establish the geographical uniqueness of specific characteristics of national discourse. 
+Applying keyword analysis to nationalist works offers the opportunity to add quantitative support to classic scholarship, but also to develop methods of examining textual characteristics for a new stage in the influence of print culture on the evolution of society. While Anderson's theory relies on the exponential growth in print volume in the centuries after its invention, the next generation of scholars will face a \enquote{great unread} without historical precedent.
+
+
+% Add works from following chapters for proposal bibliography
+\nocite{Sommer1997}
+\nocite{Unzueta2003}
+\nocite{Galdos1882}
+\nocite{Cortazar1908}
+\nocite{Mejia1976}
+\nocite{Isaacs2012}
+\nocite{Patino1992}
+\nocite{Fox2011}
+\nocite{Jagoe2003}
+\nocite{Beckman2013}
+\nocite{Beckman2012}
+\nocite{Patriau2004}
+\nocite{Ortiz2007}
+\nocite{Skinner2014}
+\nocite{Musselwhite2006}
+\nocite{Palacios2002}
+\nocite{Ordonez2005}
+\nocite{Menton1978}
+\nocite{Delgado2000}
+\nocite{Montes1997}
+\nocite{White1980}
+\nocite{Gobat2013}
+\nocite{Eder2013}
+\nocite{RCT2014}
+\nocite{McGrady2012}
+\nocite{Cuervo1876}
+\nocite{Davies2012}
+\nocite{Moretti2013}
+\nocite{Embree1998}
+
+\nocite{Blanco2000}
+\nocite{Underwood2014}
+\nocite{Vanderwal2007}
+\nocite{Kempen2007}
+\nocite{Iarocci2003}
+\nocite{Urey1992}
+\nocite{Sieber1978}
+\nocite{Galdos1882}
+\nocite{Molinero2005}
+\nocite{Rodgers2005}
+\nocite{Storm2004}
+\nocite{Villa2015}
+\nocite{Rodriguez1967}
+\nocite{Isasi2013}
+\nocite{Coronado2009}
+
+
+
+
+\makeworkscited
+
+
+\end{document}

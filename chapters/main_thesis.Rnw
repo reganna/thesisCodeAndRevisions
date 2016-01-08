@@ -1,0 +1,109 @@
+\documentclass[12pt]{report}
+
+\usepackage{/home/randy/thesis/chapters/thesis}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{setspace}
+\usepackage[titles]{tocloft}
+\renewcommand\cfttoctitlefont{\normalsize}
+\setlength\cftchapindent{0pt}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage}
+\fancyhead[R]{}
+\renewcommand{\headrulewidth}{0pt}
+
+%%%% smaller caption size for R plots %%%%
+\usepackage[font=scriptsize]{caption}
+
+%%%% clears notes in bibliograhpy %%%%
+\AtEveryBibitem{\clearfield{note}}
+
+\makeatletter
+\newcommand\iraggedright{%
+	\let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
+	\leftskip\z@skip}
+\makeatother
+
+\usepackage{titlesec}
+\titlespacing*{\chapter}{0pt}{2in}{0pt}
+\titleformat{\chapter}[display]{\normalfont}{\chaptertitlename\ \thechapter}{12pt}{\normalfont}
+\titleformat*{\section}{\normalsize\bfseries} 
+\titleformat*{\subsection}{\normalsize\itshape} 
+\titlespacing*{\section}{0pt}{0ex plus 1ex minus .2ex}{0ex plus .2ex} 
+\titlespacing*{\subsection}{0pt}{0ex plus 1ex minus .2ex}{0ex plus .2ex}
+
+\renewcommand{\chaptername}{{CHAPTER}}
+
+\title{Cracks in the foundation: The myth of Latin American national literatures}
+
+
+
+\begin{document}
+
+<<include=FALSE>>=
+library(knitr)
+opts_chunk$set(
+concordance=TRUE
+)
+@
+
+%%%% TITLE PAGE %%%%
+
+%\begin{titlepage}
+%	\begin{center}
+%		Thesis Proposal\\
+%		\vspace*{1in}
+%		CRACKS IN THE FOUNDATION: THE MYTH OF LATIN AMERICAN NATIONAL LITERATURES
+%		
+%		RANDY GANNAWAY
+%		
+%	\end{center}
+%\end{titlepage}
+
+
+%%%% TABLE OF CONTENTS %%%%
+
+%\begin{singlespace}
+	%\pagenumbering{roman}
+	%\tableofcontents
+	%	\addtocontents{toc}{~\hfill\textbf{Page}\par}
+	%\listoffigures
+	%\listoftables
+	%	
+	%	\addtocontents{toc}{\,   Chapter}
+	%\clearpage
+	%\pagenumbering{arabic}
+	%
+	
+	%\section{}
+%\end{singlespace}
+
+%\makeheader
+\iraggedright
+\pagenumbering{arabic}
+\begin{spacing}{1.9}
+	
+
+%<<Introduction, child="proposal/intro.Rnw", eval=TRUE>>=
+%@
+
+%<<Chapter 1, child="chapter1/chapter1.Rnw", eval=TRUE>>=
+%@
+
+%<<Chapter 2, child="chapter2/chapter2.Rnw", eval=TRUE>>=
+%@
+
+%<<Chapter 3, child="chapter3/chapter3.Rnw", eval=TRUE>>=
+%@
+
+%<<Conclusion, child="conclusion/conclusion.Rnw", eval=FALSE>>=
+%@
+
+<<Copyright, child="copyrightBib/corpusBibliogrpahy.Rnw", eval=TRUE>>=
+@
+
+\makeworkscited
+\end{spacing}
+\end{document}
