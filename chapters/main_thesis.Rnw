@@ -1,6 +1,6 @@
 \documentclass[12pt]{report}
 
-\usepackage{/home/randy/thesis/chapters/thesis}
+\usepackage{../thesis}
 \usepackage{pdflscape}
 \usepackage{rotating}
 \usepackage{setspace}

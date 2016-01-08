@@ -271,20 +271,19 @@ Figure 4 plots the TTR from each novel in the corpus of all Spanish language tex
 
 
 Figure 2
-<<Figure 2, echo=FALSE, warning=FALSE, out.width=250, out.height=250, cahce=TRUE>>=
-source('~/Dropbox/laptop/Documents/thesis/code/corpusFunctions.R')
-
+<<Figure 2, echo=FALSE, warning=FALSE, out.width=250, out.height=250, cache=TRUE>>=
+source('../../code/corpusFunctions.R')
 #par(mfrow=c(1, 2))
-
-gutttr <- read.csv("~/Dropbox/laptop/Documents/thesis/preppedData/gut_ttr.csv")
+gutttr <- read.csv("../../preppedData/gut_ttr.csv")
 plot(gutttr[,2], gutttr[,3], main = "TTR of Gutenberg Spanish Texts", xlab = "Types", ylab = "Tokens")
 @
 
 
 Figure 3
-<<Figure 3, echo=FALSE, warning=FALSE, out.width=250, out.height=250, cache=TRUE>>=
-ttr <- ttrDirectory("~/Dropbox/laptop/Documents/thesis/corpus/corpus")
-author_names <- getAuthorNames("~/Dropbox/laptop/Documents/thesis/corpus/corpus")
+<<Figure 3, echo=FALSE, warning=FALSE, out.width=250, out.height=250, cache=FALSE>>=
+source('../../code/corpusFunctions.R')
+ttr <- ttrDirectory("../../corpus/corpus")
+author_names <- getAuthorNames("../../corpus/corpus")
 plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
 text(ttr, labels=author_names)
 @
