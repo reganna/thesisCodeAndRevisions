@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.12)  31 DEC 2015 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.12)  7 JAN 2016 20:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -74,11 +74,9 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
-)
-(/home/randy/thesis/chapters/thesis.sty
+) (../thesis.sty
 
-LaTeX Warning: You have requested package `/home/randy/thesis/chapters/thesis',
-
+LaTeX Warning: You have requested package `../thesis',
                but the package provides `thesis'.
 
 Package: thesis 
@@ -992,8 +990,21 @@ Package biblatex Info: ... file 'chapter3.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Cvrcek https://www.aatseel.org/100111/pdf/4a8_3_cvrek
-.pdf
+(biblatex)                Pera2012
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Herman
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Blasco1991
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1007,14 +1018,15 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Leavitt1926
+(biblatex)                Cvrcek https://www.aatseel.org/100111/pdf/4a8_3_cvrek
+.pdf
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Blasco1991
+(biblatex)                Leavitt1926
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1049,13 +1061,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
 [2
 
-] [3] [4] [5] [6] [7] [8] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
+] [3] [4] [5] [6] [7] [8]
+Overfull \hbox (2.62643pt too wide) in paragraph at lines 217--219
+[]\OT1/ptm/m/n/12 Chapters 1 demon-strated that clus-ter-ing sup-ports the pos-
+si-bil-ity of na-tion-ally aligned
+ []
+
+[9] [10] [11] [12]
+Overfull \hbox (8.65451pt too wide) in paragraph at lines 300--300
+[]\OT1/ptm/m/n/12 Fernanda Lan-der, Mar[]^^Pa. \  La ur-ban-idad como es-tandar
+te pol[]^^Ptico en \OT1/ptm/m/it/12 Amalia \OT1/ptm/m/n/12 de Jos[]e M[]armol."
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
+[13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
  (./chapter3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
 Package rerunfilecheck Info: File `chapter3.out' has not changed.
 (rerunfilecheck)             Checksum: BB08B84506C41501B62397B43C6D7761;781.
 Package logreq Info: Writing requests to 'chapter3.run.xml'.
@@ -1063,10 +1087,10 @@ Package logreq Info: Writing requests to 'chapter3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15077 strings out of 495000
- 245110 string characters out of 6181168
- 740448 words of memory out of 5000000
- 18055 multiletter control sequences out of 15000+600000
+ 15102 strings out of 495000
+ 245615 string characters out of 6181168
+ 740478 words of memory out of 5000000
+ 18070 multiletter control sequences out of 15000+600000
  8833 words of font info for 21 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,11n,92p,1879b,1764s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1074,10 +1098,10 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on chapter3.pdf (10 pages, 62020 bytes).
+Output written on chapter3.pdf (13 pages, 71719 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,26 @@
 
 \refsection{0}
   \sortlist{nty}{nty}
+    \entry{Chiaramonte2004}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e8689eba494da33990a9c64557420ad9}{Chiaramonte}{C\bibinitperiod}{José\bibnamedelima Carlos}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Buenos Aires}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Sudamericana}%
+      }
+      \strng{namehash}{e8689eba494da33990a9c64557420ad9}
+      \strng{fullhash}{e8689eba494da33990a9c64557420ad9}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nación y estado en Iberoamérica}
+      \field{year}{2004}
+    \endentry
     \entry{Civantos2000}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=1bec29527397ff17ecf803976346c714}{Civantos}{C\bibinitperiod}{Christina}{C\bibinitperiod}{}{}{}{}}%
@@ -39,6 +59,27 @@
       \range{pages}{24}
       \verb{file}
       \verb Civantos2000_exileWomanNationAmalia.pdf:Civantos2000_exileWomanNationAmalia.pdf:PDF;Civantos2000_exileWomanNationAmalia.pdf:lit_rep_bak/Civantos2000_exileWomanNationAmalia.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Lander2010}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fb883f3f9f82f29ea0cf34c9631dfd9e}{Fernanda\bibnamedelima Lander}{F\bibinitperiod\bibinitdelim L\bibinitperiod}{María}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fb883f3f9f82f29ea0cf34c9631dfd9e}
+      \strng{fullhash}{fb883f3f9f82f29ea0cf34c9631dfd9e}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Symposium: A Quarterly Journal in Modern Literatures}
+      \field{title}{La {u}rbanidad como {e}standarte {p}olítico en \textit{Amalia} de José Mármol}
+      \field{volume}{56}
+      \field{year}{2010}
+      \field{pages}{43\bibrangedash 55}
+      \range{pages}{13}
+      \verb{file}
+      \verb Lander2010_urbanidadMarmolAmalia.pdf:Lander2010_urbanidadMarmolAmalia.pdf:PDF
       \endverb
     \endentry
     \entry{Ludmer1991}{article}{}
@@ -62,6 +103,26 @@
       \verb{file}
       \verb Ludmer1991_oralidadGauchescoNacionalismo.pdf:Ludmer1991_oralidadGauchescoNacionalismo.pdf:PDF
       \endverb
+    \endentry
+    \entry{Moretti2013}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=60e0776eab9ad2bb3da78fa156996838}{Moretti}{M\bibinitperiod}{Franco}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{60e0776eab9ad2bb3da78fa156996838}
+      \strng{fullhash}{60e0776eab9ad2bb3da78fa156996838}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Distant Reading}
+      \field{year}{2013}
     \endentry
     \entry{Shumway1991}{book}{}
       \name{author}{1}{}{%
@@ -105,10 +166,12 @@
       \field{year}{1991}
     \endentry
   \endsortlist
-  \missing{Cvrcek https://www.aatseel.org/100111/pdf/4a8_3_cvrek.pdf}
-  \missing{Marmol1926}
-  \missing{Leavitt1926}
+  \missing{Pera2012}
+  \missing{Herman}
   \missing{Blasco1991}
+  \missing{Marmol1926}
+  \missing{Cvrcek https://www.aatseel.org/100111/pdf/4a8_3_cvrek.pdf}
+  \missing{Leavitt1926}
 \endrefsection
 \endinput
 
