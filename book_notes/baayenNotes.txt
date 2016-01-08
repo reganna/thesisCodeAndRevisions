@@ -1,0 +1,4 @@
+one function for vgc graphs
+
+another function for freq comparison between crea corpus and the text
+	use %in% and graph  the difference between each vector

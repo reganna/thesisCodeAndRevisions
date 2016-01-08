@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{mla13}
+\usepackage{csquotes}
+\sources{~/Desktop/thesis.bib}
+\makeatletter
+\newcommand\iraggedright{%
+  \let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
+  \leftskip\z@skip}
+\makeatother
+\firstname{Randy}
+\lastname{Gannaway}
+\professor{Dr. Burningham}
+\class{LAN}
+\title{Book notes}
+
+\begin{document}
+\makeheader
+\iraggedright
+
+\input{sommer_1.tex}
+
+\makeworkscited
+\end{document}

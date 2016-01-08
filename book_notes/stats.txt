@@ -1,0 +1,18 @@
+Frequency spectrum plots provide valuable information about the nature of a pro-
+cess: if, as is the case with ri-, a process is characterized by a high proportion of
+hapax legomena and other low frequency classes, this indicates that the process is
+productive, i.e., the chances that if we were to sample more tokens of the same
+category we would encounter new types are high. Baroni and Evert 5
+	show this with Vm(*.spc, 1)/N(*.spc)
+
+A vocabulary growth curve reports vocabulary size
+5(number of types, V ) as a function of sample size (number of tokens, N ).
+
+1. prove that certain works are richer in vocabulary(historical phenomenon? genre? authorial preference?)
+	hapax ratio and vgc
+2. find f the vocab is "new" or rare (or regional/coloquial)
+	hapax, dis, tris versus google or davies 
+3. does this account for better "reader identification" with some texts than others
+	more reader identification=more sense of national identity
+
+eliminating attached do and io in order to avoid them appearing as hapax 
