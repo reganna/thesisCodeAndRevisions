@@ -8,10 +8,10 @@ createTfls <- function(directory){
     write.table(raws.l, file = name, sep="\t", col.names = NA)
   }
 }
-
-colors = c("red", "green", "blue", "black", "gray", "orange", "yellow", "purple", "brown", "darkgreen", "cyan", "chocolate4", "magenta")
-plot(testVgc[[1]], testVgc[[2]], testVgc[[3]], testVgc[[4]], testVgc[[5]], testVgc[[6]], testVgc[[7]], 
-     testVgc[[8]], testVgc[[9]], testVgc[[10]], legend = leg, col = colors, conf.level = NA)
+# 
+# colors = c("red", "green", "blue", "black", "gray", "orange", "yellow", "purple", "brown", "darkgreen", "cyan", "chocolate4", "magenta")
+# plot(testVgc[[1]], testVgc[[2]], testVgc[[3]], testVgc[[4]], testVgc[[5]], testVgc[[6]], testVgc[[7]], 
+#      testVgc[[8]], testVgc[[9]], testVgc[[10]], legend = leg, col = colors, conf.level = NA)
 
 compareVgc <- function(a_path, b_path){
   library(zipfR)
@@ -21,9 +21,9 @@ compareVgc <- function(a_path, b_path){
   a_spc <- tfl2spc(a_tfl)
   b.fzm <- lnre("fzm", b_spc, exact=FALSE)
   a.fzm <- lnre("fzm", a_spc, exact=FALSE)
-  a.fzm.vgc <- lnre.vgc(a.fzm, (1:100) * 50000, variances=TRUE)
-  a.fzm.vgc <- lnre.vgc(a.fzm, (1:50000), variances=TRUE)
-  b.fzm.vgc <- lnre.vgc(b.fzm, (1:50000), variances=TRUE)
+  #a.fzm.vgc <- lnre.vgc(a.fzm, (1:100) * 230000, variances=TRUE)
+  a.fzm.vgc <- lnre.vgc(a.fzm, (1:230000), variances=TRUE)
+  b.fzm.vgc <- lnre.vgc(b.fzm, (1:230000), variances=TRUE)
   comparisonList <- list("a" = a.fzm.vgc, "b" = b.fzm.vgc)
   return(comparisonList)
 }
@@ -35,7 +35,7 @@ compareVgcDir <- function(directoryName){
     a_tfl <- read.tfl(file.path(directoryName, files_v[i]))
     a_spc <- tfl2spc(a_tfl)
     a.fzm <- lnre("fzm", a_spc, exact=FALSE)
-    a.fzm.vgc <- lnre.vgc(a.fzm, (1:50000), variances=TRUE)
+    a.fzm.vgc <- lnre.vgc(a.fzm, (1:230000), variances=TRUE)
     comparisonList[i] <- list(a.fzm.vgc)
     
   }
