@@ -1,0 +1,17 @@
+[0] Config.pm:325> INFO - This is Biber 2.1
+[0] Config.pm:328> INFO - Logfile is 'chapter1.blg'
+[45] biber:276> INFO - === sÃ¡b ene  9, 2016, 14:05:39
+[47] Biber.pm:334> INFO - Reading 'chapter1.bcf'
+[143] Biber.pm:646> INFO - Found 37 citekeys in bib section 0
+[292] Biber.pm:2978> INFO - Processing section 0
+[308] Biber.pm:3116> INFO - Looking for bibtex format file '/home/randy/Documents/references/references.bib' for section 0
+[327] bibtex.pm:1010> INFO - Decoding LaTeX character macros into UTF-8
+[342] bibtex.pm:884> INFO - Found BibTeX data source '/home/randy/Documents/references/references.bib'
+[407] Utils.pm:146> WARN - I didn't find a database entry for 'Project G' (section 0)
+[892] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[892] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[892] Biber.pm:2855> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[892] Biber.pm:2859> INFO - No sort tailoring available for locale 'en-US'
+[1023] bbl.pm:505> INFO - Writing 'chapter1.bbl' with encoding 'UTF-8'
+[1028] bbl.pm:596> INFO - Output to chapter1.bbl
+[1029] Biber.pm:107> INFO - WARNINGS: 1

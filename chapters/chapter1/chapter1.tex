@@ -1,7 +1,104 @@
-%<<SetParent, include=FALSE>>=
-%library(knitr)
-%set_parent('../main_thesis.Rnw')
-%@
+\documentclass[12pt]{report}
+\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\newcommand{\SweaveOpts}[1]{}  % do not interfere with LaTeX
+\newcommand{\SweaveInput}[1]{} % because they are not real TeX commands
+\newcommand{\Sexpr}[1]{}       % will only be parsed by R
+
+
+
+\usepackage{thesis}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{setspace}
+\usepackage[titles]{tocloft}
+\renewcommand\cfttoctitlefont{\normalsize}
+\setlength\cftchapindent{0pt}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\thepage}
+\fancyhead[R]{}
+\renewcommand{\headrulewidth}{0pt}
+
+%%%% smaller caption size for R plots %%%%
+\usepackage[font=scriptsize]{caption}
+
+%%%% clears notes in bibliograhpy %%%%
+\AtEveryBibitem{\clearfield{note}}
+
+\makeatletter
+\newcommand\iraggedright{%
+	\let\\\@centercr\@rightskip\@flushglue \rightskip\@rightskip
+	\leftskip\z@skip}
+\makeatother
+
+\usepackage{titlesec}
+\titlespacing*{\chapter}{0pt}{2in}{0pt}
+\titleformat{\chapter}[display]{\normalfont}{\chaptertitlename\ \thechapter}{12pt}{\normalfont}
+\titleformat*{\section}{\normalsize\bfseries} 
+\titleformat*{\subsection}{\normalsize\itshape} 
+\titlespacing*{\section}{0pt}{0ex plus 1ex minus .2ex}{0ex plus .2ex} 
+\titlespacing*{\subsection}{0pt}{0ex plus 1ex minus .2ex}{0ex plus .2ex}
+
+\renewcommand{\chaptername}{{CHAPTER}}
+
+\title{Cracks in the foundation: The myth of Latin American national literatures}
+
+
+
+
+
+\begin{document}
+
 
 %\begin{singlespace}
 %\chapter{ISAACS' \textit{MARÍA}}
@@ -278,10 +375,13 @@ Yet even clustering reveals that these novels show similarities that group along
 
 
 Figure 1
-%<<Figure 1, echo=FALSE, message=FALSE, warning=FALSE, results='hide', out.width=350, out.height=350, cache=TRUE>>=
-%library(stylo)
-%stylo(gui = FALSE, mfw.min=1000, mfw.max=1000, corpus.lang="Spanish")
-%@
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+\includegraphics[width=250,height=250]{figure/Figure_1-1} 
+
+\includegraphics[width=250,height=250]{figure/Figure_1-2} 
+
+\end{knitrout}
 
 
 Of the many measures for lexical richness outlined by R. Harold Baayen, he maintains that the simple ratio of unique words to total words, or type/token ratio (TTR), is the least informative. 
@@ -291,20 +391,18 @@ The last two measures will be addressed later, however despite the less robust c
 Figure 4 plots the TTR from each novel in the corpus of all Spanish language texts available from Project Gutenberg \autocite{Project G}.
 
 
-Figure 2
-
-
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
-\includegraphics[width=250,height=250]{figure/Figure_2-1} 
-
-\end{knitrout}
-
 
 Figure 3
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 \includegraphics[width=250,height=250]{figure/Figure_3-1} 
+
+\end{knitrout}
+
+Figure 4
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+\includegraphics[width=250,height=250]{figure/Vgc-1} 
 
 \end{knitrout}
 
@@ -353,12 +451,14 @@ However, as a look a lexical richness shows, overly rich vocabulary may have the
 
 
 
+Having previously warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure 4 offers some clarity.
+In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extraplotaed vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
+Instead 
 
-A comparison of the word frequencies of these two novels in Figure 2 helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
+A comparison of the word frequencies of these two novels in Figure ? helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
 Analysis of the lexicon employed by Isaacs' shows that establishing a stylistic connection is the key to the success of nationally uniting works. 
 As the plot shows, there is a tendency for novels to remain below a certain threshold.
-%For the length(ttr[,1]) novels examined previously through clustering, the mean type/token ration is mean(ttr[,1])/mean(ttr[,2]).
-
+For the 12 novels examined previously through clustering, the mean type/token ration is 0.1404194.
 What the shows is that lexical richness may have its limits when it comes to retaining readership. 
 Producing connections with readers is achieved by choosing a limited but specific vocabulary.
 
@@ -478,3 +578,4 @@ One of the largest proponents of using language to promote an independent Americ
 
 %\makeworkscited
 
+\end{document}

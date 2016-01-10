@@ -1,7 +1,7 @@
-%<<SetParent, include=FALSE>>=
-%library(knitr)
-%set_parent('../main_thesis.Rnw')
-%@
+<<SetParent, include=FALSE>>=
+library(knitr)
+set_parent('../main_thesis.Rnw')
+@
 
 %\begin{singlespace}
 %\chapter{ISAACS' \textit{MARÍA}}
@@ -276,12 +276,17 @@ For example, by grouping novels along the lines of genre and popularity, a resul
 A later look at another classifier based on thematic words will help shed light on the possible effects that a particular discourse has had on a novels interpretation or reception.
 Yet even clustering reveals that these novels show similarities that group along lines of national geography, something that categorizing by genre fails to highlight.
 
+%%% Eliminate all but the corpora few words and discuss how that is the beginning which is expanded by more comp assisted theories later in Chp 2,3 %%%
+%%% The progression will go 1-ind words, 2-TTR/VGC, 3-Clust/class %%%
+%%% in clust make sure and clean wordlist for names %%%
 
 Figure 1
-%<<Figure 1, echo=FALSE, message=FALSE, warning=FALSE, results='hide', out.width=350, out.height=350, cache=TRUE>>=
-%library(stylo)
-%stylo(gui = FALSE, mfw.min=1000, mfw.max=1000, corpus.lang="Spanish")
-%@
+<<Figure 1, echo=FALSE, message=FALSE, warning=FALSE, results='hide', out.width=250, out.height=250>>=
+library(stylo)
+par(mfrow=c(1,2))
+a <- stylo(gui = FALSE, mfw.min=500, mfw.max=500, corpus.lang="Spanish", corpus.dir="../../corpus/corpus", features="../../corpus/wordlist.txt")
+heatmap(a$distance.table)
+@
 
 
 Of the many measures for lexical richness outlined by R. Harold Baayen, he maintains that the simple ratio of unique words to total words, or type/token ratio (TTR), is the least informative. 
@@ -291,24 +296,29 @@ The last two measures will be addressed later, however despite the less robust c
 Figure 4 plots the TTR from each novel in the corpus of all Spanish language texts available from Project Gutenberg \autocite{Project G}.
 
 
-Figure 2
-
-
-<<Figure 2, echo=FALSE, warning=FALSE, out.width=250, out.height=250, cache=TRUE>>=
-source('../../code/corpusFunctions.R')
-par(mfrow=c(1, 2))
-gutttr <- read.csv("../../preppedData/gut_ttr.csv")
-plot(gutttr[,2], gutttr[,3], main = "TTR of Gutenberg Spanish Texts", xlab = "Types", ylab = "Tokens")
-@
-
 
 Figure 3
 <<Figure 3, echo=FALSE, warning=FALSE, out.width=250, out.height=250>>=
-
+source("../../code/corpusFunctions.R")
 ttr <- ttrDirectory("../../corpus/corpus")
 author_names <- getAuthorNames("../../corpus/corpus")
 plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
 text(ttr, labels=rownames(ttr), pos = 2, cex = .5)
+@
+
+Figure 4
+<<Vgc, echo=FALSE, out.width=250, out.height=250>>=
+library(zipfR)
+amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
+maria_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
+maria_spc <- tfl2spc(maria_tfl)
+amalia_spc <- tfl2spc(amalia_tfl)
+maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
+amalia.fzm <- lnre("fzm", amalia_spc, exact=FALSE)
+#traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:100) * 230000, variances=TRUE)
+amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
+maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=TRUE)
+plot(maria.fzm.vgc, amalia.fzm.vgc)
 @
 
 
@@ -354,20 +364,7 @@ However, as a look a lexical richness shows, overly rich vocabulary may have the
 	}
 \end{table}
 
-Figure 4 (SWITCH TO MARIA)
-<<Vgc, echo=FALSE, out.width=250, out.height=250, cache=TRUE>>=
-library(zipfR)
-traf_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
-maria_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
-maria_spc <- tfl2spc(maria_tfl)
-traf_spc <- tfl2spc(traf_tfl)
-maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
-traf.fzm <- lnre("fzm", traf_spc, exact=FALSE)
-traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:100) * 230000, variances=TRUE)
-traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:230000), variances=TRUE)
-maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=TRUE)
-plot(maria.fzm.vgc, traf.fzm.vgc)
-@
+
 
 Having previously warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure 4 offers some clarity.
 In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extraplotaed vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
