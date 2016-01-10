@@ -57,17 +57,17 @@ keywords <- function(directoryName){
   for(n in 1:length(corp)){
     text_v <- corpora_wfm[,n]
     ref_v <- rowSums(corpora_wfm[,-n])
-    wordList <- names(which(text_v>2))
+    wordList <- names(which(text_v>0))
     keywordList <- list()
-    pvalues <- data.frame()
-    
+    pvalues <- data.frame(textword = character(length(wordList)), p.value = numeric(length(wordList)), stringsAsFactors = FALSE)
+
       for (i in 1:length(wordList)){
         textword <- wordList[i]
         conTbl <-  rbind(c(ref_v[textword], sum(ref_v)), c(text_v[textword], sum(text_v)))
         conTbl[is.na(conTbl)] <- 0
         test <- chisq.test(conTbl)
         remove(conTbl)
-        pvalues <- rbind(pvalues, data.frame(textword, test$p.value))
+        pvalues[i,] <- c(pvalues, data.frame(textword, test$p.value))
       }
     
     keywordList <- pvalues[which(pvalues$test.p.value < .05),]
@@ -77,6 +77,13 @@ keywords <- function(directoryName){
   
   return(novelKeywordList)
   
+}
+
+KwordRatio <- function(directoryName){
+  
+  Ksum <- as.numeric(summary(Kwords))
+  novTotals <- colSums(corpora_wfm)
+
 }
 
 # galdos <- as.vector(corpKeywords[[6]])

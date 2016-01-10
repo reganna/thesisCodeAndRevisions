@@ -1,0 +1,10 @@
+%%% Eliminate all but the corpora few words and discuss how that is the beginning which is expanded by more comp assisted theories later in Chp 2,3 %%%
+%%% The progression will go 1-ind words, 2-TTR/VGC, 3-Clust/class %%%
+%%% in clust make sure and clean wordlist for names %%%
+
+%\begin{figure}
+%	\caption{Cluster Dendrogram of Sample Corpus}
+
+%\end{figure}
+
+%%% Next sentence goes bye bye %%%

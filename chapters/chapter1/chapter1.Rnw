@@ -1,5 +1,7 @@
 <<SetParent, include=FALSE>>=
 library(knitr)
+source('../../code/corpusFunctions.R')
+ttr <- ttrDirectory("../../corpus/corpus")
 set_parent('../main_thesis.Rnw')
 @
 
@@ -276,51 +278,14 @@ For example, by grouping novels along the lines of genre and popularity, a resul
 A later look at another classifier based on thematic words will help shed light on the possible effects that a particular discourse has had on a novels interpretation or reception.
 Yet even clustering reveals that these novels show similarities that group along lines of national geography, something that categorizing by genre fails to highlight.
 
-%%% Eliminate all but the corpora few words and discuss how that is the beginning which is expanded by more comp assisted theories later in Chp 2,3 %%%
-%%% The progression will go 1-ind words, 2-TTR/VGC, 3-Clust/class %%%
-%%% in clust make sure and clean wordlist for names %%%
-
-Figure 1
-<<Figure 1, echo=FALSE, message=FALSE, warning=FALSE, results='hide', out.width=250, out.height=250>>=
-library(stylo)
-par(mfrow=c(1,2))
-a <- stylo(gui = FALSE, mfw.min=500, mfw.max=500, corpus.lang="Spanish", corpus.dir="../../corpus/corpus", features="../../corpus/wordlist.txt")
-heatmap(a$distance.table)
-@
 
 
 Of the many measures for lexical richness outlined by R. Harold Baayen, he maintains that the simple ratio of unique words to total words, or type/token ratio (TTR), is the least informative. 
 The reason being that as texts get longer, the addition of new words slows, therefore TTR is not equally representative in texts of varying lengths. 
 Baayen discusses numerous options for better comparison, vocabulary growth rates of same size text chunks and side by side interpolated growth curves (236)\nocite{Baayen2008}.
 The last two measures will be addressed later, however despite the less robust comparative strength of TTR from the view of linguistic analysis, it does provide a an effective cursory comparison for the purposes of literary investigation. 
+
 Figure 4 plots the TTR from each novel in the corpus of all Spanish language texts available from Project Gutenberg \autocite{Project G}.
-
-
-
-Figure 3
-<<Figure 3, echo=FALSE, warning=FALSE, out.width=250, out.height=250>>=
-source("../../code/corpusFunctions.R")
-ttr <- ttrDirectory("../../corpus/corpus")
-author_names <- getAuthorNames("../../corpus/corpus")
-plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
-text(ttr, labels=rownames(ttr), pos = 2, cex = .5)
-@
-
-Figure 4
-<<Vgc, echo=FALSE, out.width=250, out.height=250>>=
-library(zipfR)
-amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
-maria_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
-maria_spc <- tfl2spc(maria_tfl)
-amalia_spc <- tfl2spc(amalia_tfl)
-maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
-amalia.fzm <- lnre("fzm", amalia_spc, exact=FALSE)
-#traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:100) * 230000, variances=TRUE)
-amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
-maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=TRUE)
-plot(maria.fzm.vgc, amalia.fzm.vgc)
-@
-
 
 
 Di Paolo chose to highlight the quote denoting \enquote{la gente de ruana} as a class identifying term. It provides an interesting link to the investigation of word choice.
@@ -367,8 +332,7 @@ However, as a look a lexical richness shows, overly rich vocabulary may have the
 
 
 Having previously warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure 4 offers some clarity.
-In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extraplotaed vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
-Instead 
+In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extrapolated vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
 
 A comparison of the word frequencies of these two novels in Figure ? helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
 Analysis of the lexicon employed by Isaacs' shows that establishing a stylistic connection is the key to the success of nationally uniting works. 
@@ -396,8 +360,7 @@ Some critics even claim that it shows aspects of realism and precursors to \text
 In fact, Sommer asks if it is possible that the preponderance of love stories in all of the novels she examines is merely a historical phenomenon and not indicative of any underlying pattern of genre.
 This makes the need to compare the features of works, apart from genre, exceptionally important.
 If thematic features have made novels of a certain genre particularly suited as national allegories, then comparing those novels should present very similar characteristics.
-Analyzing their lexical composition should present groupings only along lines of genre.
-Instead, as shown in Figure 1, the features that may typify a particular genre are less influential than other features that show a distinct grouping than those of critical scholarly intuition.
+At a finer level of granularity than theme or genre lies the vocabulary chosen by each author, and the choice of certain words, especially as regions sought to differentiate themselves from their colonizer, was extremely influential.
 
 
 \section{Solve the problem}

@@ -10,6 +10,13 @@ amalia <-as.data.frame(getTxtFreqs('~/Documents/thesis/corpus/corpus/marmol_amal
 fierro <-as.data.frame(getTxtFreqs('~/Documents/thesis/corpus/corpus/hernandez_martinFierro_argentina.txt', raw=TRUE))
 
 @
+Analyzing their lexical composition using only high frequency characteristics should, as Jockers discussed, show alignment by author, with a larger coherence possibly as a result of national style as well.
+Instead, as shown in Figure 1, the features that may typify a particular genre are less influential than other features that show a distinct grouping than those of critical scholarly intuition.
+<<Figure 1, echo=FALSE, message=FALSE, warning=FALSE, results='hide', out.width=250, out.height=250>>=
+library(stylo)
+par(mfrow=c(1,2))
+a <- stylo(gui = FALSE, mfw.min=500, mfw.max=500, corpus.lang="Spanish", corpus.dir="../../corpus/corpus", features="../../corpus/wordlist.txt")
+@
 
 %<<AmaliaVgc, echo=FALSE, out.width=250, out.height=250, cache=TRUE>>=
 

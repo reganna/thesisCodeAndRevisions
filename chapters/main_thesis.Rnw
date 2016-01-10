@@ -39,7 +39,6 @@
 \title{Cracks in the foundation: The myth of Latin American national literatures}
 
 
-
 \begin{document}
 
 <<include=FALSE>>=
