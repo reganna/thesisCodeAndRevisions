@@ -18,6 +18,7 @@ Of particular interest is Blanco's view that the privileging of \enquote{Realism
 The idea that artificial classifications of genre may hinder subjective analysis is not new.
 Critics such as Ted Underwood have made quantification of the effects of genre distinction central to the digital analysis of large corpora of literature. 
 
+
 In \enquote{Understanding Genre in a Collection of a Million Volumes} Underwood explores an algorithmic approach to genre classification. 
 At first, this appears to risk solidifying the same approach to categorization that has lead to the \enquote{missed discoveries} discussed by Blanco.
 It is to strong say that genre divisions have been historically arbitrary, yet they do miss nuanced classifications, which Underwood refers to as \enquote{fuzzy boundaries} \cite[9]{Underwood2014}.
@@ -26,9 +27,11 @@ This can be seen in the previous examination of \textit{María}.
 While many critics discussed the \enquote{realistic} characteristics of the novel, none classified it as \enquote{Realism}.
 A more nuanced approach, aided by algorithmic classification, helps to soften the edges of the time periods often imposed on genre, potentially uncovering previously missed periods such as the 1850-1870 era of the Spanish novel explored by Blanco.
 
+
 According to his investigation, it is the artificial temporal boundaries between the two \enquote{great canonical traditions of the century} that have caused critics to overlook the value of narratives in this period (425)\nocite{Blanco2000}.
 Blanco argues that by placing works from mid-century into lesser categories such as \textit{costumbrista} or \textit{novelas por entregas}, critics further undermine objective investigation through the imposition of an artificial taxonomy (426)\nocite{Blanco2000}.
 For this reason Underwood applies Thomas Vanderwal's moniker \enquote{folksonomy} to his classification in order to highlight the bottom up approach to the division of textual characteristics \cite{Underwood2014, Vanderwal2007}.
+
 
 Sereni points out that this historical period saw the formation of of new social frameworks that re-examined not only new relationships between ownership and production but also linguistically, culturally, politically and morally \cite[Sereni in][429]{Blanco2000}.
 Both authors highlight the view at the time that literature was an unstoppable cultural force viewed as possessing the ability to shape the morals of society. 
@@ -183,10 +186,21 @@ The reason being that as texts get longer, the addition of new words slows, ther
 Baayen discusses numerous options for better comparison, vocabulary growth rates of same size text chunks and side by side interpolated growth curves (236)\nocite{Baayen2008}.
 The last two measures will be addressed later, however despite the less robust comparative strength of TTR from the view of linguistic analysis, it does provide a an effective cursory comparison for the purposes of literary investigation. 
 
+\begin{figure}
+	\caption{}
+	\label{fig:TTR}
+<<TTR, echo=FALSE, warning=FALSE, out.width=250, out.height=250>>=
+source("../../code/corpusFunctions.R")
+ttr <- ttrDirectory("../../corpus/corpus")
+author_names <- getAuthorNames("../../corpus/corpus")
+plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
+text(ttr, labels=rownames(ttr), pos = 4, cex = .5)
+@
+\end{figure} 
 
-Having warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure ... offers some clarity.
+Having warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure~\ref{fig:TTR} offers some clarity.
 In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extrapolated vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
-A comparison of the word frequencies of these two novels in Figure ? helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
+A comparison of the word frequencies of these two novels in Figure~\ref{fig:compareVgc} helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
 Analysis of the lexicon employed by Isaacs' shows that establishing a stylistic connection is the key to the success of nationally uniting works. 
 As the plot shows, there is a tendency for novels to remain below a certain threshold.
 For the \Sexpr{length(ttr[,1])} novels examined previously through clustering, the mean type/token ration is \Sexpr{mean(ttr[,1])/mean(ttr[,2])}.
@@ -197,8 +211,10 @@ Producing connections with readers is achieved by choosing a limited but specifi
 At this point it is worth demonstrating that Galdós and Isaacs used unique lexicons irrespective of the length of their texts.
 The ability of text length to skew measures like TTR is precisely why Baayen has proposed alternatives.
 In order to examine vocabulary richness in different length texts I have used the \enquote{zipfR} package to extrapolate vocabulary growth curves for comparison.
-As Figure 4 shows, Galdós continues to introduce new vocabulary at a greater rate than Isaacs.
+As Figure~\ref{fig:compareVgc} shows, Galdós continues to introduce new vocabulary at a greater rate than Isaacs.
 Given the fact that Galdós is writing from the more linguistically established peninsula, it would appear that his rich vocabulary was not directed at adding words to the Spanish lexicon. 
+It also reinforces the idea that Isaacs was introducing a specific, new vocabulary, which he establishes early in the novel. 
+Galdós, on the other hand, introduces a colloquial register that is new to literary language, adding it to his already rich vocabulary.
 
 Comparing some unique words from \textit{Trafalgar} and their first appearances in the Google N-gram data confirms this assumption.
 Galdós redefines Spanish in a manner distinct from Isaacs, and defining Spanish was an intense debate throughout the mid-century.
@@ -215,63 +231,42 @@ A comparison of the ratio of hapax legomena to total tokens offers another means
 
 read villa and vosters
 
-\begin{figure}
-	\caption{}
-<<TTR, echo=FALSE, warning=FALSE, out.width=250, out.height=250>>=
-source("../../code/corpusFunctions.R")
-ttr <- ttrDirectory("../../corpus/corpus")
-author_names <- getAuthorNames("../../corpus/corpus")
-plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
-text(ttr, labels=rownames(ttr), pos = 2, cex = .5)
-@
-\end{figure} 
 
 
 \begin{figure}
 	\caption{}
+	\label{fig:compareVgc}
 <<Vgc, echo=FALSE, out.width=250, out.height=250>>=
-library(zipfR)
-amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
-maria_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
-maria_spc <- tfl2spc(maria_tfl)
-amalia_spc <- tfl2spc(amalia_tfl)
-maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
-amalia.fzm <- lnre("fzm", amalia_spc, exact=FALSE)
-#traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:100) * 230000, variances=TRUE)
-amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
-maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=TRUE)
-plot(maria.fzm.vgc, amalia.fzm.vgc)
-@
-\end{figure}
-
-
-\begin{figure}
-	\caption{}
-<<Vgc, echo=FALSE, out.width=250, out.height=250, cache=TRUE>>=
 library(zipfR)
 amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
 traf_tfl <- read.tfl("../../tfls/galdos_trafalgar_spain.txt.tfl")
 maria_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
+font_tfl <- read.tfl("../../tfls/Galdos_fontanaDeOro_spain.txt.tfl")
+font_spc <- tfl2spc(font_tfl)
 amalia_spc <- tfl2spc(amalia_tfl)
 maria_spc <- tfl2spc(maria_tfl)
 traf_spc <- tfl2spc(traf_tfl)
+font.fzm <- lnre("fzm", font_spc, exact=FALSE)
 amalia.fzm <- lnre("fzm", amalia_spc, exact=FALSE)
 maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
 traf.fzm <- lnre("fzm", traf_spc, exact=FALSE)
+font.fzm.vgc <- lnre.vgc(font.fzm, (1:230000), variances=FALSE)
 amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
-traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:50000), variances=TRUE)
-maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:50000), variances=TRUE)
-plot(maria.fzm.vgc, traf.fzm.vgc, amalia.fzm.vgc, legend=c('María', 'Trafalgar', 'Amalia'))
+traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:230000), variances=TRUE)
+maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=TRUE)
+plot(maria.fzm.vgc, traf.fzm.vgc, amalia.fzm.vgc, font.fzm.vgc, legend=c('María', 'Trafalgar', 'Amalia', 'Fontana de oro'))
 @
 \end{figure}
 
 
 \begin{figure}
 	\caption{Hapax ratio}
+	\label{fig:hapax}
 <<Hapax Ratio, echo=FALSE>>=
 
 @
 \end{figure}
+
 
 \section{Solve the Problem}
 \section{Draw out the Implications}

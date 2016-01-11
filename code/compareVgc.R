@@ -1,4 +1,4 @@
-createTfls <- function(directory){
+createTfls <- function(directoryName){
   files_v <- dir(path=directoryName, pattern="*") 
   for(i in 1:length(files_v)){
     raws.l <- as.data.frame(getTxtFreqs(file.path(directoryName, files_v[i]), raw = TRUE))

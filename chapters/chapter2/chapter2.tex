@@ -96,7 +96,6 @@
 
 
 
-
 \begin{document}
 
 
@@ -115,6 +114,7 @@ Of particular interest is Blanco's view that the privileging of \enquote{Realism
 The idea that artificial classifications of genre may hinder subjective analysis is not new.
 Critics such as Ted Underwood have made quantification of the effects of genre distinction central to the digital analysis of large corpora of literature. 
 
+
 In \enquote{Understanding Genre in a Collection of a Million Volumes} Underwood explores an algorithmic approach to genre classification. 
 At first, this appears to risk solidifying the same approach to categorization that has lead to the \enquote{missed discoveries} discussed by Blanco.
 It is to strong say that genre divisions have been historically arbitrary, yet they do miss nuanced classifications, which Underwood refers to as \enquote{fuzzy boundaries} \cite[9]{Underwood2014}.
@@ -123,9 +123,11 @@ This can be seen in the previous examination of \textit{María}.
 While many critics discussed the \enquote{realistic} characteristics of the novel, none classified it as \enquote{Realism}.
 A more nuanced approach, aided by algorithmic classification, helps to soften the edges of the time periods often imposed on genre, potentially uncovering previously missed periods such as the 1850-1870 era of the Spanish novel explored by Blanco.
 
+
 According to his investigation, it is the artificial temporal boundaries between the two \enquote{great canonical traditions of the century} that have caused critics to overlook the value of narratives in this period (425)\nocite{Blanco2000}.
 Blanco argues that by placing works from mid-century into lesser categories such as \textit{costumbrista} or \textit{novelas por entregas}, critics further undermine objective investigation through the imposition of an artificial taxonomy (426)\nocite{Blanco2000}.
 For this reason Underwood applies Thomas Vanderwal's moniker \enquote{folksonomy} to his classification in order to highlight the bottom up approach to the division of textual characteristics \cite{Underwood2014, Vanderwal2007}.
+
 
 Sereni points out that this historical period saw the formation of of new social frameworks that re-examined not only new relationships between ownership and production but also linguistically, culturally, politically and morally \cite[Sereni in][429]{Blanco2000}.
 Both authors highlight the view at the time that literature was an unstoppable cultural force viewed as possessing the ability to shape the morals of society. 
@@ -270,23 +272,41 @@ In the ex-Spanish colonies, patriotism up until independence meant \enquote{an a
 Much like Gabriel and Periquillo's need to fill the void left by their fathers, the position of the national patriarch also could not remain empty.
 In Spain, the period between the Revolution of 1868 and the loss of the last Spanish colonies in 1898 posed a similar quest in the redefinition of national leadership.
 José Carlos Chiaramonte finds lineage inseparable from national identity stating that "la historia nacional [...] es una porción del patrimonio general que cada generación que desaparece lega a la que la reemplaza, ninguna debe transmitirla tal como la recibió sino que todas tienen el deber de agregar algo de certidumbre y claridad" \cite[28]{Chiaramonte2004}.
-
 Another human construction that relies on generational acquisition is language, just as phonetic variation moves from generation to generation so too does connotative variation.
 As a result, internalizing the meaning of words like \textit{nación, patria, país, estado} relies heavily on regional and familial culture. 
+
+
+\section{Presentation of Digital Data}
+Of the many measures for lexical richness outlined by R. Harold Baayen, he maintains that the simple ratio of unique words to total words, or type/token ratio (TTR), is the least informative. 
+The reason being that as texts get longer, the addition of new words slows, therefore TTR is not equally representative in texts of varying lengths. 
+Baayen discusses numerous options for better comparison, vocabulary growth rates of same size text chunks and side by side interpolated growth curves (236)\nocite{Baayen2008}.
+The last two measures will be addressed later, however despite the less robust comparative strength of TTR from the view of linguistic analysis, it does provide a an effective cursory comparison for the purposes of literary investigation. 
+
+\begin{figure}
+	\caption{}
+	\label{fig:TTR}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+\includegraphics[width=250,height=250]{figure/TTR-1} 
+
+\end{knitrout}
+\end{figure} 
+
+Having warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure~\ref{fig:TTR} offers some clarity.
+In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extrapolated vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
+A comparison of the word frequencies of these two novels in Figure ? helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
+Analysis of the lexicon employed by Isaacs' shows that establishing a stylistic connection is the key to the success of nationally uniting works. 
+As the plot shows, there is a tendency for novels to remain below a certain threshold.
+For the 13 novels examined previously through clustering, the mean type/token ration is 0.1371087.
+What the shows is that lexical richness may have its limits when it comes to retaining readership. 
+Producing connections with readers is achieved by choosing a limited but specific vocabulary.
+
+
 At this point it is worth demonstrating that Galdós and Isaacs used unique lexicons irrespective of the length of their texts.
 The ability of text length to skew measures like TTR is precisely why Baayen has proposed alternatives.
 In order to examine vocabulary richness in different length texts I have used the \enquote{zipfR} package to extrapolate vocabulary growth curves for comparison.
 As Figure 4 shows, Galdós continues to introduce new vocabulary at a greater rate than Isaacs.
 Given the fact that Galdós is writing from the more linguistically established peninsula, it would appear that his rich vocabulary was not directed at adding words to the Spanish lexicon. 
-
-Figure 4:
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
-\includegraphics[width=250,height=250]{figure/Vgc-1} 
-
-\end{knitrout}
-
-read villa and vosters
 
 Comparing some unique words from \textit{Trafalgar} and their first appearances in the Google N-gram data confirms this assumption.
 Galdós redefines Spanish in a manner distinct from Isaacs, and defining Spanish was an intense debate throughout the mid-century.
@@ -295,17 +315,52 @@ The trans-atlantic polemic of refining Spanish grammar, orthography, and lexicon
 The overwhelming amount of word differences between the two novels comes, as would be expected, from words with very low frequencies.
 Around 880 words that occur only once in \textit{María} do not appear in \textit{Trafalgar}.
 The number of unique hapax legomena in \textit{Trafalgar} is around 2850.
-While part of the magnitude of difference is due to the fact that \textit{Trafalger} is considerably longer, the vocabulary is still impresively large.
+While part of the magnitude of difference is due to the fact that \textit{Trafalger} is considerably longer, the vocabulary is still impressively large.
 The extrapolation of vocabulary curves seen in Figure 4 confirms what the hapax comparison shows.
 A comparison of the ratio of hapax legomena to total tokens offers another means of comparing vocabulary richness across the corpora.
 
-Figure 5 shows this ratio for all of the novels in the Gutenberg as well as the sub-corpora being examined here.
-
-Figure 5:
 
 
+read villa and vosters
 
 
+
+
+\begin{figure}
+	\caption{}
+%' <<, echo=FALSE, out.width=250, out.height=250>>=
+%' library(zipfR)
+%' amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
+%' maria_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
+%' maria_spc <- tfl2spc(maria_tfl)
+%' amalia_spc <- tfl2spc(amalia_tfl)
+%' maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
+%' amalia.fzm <- lnre("fzm", amalia_spc, exact=FALSE)
+%' #traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:100) * 230000, variances=TRUE)
+%' amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
+%' maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=TRUE)
+%' plot(maria.fzm.vgc, amalia.fzm.vgc)
+%' @
+\end{figure}
+
+
+\begin{figure}
+	\caption{}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+\includegraphics[width=250,height=250]{figure/Vgc-1} 
+
+\end{knitrout}
+\end{figure}
+
+
+\begin{figure}
+	\caption{Hapax ratio}
+
+\end{figure}
+
+\section{Solve the Problem}
+\section{Draw out the Implications}
 As Laura Villa points out, the language ideology debate met with national policy in the 1800's when public teachers promoted a refined orthography in order to better facilitate reducing illiteracy.
 This debate between educators and the Real Academia Española emerged simultaneous to the efforts in the Americas to establish and refine standards for Spanish in the Americas.
 Domingo Sarmiento and Andres Bello proposed two different refinements of Spanish grammar and orthography.
@@ -321,7 +376,7 @@ While Spanish in the Americas has not distinguished itself to the degree of the 
 The struggle for distinction in the Americas was bottom-up, attempting to create regional identity within the ex-colonial linguistic superstrata.
 In Spain, for the controlling class, the struggle was top down, fighting to maintain linguitic hegemony while regional language attempted to re-define themselves as central power declined.
 
-In \textit{Trafalgar} this shows not only in Galdós' rich lexicon, but the source of his vocabulary as well. 
+In \textit{Trafalgar}, this shows not only in Galdós' rich lexicon, but the source of his vocabulary as well. 
 As Urey has mentioned the semantic re-purposing of terms, many military, by his characters provides one source.
 In addition, Galdós uses many words whose usage reached its height in the 16th and 17th centuries.
 The word \textit{rocín}, to cite one example, occurs 161 times in the 1600's in the \textit{Corpus del español} 11 in the 1700's, 51 in the 1800's and ceases to appear after that. 
