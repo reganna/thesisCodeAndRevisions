@@ -227,7 +227,7 @@ removeBlanks <- function(x) {
   x[which(x!="")]
 }
 
-splitCorpus <- function(directoryName, chunk_size=10){
+splitCorpus <- function(directoryName, chunk_size=5){
   
   files_v <- dir(path=directoryName, pattern="*") 
   text_freqs_list <- list()

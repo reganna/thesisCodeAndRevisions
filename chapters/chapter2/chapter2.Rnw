@@ -193,7 +193,7 @@ plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
 text(ttr, labels=rownames(ttr), pos = 2, cex = .5)
 @
 
-Having previously warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure 4 offers some clarity.
+Having previously warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure ... offers some clarity.
 In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extrapolated vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
 A comparison of the word frequencies of these two novels in Figure ? helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
 Analysis of the lexicon employed by Isaacs' shows that establishing a stylistic connection is the key to the success of nationally uniting works. 
