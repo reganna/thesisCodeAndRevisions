@@ -31,12 +31,16 @@ a <- stylo(gui = FALSE, mfw.min=500, mfw.max=500, corpus.lang="Spanish", corpus.
 
 \section{Introduction: set up the problem}
 
-In his analysis of José Mármol's \textit{Amalia}, Cristina Civantos comments: \enquote{Although the co-existence of various \textit{patrias chicas} could suggest a more fluid, plural formulation of the nation, it would only be so if the nation were also allowed to be free form} \autocite[67]{Civantos2000}. The struggle between the co-existence of regional affiliation and an allegiance to the \textit{patria grande} is present not only in Mármol and Agentina but in nationalist forums around the globe. The clash between broad 
-
-Civantos argues that novels serve the purpose of giving nationalism what Benedict Anderson calls \enquote{the emotional legitimacy of nationalism} \autocite[Anderson in][69]{Civantos2000}.
+In her analysis of José Mármol's \textit{Amalia}, Cristina Civantos comments: \enquote{Although the co-existence of various \textit{patrias chicas} could suggest a more fluid, plural formulation of the nation, it would only be so if the nation were also allowed to be free form} \autocite[67]{Civantos2000}. 
+The struggle between the co-existence of regional affiliation and an allegiance to the \textit{patria grande} is present not only in Mármol and Agentina but in nationalist forums around the globe. 
+The clash between broad 
+Civantos argues that novels serve the purpose of giving nationalism what Benedict Anderson calls its \enquote{emotional legitimacy} \autocite[Anderson in][69]{Civantos2000}.
 
 As mentioned in Chapter 2, \textit{Martin Fierro} has usurped the position of \enquote{Argentina's national epic} from José Marmol's \textit{Amalia} \cite[111]{Sommer1991}.
 However, earlier critics saw \textit{Amalia} as \enquote{the most popular of Argentine novels} \autocite{Leavitt1926}.
+
+
+
 Rosanna Barragan
 
 Sinclair Thomson
@@ -57,7 +61,10 @@ However, as Civantos catalogs in her article, the publishing history of the full
 
 \subsection{Plot summary}
 
-The novel opens with six men attempting a late night escape from Buenos Aires on a clandestine whaling ship. The group is attacked en route and only Eduardo Belgrano survives due to the serendipitous intervention of Daniel Bello. The pair rushes to find safety at the home of Daniel’s cousin, the title character Amalia. Daniel assembles his trusted friend Dr. Alcorta to help mend Eduardo's near fatal wounds. Daniel sends a letter to Florencia employing her to uncover gossip of the attack from María Josefa Ezcurra, the sister-in-law of Jaun Manuel Rosas. Maria Josefa takes the opportunity to warn Florencia of what she finds to be an indecent number of visits to his cousin Amalia's house. The reader is introduced to Juan Manuel Rosas and his cohort as well as the political manipulation through the gossip of María Josefa. Florencia approaches Daniel with her accusations of impropriety but is satisfied when he reveals to her to gravity of the situation with Eduardo. Rosas efforts to eliminate \enquote{los salvajes unitarios} takes \enquote{comandante} Mariño to María Josefa in search of help uncovering the true nature of what they know to be a mysterious man in Amalia's house. General Cuitiño pays a visit to Daniel and Amalia but leaves assured that the story regarding Eduardo is merely a trap put in the mind of María Josefa by the \enquote{unitarios}. Mariño sets out to fulfill he and María Josefa's plot to ensnare Amalia in a trap to give up Eduardo. She rejects him and is subject to a police search of the home as a reprisal. The group hides out in an old abandon house but are discovered by the persistent Mariño. Eventually, Eduardo and Amalia are married just in time for their hideout to be stormed by Rosas men. Eduardo is killed moments before Rosas storms in and saves Daniel, his son, and the others.
+The novel opens with six men attempting a late night escape from Buenos Aires on a clandestine whaling ship. 
+The group is attacked en route and only Eduardo Belgrano survives due to the serendipitous intervention of Daniel Bello. 
+The pair rushes to find safety at the home of Daniel’s cousin, the title character Amalia. Daniel assembles his trusted friend Dr. Alcorta to help mend Eduardo's near fatal wounds. Daniel sends a letter to Florencia employing her to uncover gossip of the attack from María Josefa Ezcurra, the sister-in-law of Jaun Manuel Rosas. Maria Josefa takes the opportunity to warn Florencia of what she finds to be an indecent number of visits to his cousin Amalia's house. 
+The reader is introduced to Juan Manuel Rosas and his cohort as well as the political manipulation through the gossip of María Josefa. Florencia approaches Daniel with her accusations of impropriety but is satisfied when he reveals to her to gravity of the situation with Eduardo. Rosas efforts to eliminate \enquote{los salvajes unitarios} takes \enquote{comandante} Mariño to María Josefa in search of help uncovering the true nature of what they know to be a mysterious man in Amalia's house. General Cuitiño pays a visit to Daniel and Amalia but leaves assured that the story regarding Eduardo is merely a trap put in the mind of María Josefa by the \enquote{unitarios}. Mariño sets out to fulfill he and María Josefa's plot to ensnare Amalia in a trap to give up Eduardo. She rejects him and is subject to a police search of the home as a reprisal. The group hides out in an old abandon house but are discovered by the persistent Mariño. Eventually, Eduardo and Amalia are married just in time for their hideout to be stormed by Rosas men. Eduardo is killed moments before Rosas storms in and saves Daniel, his son, and the others.
  
 \subsection{Critical reception}
 In her discussion, Sommer notes that the political efforts of Juan Bautista Alberdi championed an openness to religious and racial intermixing for the purposes of producing \enquote{legitimate, homegrown inheritors of local power and foreign capital} \autocite[103]{Sommer1991}.

@@ -173,25 +173,11 @@ In the ex-Spanish colonies, patriotism up until independence meant \enquote{an a
 Much like Gabriel and Periquillo's need to fill the void left by their fathers, the position of the national patriarch also could not remain empty.
 In Spain, the period between the Revolution of 1868 and the loss of the last Spanish colonies in 1898 posed a similar quest in the redefinition of national leadership.
 José Carlos Chiaramonte finds lineage inseparable from national identity stating that "la historia nacional [...] es una porción del patrimonio general que cada generación que desaparece lega a la que la reemplaza, ninguna debe transmitirla tal como la recibió sino que todas tienen el deber de agregar algo de certidumbre y claridad" \cite[28]{Chiaramonte2004}.
-
 Another human construction that relies on generational acquisition is language, just as phonetic variation moves from generation to generation so too does connotative variation.
 As a result, internalizing the meaning of words like \textit{nación, patria, país, estado} relies heavily on regional and familial culture. 
-At this point it is worth demonstrating that Galdós and Isaacs used unique lexicons irrespective of the length of their texts.
-The ability of text length to skew measures like TTR is precisely why Baayen has proposed alternatives.
-In order to examine vocabulary richness in different length texts I have used the \enquote{zipfR} package to extrapolate vocabulary growth curves for comparison.
-As Figure 4 shows, Galdós continues to introduce new vocabulary at a greater rate than Isaacs.
-Given the fact that Galdós is writing from the more linguistically established peninsula, it would appear that his rich vocabulary was not directed at adding words to the Spanish lexicon. 
 
 
-%%% Move both of these to chp2 %%%
-Figure 
-<<Figure 3, echo=FALSE, warning=FALSE, out.width=250, out.height=250>>=
-source("../../code/corpusFunctions.R")
-ttr <- ttrDirectory("../../corpus/corpus")
-author_names <- getAuthorNames("../../corpus/corpus")
-plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
-text(ttr, labels=rownames(ttr), pos = 2, cex = .5)
-@
+\section{Presentation of Digital Data}
 Of the many measures for lexical richness outlined by R. Harold Baayen, he maintains that the simple ratio of unique words to total words, or type/token ratio (TTR), is the least informative. 
 The reason being that as texts get longer, the addition of new words slows, therefore TTR is not equally representative in texts of varying lengths. 
 Baayen discusses numerous options for better comparison, vocabulary growth rates of same size text chunks and side by side interpolated growth curves (236)\nocite{Baayen2008}.
@@ -207,7 +193,42 @@ For the \Sexpr{length(ttr[,1])} novels examined previously through clustering, t
 What the shows is that lexical richness may have its limits when it comes to retaining readership. 
 Producing connections with readers is achieved by choosing a limited but specific vocabulary.
 
-Figure 
+
+At this point it is worth demonstrating that Galdós and Isaacs used unique lexicons irrespective of the length of their texts.
+The ability of text length to skew measures like TTR is precisely why Baayen has proposed alternatives.
+In order to examine vocabulary richness in different length texts I have used the \enquote{zipfR} package to extrapolate vocabulary growth curves for comparison.
+As Figure 4 shows, Galdós continues to introduce new vocabulary at a greater rate than Isaacs.
+Given the fact that Galdós is writing from the more linguistically established peninsula, it would appear that his rich vocabulary was not directed at adding words to the Spanish lexicon. 
+
+Comparing some unique words from \textit{Trafalgar} and their first appearances in the Google N-gram data confirms this assumption.
+Galdós redefines Spanish in a manner distinct from Isaacs, and defining Spanish was an intense debate throughout the mid-century.
+The trans-atlantic polemic of refining Spanish grammar, orthography, and lexicon served as a symbol of socio-political struggles \cite[230]{Villa2015}.
+
+The overwhelming amount of word differences between the two novels comes, as would be expected, from words with very low frequencies.
+Around 880 words that occur only once in \textit{María} do not appear in \textit{Trafalgar}.
+The number of unique hapax legomena in \textit{Trafalgar} is around 2850.
+While part of the magnitude of difference is due to the fact that \textit{Trafalger} is considerably longer, the vocabulary is still impressively large.
+The extrapolation of vocabulary curves seen in Figure 4 confirms what the hapax comparison shows.
+A comparison of the ratio of hapax legomena to total tokens offers another means of comparing vocabulary richness across the corpora.
+
+
+
+read villa and vosters
+
+\begin{figure}
+	\caption{}
+<<TTR, echo=FALSE, warning=FALSE, out.width=250, out.height=250>>=
+source("../../code/corpusFunctions.R")
+ttr <- ttrDirectory("../../corpus/corpus")
+author_names <- getAuthorNames("../../corpus/corpus")
+plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
+text(ttr, labels=rownames(ttr), pos = 2, cex = .5)
+@
+\end{figure} 
+
+
+\begin{figure}
+	\caption{}
 <<Vgc, echo=FALSE, out.width=250, out.height=250>>=
 library(zipfR)
 amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
@@ -221,45 +242,39 @@ amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
 maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=TRUE)
 plot(maria.fzm.vgc, amalia.fzm.vgc)
 @
+\end{figure}
 
 
-Figure 
+\begin{figure}
+	\caption{}
 <<Vgc, echo=FALSE, out.width=250, out.height=250, cache=TRUE>>=
 library(zipfR)
-traf_tfl <- read.tfl("data/trafalgar_freq.csv")
-maria_tfl <- read.tfl("data/maria_freq.csv")
+amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
+traf_tfl <- read.tfl("../../tfls/galdos_trafalgar_spain.txt.tfl")
+maria_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
+amalia_spc <- tfl2spc(amalia_tfl)
 maria_spc <- tfl2spc(maria_tfl)
 traf_spc <- tfl2spc(traf_tfl)
+amalia.fzm <- lnre("fzm", amalia_spc, exact=FALSE)
 maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
 traf.fzm <- lnre("fzm", traf_spc, exact=FALSE)
-traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:100) * 50000, variances=TRUE)
+amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
 traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:50000), variances=TRUE)
 maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:50000), variances=TRUE)
-plot(maria.fzm.vgc, traf.fzm.vgc)
+plot(maria.fzm.vgc, traf.fzm.vgc, amalia.fzm.vgc, legend=c('María', 'Trafalgar', 'Amalia'))
 @
+\end{figure}
 
-read villa and vosters
 
-Comparing some unique words from \textit{Trafalgar} and their first appearances in the Google N-gram data confirms this assumption.
-Galdós redefines Spanish in a manner distinct from Isaacs, and defining Spanish was an intense debate throughout the mid-century.
-The trans-atlantic polemic of refining Spanish grammar, orthography, and lexicon served as a symbol of socio-political struggles \cite[230]{Villa2015}.
-
-The overwhelming amount of word differences between the two novels comes, as would be expected, from words with very low frequencies.
-Around 880 words that occur only once in \textit{María} do not appear in \textit{Trafalgar}.
-The number of unique hapax legomena in \textit{Trafalgar} is around 2850.
-While part of the magnitude of difference is due to the fact that \textit{Trafalger} is considerably longer, the vocabulary is still impresively large.
-The extrapolation of vocabulary curves seen in Figure 4 confirms what the hapax comparison shows.
-A comparison of the ratio of hapax legomena to total tokens offers another means of comparing vocabulary richness across the corpora.
-
-Figure 5 shows this ratio for all of the novels in the Gutenberg as well as the sub-corpora being examined here.
-
-Figure 5:
+\begin{figure}
+	\caption{Hapax ratio}
 <<Hapax Ratio, echo=FALSE>>=
 
 @
+\end{figure}
 
-
-
+\section{Solve the Problem}
+\section{Draw out the Implications}
 As Laura Villa points out, the language ideology debate met with national policy in the 1800's when public teachers promoted a refined orthography in order to better facilitate reducing illiteracy.
 This debate between educators and the Real Academia Española emerged simultaneous to the efforts in the Americas to establish and refine standards for Spanish in the Americas.
 Domingo Sarmiento and Andres Bello proposed two different refinements of Spanish grammar and orthography.
@@ -275,7 +290,7 @@ While Spanish in the Americas has not distinguished itself to the degree of the 
 The struggle for distinction in the Americas was bottom-up, attempting to create regional identity within the ex-colonial linguistic superstrata.
 In Spain, for the controlling class, the struggle was top down, fighting to maintain linguitic hegemony while regional language attempted to re-define themselves as central power declined.
 
-In \textit{Trafalgar} this shows not only in Galdós' rich lexicon, but the source of his vocabulary as well. 
+In \textit{Trafalgar}, this shows not only in Galdós' rich lexicon, but the source of his vocabulary as well. 
 As Urey has mentioned the semantic re-purposing of terms, many military, by his characters provides one source.
 In addition, Galdós uses many words whose usage reached its height in the 16th and 17th centuries.
 The word \textit{rocín}, to cite one example, occurs 161 times in the 1600's in the \textit{Corpus del español} 11 in the 1700's, 51 in the 1800's and ceases to appear after that. 
