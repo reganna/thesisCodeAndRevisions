@@ -129,6 +129,24 @@ Isaacs lack of involvement in state formation is reflected in the distinct nosta
 
 
 \section{Presentation of the digital data}
+The first step in supporting the idea that these national literatures are regionally distinct is to establish that the fact that they \enquote{read} differently.
+Cluster analysis compares the degree of difference between objects with a group of shared characteristics, in this case novels sharing vocabulary.
+While this method does not prove a particular set of regional characteristics, it does show some interesting tendencies that support looking beyond broad historical classifications. 
+Figure 1 shows a cluster dendrogram that was made with the \textit{stylo} package for R using Euclidean distance and the top 2000 most frequent words in the corpora \autocite{Eder2013, RCT2014}.
+This cluster analysis shows the distance relationship of high frequency words between these nineteenth century novels.
+It is possible, even in this small group of novels, to see that grouping by features shows interesting tendencies. 
+\textit{María} finds itself most closely related to another Colombian work.
+Yet it shows a marked distance between \textit{María} and other Colombian novels.
+Two other Colombian novels are also closely related in terms of stylistic features, \textit{El alférez real,} \textit{Manuela,} and \textit{Frutos de mi tierra}.
+These two novels are quite distant from \textit{María}..
+Could it help explain why those novels fell into relative obscurity while Isaacs gained a lasting Colombian audience?
+I believe that certain linguistic characteristics do help determine the popular potential of an authors writing.
+However, the question requires further investigation of which features contribute to this division as well as examining other ways of comparing these authors such as keyword analysis.
+More importantly for the purposes of this essay, does a particular group of features effect the classification of the novels along the lines predicted by scholars' close reading?
+For example, by grouping novels along the lines of genre and popularity, a result that would support Sommer's claims.
+A later look at another classifier based on thematic words will help shed light on the possible effects that a particular discourse has had on a novels interpretation or reception.
+Yet even clustering reveals that these novels show similarities that group along lines of national geography, something that categorizing by genre fails to highlight.
+
 Chapters 1 demonstrated that clustering supports the possibility of nationally aligned stylistic textual characteristics. Chapter 2 supports the idea that authors of Spanish language novels identified as representative of a particular nation chose to use vocabulary that either sever regional affiliations or establish national bonds.
 0
 

@@ -192,8 +192,13 @@ author_names <- getAuthorNames("../../corpus/corpus")
 plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
 text(ttr, labels=rownames(ttr), pos = 2, cex = .5)
 @
+Of the many measures for lexical richness outlined by R. Harold Baayen, he maintains that the simple ratio of unique words to total words, or type/token ratio (TTR), is the least informative. 
+The reason being that as texts get longer, the addition of new words slows, therefore TTR is not equally representative in texts of varying lengths. 
+Baayen discusses numerous options for better comparison, vocabulary growth rates of same size text chunks and side by side interpolated growth curves (236)\nocite{Baayen2008}.
+The last two measures will be addressed later, however despite the less robust comparative strength of TTR from the view of linguistic analysis, it does provide a an effective cursory comparison for the purposes of literary investigation. 
 
-Having previously warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure ... offers some clarity.
+
+Having warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure ... offers some clarity.
 In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extrapolated vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
 A comparison of the word frequencies of these two novels in Figure ? helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
 Analysis of the lexicon employed by Isaacs' shows that establishing a stylistic connection is the key to the success of nationally uniting works. 

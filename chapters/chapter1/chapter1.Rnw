@@ -254,54 +254,33 @@ After all, White notes that \enquote{it is the state which first presents subjec
 To displace or omit current events from the novel is, for Isaacs, a way to rewrite history with the hopes that his version shapes the future, not only for Colombia but for the regions it comprises.
 
 
-It is difficult to fit Colombia into a model that applies across \enquote{Latin America}. Whether one examines their national foundations, literature or language Colombia has developed along a unique trajectory. This is reflected in the challenges faced by critics who strive to fit texts like \textit{Maria} into categories based solely on a shared colonial past. In \textit{Maria} Isaacs emphasizes regional diversity through theme and language. He denies history in order to frame a future where central governance and regionalism are not mutually exclusive. Examining language characteristics in prominent national novels highlights that, from the outset the concept of Latin America was never intended as an all inclusive social construct. In fact for some scholars \enquote{the idea of Latin America stymies efforts by peoples of indigenous and African descent to democratize the region} \autocite[1347]{Gobat2013}. The  following analysis shows that language plays a prominent role 
+It is difficult to fit Colombia into a model that applies across \enquote{Latin America}. Whether one examines their national foundations, literature or language Colombia has developed along a unique trajectory. This is reflected in the challenges faced by critics who strive to fit texts like \textit{Maria} into categories based solely on a shared colonial past. In \textit{Maria} Isaacs emphasizes regional diversity through theme and language. He denies history in order to frame a future where central governance and regionalism are not mutually exclusive. Examining language characteristics in prominent national novels highlights that, from the outset the concept of Latin America was never intended as an all inclusive social construct. In fact for some scholars \enquote{the idea of Latin America stymies efforts by peoples of indigenous and African descent to democratize the region} \autocite[1347]{Gobat2013}. The following analysis shows that language plays a prominent role 
 
 
 %\section{Presentation of the digital data and Interpretation of digital data}
-
-
-The first step in supporting the idea that these national literatures are regionally distinct is to establish that the fact that they \enquote{read} differently.
-Cluster analysis compares the degree of difference between objects with a group of shared characteristics, in this case novels sharing vocabulary.
-While this method does not prove a particular set of regional characteristics, it does show some interesting tendencies that support looking beyond broad historical classifications. 
-Figure 1 shows a cluster dendrogram that was made with the \textit{stylo} package for R using Euclidean distance and the top 2000 most frequent words in the corpora \autocite{Eder2013, RCT2014}.
-This cluster analysis shows the distance relationship of high frequency words between these nineteenth century novels.
-It is possible, even in this small group of novels, to see that grouping by features shows interesting tendencies. 
-\textit{María} finds itself most closely related to another Colombian work.
-Yet it shows a marked distance between \textit{María} other Colombian novels.
-Two other Colombian novels are also closely related in terms of stylistic features, \textit{El alférez real,} \textit{Manuela,} and \textit{Frutos de mi tierra}.
-These two novels are quite distant from \textit{María}..
-Could it help explain why those novels fell into relative obscurity while Isaacs gained a lasting Colombian audience?
-I believe that certain linguistic characteristics do help determine the popular potential of an authors writing.
-However, the question requires further investigation of which features contribute to this division as well as examining other ways of comparing these authors such as keyword analysis.
-More importantly for the purposes of this essay, does a particular group of features effect the classification of the novels along the lines predicted by scholars' close reading?
-For example, by grouping novels along the lines of genre and popularity, a result that would support Sommer's claims.
-A later look at another classifier based on thematic words will help shed light on the possible effects that a particular discourse has had on a novels interpretation or reception.
-Yet even clustering reveals that these novels show similarities that group along lines of national geography, something that categorizing by genre fails to highlight.
-
-
-
-Of the many measures for lexical richness outlined by R. Harold Baayen, he maintains that the simple ratio of unique words to total words, or type/token ratio (TTR), is the least informative. 
-The reason being that as texts get longer, the addition of new words slows, therefore TTR is not equally representative in texts of varying lengths. 
-Baayen discusses numerous options for better comparison, vocabulary growth rates of same size text chunks and side by side interpolated growth curves (236)\nocite{Baayen2008}.
-The last two measures will be addressed later, however despite the less robust comparative strength of TTR from the view of linguistic analysis, it does provide a an effective cursory comparison for the purposes of literary investigation. 
-
-Figure 4 plots the TTR from each novel in the corpus of all Spanish language texts available from Project Gutenberg \autocite{Project G}.
-
-
-Di Paolo chose to highlight the quote denoting \enquote{la gente de ruana} as a class identifying term. It provides an interesting link to the investigation of word choice.
+Looking at a small selection of novels for interesting keywords does not demand a digital approach.
+Much of the unique vocabulary in \textit{María} has been discussed in introductions to various editions or in scholarly critique.
+As mentioned above, Di Paolo chose to highlight \enquote{ruana} as a class identifying term when he mentions the period reference to \enquote{la gente de ruana}. 
+It provides an interesting link to the investigation of word choice.
 Isaacs uses the word \enquote{ruana} six times in his novel, and never with the classist connotation quoted by di Paolo.
+However, in order to contextualize literary features the use of online corpora and keyword finding algorithms are useful.
+First, words recognized by modern readers may or may not have been anomalous to an audience a century ago.
+Discovering keywords by comparing a text with a period relevant reference corpora will help to highlight words that may have stood out in a given period.
+Comparing the use of keywords with online corpora, such as Google's ngram data, the \textit{Corpus del Español}, a collection of 100 million words dating back to the 1200's, RAE's \textit{Corpus de Referencia del Español Actual} (CREA) or their \textit{Corpus Diacrónico del Español} (CORDE) \autocite*{Crea} \autocite{Corde}.
+
+
 \enquote{Ruana} also appears six times in the novel \enquote{El alférez real}, another Colombian work situated in the Cauca Valley that was considerably more successful that Samper's or Carrasquilla's though less so than \textit{María}.
 The \textit{Diccionario de la lengua española} from the Real Academia Española list 9 definitions for \enquote{ruana}.
 Last on their list, \enquote{especie de capote de monte o poncho} along with the immediately preceding definition \enquote{manta raída}, represent every case of the use by Isaacs.
-In the \textit{Corpus del Español}, a collection of 100 million words dating back to the 1200's, the word only appears eleven times and only three times prior to Isaacs novel. \autocite{Davies2012}. 
-In the RAE's \textit{Corpus de Referencia del Español Actual} the word appears 43 times, over half of which are from Colombia \autocite{Crea}.
-In their \textit{Corpus Diacrónico del Español} the word appears 54 times, 48 of which are from Colombian sources, see figure 4 for examples \autocite{Corde}.
+In the \textit{Corpus del Español}, the word only appears eleven times and only three times prior to Isaacs novel. \autocite{Davies2012}. 
+In CREA the word appears 43 times, over half of which are from Colombia \autocite*{Crea}.
+In CORDE the word appears 54 times, 48 of which are from Colombian sources, see figure 4 for examples \autocite*{Corde}.
 Interestingly Tomás Carrasquilla holds the place of the largest user of the word.
 One might ask why Carrasquilla does not hold the canonical place that Isaacs does?
 Answering this question requires looking at far more than a few words, at the overall lexical richness of these novels.
 That is to say, of all the words an author chooses to use how many distinct words, or types, do they employ.
 It may be possible that a connected readership depends on a certain amount of unique vocabulary that typifies a readers local reality.
-However, as a look a lexical richness shows, overly rich vocabulary may have the opposite effect. 
+However, as a look a lexical richness in Chapter 2 will show, overly rich vocabulary may have the opposite effect. 
 
 \begin{table}[ht]
 	\centering
@@ -328,9 +307,6 @@ However, as a look a lexical richness shows, overly rich vocabulary may have the
 		\end{tabular}
 	}
 \end{table}
-
-
-
 
 
 %%% add the original date chart in this chapter
