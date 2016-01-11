@@ -19,156 +19,337 @@
 
 \refsection{0}
   \sortlist{nty}{nty}
-    \entry{Carrasquilla1896}{book}{}
+    \entry{Anderson2006}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=7d1147ca998fa52ad0932ac77b02468f}{Carrasquilla}{C\bibinitperiod}{Tomás}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2a566f9deafab1ca453b1f9d3ac356f3}{Anderson}{A\bibinitperiod}{Benedict}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{2a566f9deafab1ca453b1f9d3ac356f3}
+      \strng{fullhash}{2a566f9deafab1ca453b1f9d3ac356f3}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Imagined Communities}
+      \field{year}{2006}
+    \endentry
+    \entry{Baayen2008}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9d1e4971080305d14562828cd71b9216}{Baayen}{B\bibinitperiod}{R.\bibnamedelimi Harold}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9d1e4971080305d14562828cd71b9216}
+      \strng{fullhash}{9d1e4971080305d14562828cd71b9216}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analyzing Linguistic Data: A Practical Introduction to Statistics Using R}
+      \field{year}{2008}
+    \endentry
+    \entry{Beckman2012}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d152d6aa792cc96875b80a6c2ea57adc}{Beckman}{B\bibinitperiod}{Ericka}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Minnesota}%
+      }
+      \list{publisher}{1}{%
+        {University of Minnesota Press}%
+      }
+      \strng{namehash}{d152d6aa792cc96875b80a6c2ea57adc}
+      \strng{fullhash}{d152d6aa792cc96875b80a6c2ea57adc}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Capital Fictions: The Literature of Latin America's Export Age}
+      \field{year}{2012}
+    \endentry
+    \entry{Beckman2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d152d6aa792cc96875b80a6c2ea57adc}{Beckman}{B\bibinitperiod}{Ericka}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{d152d6aa792cc96875b80a6c2ea57adc}
+      \strng{fullhash}{d152d6aa792cc96875b80a6c2ea57adc}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Iberian and Latin American Studies}
+      \field{number}{2}
+      \field{title}{Fables of globalization: race, sex and money in nineteenth-century Latin America}
+      \field{volume}{19}
+      \field{year}{2013}
+      \field{pages}{99\bibrangedash 116}
+      \range{pages}{18}
+      \verb{file}
+      \verb :/home/user/Dropbox/office_current/Documents/docear_projects/isu_lan/literature_repository/beckman_FablesOfGlobalization.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Cortazar1908}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6ba342e16aef3beccb541492ae94962b}{Cortázar}{C\bibinitperiod}{Roberto}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Colegio Mayor del Nuestra Señora del Rosario}%
       }
       \list{location}{1}{%
         {Bogotá}%
       }
-      \list{publisher}{1}{%
-        {Libreria nueva}%
-      }
-      \strng{namehash}{7d1147ca998fa52ad0932ac77b02468f}
-      \strng{fullhash}{7d1147ca998fa52ad0932ac77b02468f}
+      \strng{namehash}{6ba342e16aef3beccb541492ae94962b}
+      \strng{fullhash}{6ba342e16aef3beccb541492ae94962b}
       \field{sortinit}{C}
       \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
       \true{singletitle}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Frutos de mi {t}ierra}
-      \field{year}{1896}
-      \verb{url}
-      \verb https://ia801407.us.archive.org/5/items/frutosdemitierr00carrgoog/frutosdemitierr00carrgoog.pdf
-      \endverb
+      \field{title}{La novela en Colombia}
+      \field{type}{phdthesis}
+      \field{year}{1908}
     \endentry
-    \entry{Samper1867}{book}{}
+    \entry{Cuervo1876}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=6f7392831ea179a9c6ae0e71067f0955}{Samper}{S\bibinitperiod}{Soledad\bibnamedelima Acosta}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=d4cd0dabcf4caa22ad92fab40844c786}{NA}{N\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=4c717c7ee669e919863d19f0d2c67654}{Cuervo}{C\bibinitperiod}{Rufino\bibnamedelima José}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
-        {NA}%
+        {Bogota}%
       }
       \list{publisher}{1}{%
-        {NP}%
+        {Echeverría hermanos}%
       }
-      \strng{namehash}{6f7392831ea179a9c6ae0e71067f0955}
-      \strng{fullhash}{6f7392831ea179a9c6ae0e71067f0955}
+      \strng{namehash}{4c717c7ee669e919863d19f0d2c67654}
+      \strng{fullhash}{4c717c7ee669e919863d19f0d2c67654}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Apuntaciones}
+      \field{title}{Apuntaciones críticas sobre el lenguaje bogotano}
+      \field{year}{1876}
+    \endentry
+    \entry{Davies2012}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=48f427e0352f9d97eb37585a65f73622}{Davies}{D\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{48f427e0352f9d97eb37585a65f73622}
+      \strng{fullhash}{48f427e0352f9d97eb37585a65f73622}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Corpus del Español: 100 Million Words, 1200s-1900s}
+      \field{year}{2012-}
+      \verb{url}
+      \verb http://www.corpusdelespanol.org
+      \endverb
+    \endentry
+    \entry{Delgado2000}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a2dda944cf830b71866ae610587409c5}{Delgado}{D\bibinitperiod}{Luisa\bibnamedelima Elena}{L\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Atlanta}%
+      }
+      \list{publisher}{1}{%
+        {Rodopi}%
+      }
+      \strng{namehash}{a2dda944cf830b71866ae610587409c5}
+      \strng{fullhash}{a2dda944cf830b71866ae610587409c5}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{La imagen elusiva: lenguaje y representación en la narrativa de Galdós}
+      \field{year}{2000}
+    \endentry
+    \entry{Paolo}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3c1213a053bf2826737c4aaa81ec6692}{Paolo}{P\bibinitperiod}{Osvaldo}{O\bibinitperiod}{di}{d\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{3c1213a053bf2826737c4aaa81ec6692}
+      \strng{fullhash}{3c1213a053bf2826737c4aaa81ec6692}
       \field{sortinit}{d}
       \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
       \true{singletitle}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Dolores}
-      \field{year}{1867}
-      \verb{url}
-      \verb http://www.biblioteca.org.ar/libros/130522.pdf
+      \field{title}{Imitación, asimilación, importación y posesión: una lectura cursi de \textit{María} de Jorge Isaacs}
+      \verb{file}
+      \verb :../../../literature_repository/paolo_imitaciónAsimilaciónMaría.pdf:PDF
       \endverb
     \endentry
-    \entry{Lizardi1884}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=0e2128bbeb424f72abcbbf1b1da0a2b6}{Fernández\bibnamedelimb de\bibnamedelima Lizardi}{F\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim L\bibinitperiod}{José\bibnamedelima Joaquin}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+    \entry{Eder2013}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=5b65f6d84607e8441592a6533c08ee07}{Eder}{E\bibinitperiod}{Maciej}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9d1ab665c2ba43842d5c50753eec480c}{Kestemont}{K\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6954eb37d5672b1242b1986e0c3f12df}{Rybicki}{R\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
-        {Mexico}%
+        {Lincoln, NE}%
+      }
+      \list{organization}{1}{%
+        {University of Nebraska-Lincoln}%
+      }
+      \strng{namehash}{9e8a229edc3885fee35588fe02ce660e}
+      \strng{fullhash}{9e8a229edc3885fee35588fe02ce660e}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Digital Humanities 2013: Conference Abstracts}
+      \field{title}{Stylometry with R: a suite of tools}
+      \field{year}{2013}
+      \field{pages}{487\bibrangedash 489}
+      \range{pages}{3}
+      \verb{file}
+      \verb :Eder2013.pdf:PDF
+      \endverb
+      \verb{url}
+      \verb http://dh2013.unl.edu/abstracts/
+      \endverb
+    \endentry
+    \entry{Embree1998}{book}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=6df40df5996fe9c7f6131fd10947f8cd}{Embree}{E\bibinitperiod}{Lester}{L\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
-        {J Valdes y Cueva, R. Araujo}%
+        {Springer}%
       }
-      \strng{namehash}{0e2128bbeb424f72abcbbf1b1da0a2b6}
-      \strng{fullhash}{0e2128bbeb424f72abcbbf1b1da0a2b6}
+      \strng{namehash}{6df40df5996fe9c7f6131fd10947f8cd}
+      \strng{fullhash}{6df40df5996fe9c7f6131fd10947f8cd}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \true{singletitle}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Alfred Schutz's Sociological Aspect of Literature: Construction and Complementary Essays}
+      \field{year}{1998}
+    \endentry
+    \entry{Crea}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a3591b0a53edde7ca4492c4d7b4aae07}{Española}{E\bibinitperiod}{Real\bibnamedelima Academia}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a3591b0a53edde7ca4492c4d7b4aae07}
+      \strng{fullhash}{a3591b0a53edde7ca4492c4d7b4aae07}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Corpus de referencia del español actual}
+      \verb{url}
+      \verb http://www.rae.es/creanet.html
+      \endverb
+    \endentry
+    \entry{Corde}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a3591b0a53edde7ca4492c4d7b4aae07}{Española}{E\bibinitperiod}{Real\bibnamedelima Academia}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a3591b0a53edde7ca4492c4d7b4aae07}
+      \strng{fullhash}{a3591b0a53edde7ca4492c4d7b4aae07}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Corpus diacrónico del español}
+      \verb{url}
+      \verb http://corpus.rae.es/cordenet.html
+      \endverb
+    \endentry
+    \entry{Felski2008}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b94becff7de1917bb168a2a39fd7638b}{Felski}{F\bibinitperiod}{Rita}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Malden}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell}%
+      }
+      \strng{namehash}{b94becff7de1917bb168a2a39fd7638b}
+      \strng{fullhash}{b94becff7de1917bb168a2a39fd7638b}
       \field{sortinit}{F}
       \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
       \true{singletitle}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{El Periquillo Sarniento}
-      \field{year}{1884}
-      \verb{url}
-      \verb http://babel.hathitrust.org/cgi/pt?id=hvd.hwyp9v;view=1up;seq=5
-      \endverb
+      \field{title}{Uses of Literature}
+      \field{year}{2008}
     \endentry
-    \entry{Galdos1873}{book}{}
+    \entry{Fox2011}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=ab8e765a472a8a099c472c8395cd6900}{Galdós}{G\bibinitperiod}{Benito\bibnamedelima Pérez}{B\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=487ac3060d7b14f6f4a755d523c5d6b1}{Fox}{F\bibinitperiod}{Arthur\bibnamedelima A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
-        {Madrid}%
+        {Boston}%
       }
       \list{publisher}{1}{%
-        {Imp. de J. Noguera, A cargo de M. Martínez}%
+        {Prentice Hall}%
       }
-      \strng{namehash}{ab8e765a472a8a099c472c8395cd6900}
-      \strng{fullhash}{ab8e765a472a8a099c472c8395cd6900}
+      \strng{namehash}{487ac3060d7b14f6f4a755d523c5d6b1}
+      \strng{fullhash}{487ac3060d7b14f6f4a755d523c5d6b1}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Latinoamérica: presente y pasado}
+      \field{year}{2011}
+    \endentry
+    \entry{Gobat2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b72ed0db4559ad3c1e4e0d8c5b7aa8d2}{Gobat}{G\bibinitperiod}{Michel}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b72ed0db4559ad3c1e4e0d8c5b7aa8d2}
+      \strng{fullhash}{b72ed0db4559ad3c1e4e0d8c5b7aa8d2}
       \field{sortinit}{G}
       \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
       \true{singletitle}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Trafalgar}
-      \field{year}{1873}
-      \verb{url}
-      \verb https://books.google.com/books?id=bT1EAQAAMAAJ&pg=PA3#v=onepage&q&f=false
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{American Historical Review}
+      \field{number}{5}
+      \field{shorttitle}{Invention}
+      \field{title}{The Invention of Latin America: A Transnational History of Anti-Imperialism, Democracy, and Race}
+      \field{volume}{118}
+      \field{year}{2013}
+      \field{pages}{1345\bibrangedash 1375}
+      \range{pages}{31}
+      \verb{file}
+      \verb Gobat2013_inventionOfLatinAmerica.pdf:Gobat2013_inventionOfLatinAmerica.pdf:PDF
       \endverb
     \endentry
-    \entry{Gomez1841}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=96a7a339140d03149528555c3af7182c}{Gómez\bibnamedelimb de\bibnamedelima Avellaneda}{G\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim A\bibinitperiod}{Gertrudis}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Madrid}%
-      }
-      \list{publisher}{1}{%
-        {Imprenta Calle del Banco num 26}%
-      }
-      \strng{namehash}{96a7a339140d03149528555c3af7182c}
-      \strng{fullhash}{96a7a339140d03149528555c3af7182c}
-      \field{sortinit}{G}
-      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
-      \true{singletitle}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Sab: Novela original}
-      \field{year}{1841}
-      \verb{url}
-      \verb https://books.google.com/books?id=RJArAQAAMAAJ&dq=sab%20avellaneda&pg=PA1#v=onepage&q=sab%20avellaneda&f=false
-      \endverb
-    \endentry
-    \entry{Hernandez1897}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=79ea5811c803e9445c7fb2b9b7045f3a}{Hernández}{H\bibinitperiod}{José}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Buenos Aires}%
-      }
-      \list{publisher}{1}{%
-        {Librería Martín Fierro}%
-      }
-      \strng{namehash}{79ea5811c803e9445c7fb2b9b7045f3a}
-      \strng{fullhash}{79ea5811c803e9445c7fb2b9b7045f3a}
-      \field{sortinit}{H}
-      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
-      \true{singletitle}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{El {g}aucho Martín Fierro}
-      \field{year}{1897}
-      \verb{url}
-      \verb http://babel.hathitrust.org/cgi/pt?id=uiuo.ark:/13960/t21c2887g
-      \endverb
-    \endentry
-    \entry{Isaacs1894}{book}{}
+    \entry{Isaacs2012}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=ff60b6fc862ed513709d7268aac7a637}{Isaacs}{I\bibinitperiod}{Jorge}{J\bibinitperiod}{}{}{}{}}%
       }
+      \name{editor}{1}{}{%
+        {{hash=a9bc72c2d4c64afb34707fa6ac65ef57}{McGrady}{M\bibinitperiod}{Donald}{D\bibinitperiod}{}{}{}{}}%
+      }
       \list{location}{1}{%
-        {Paris}%
+        {Madrid}%
       }
       \list{publisher}{1}{%
-        {Libreria Garnier {h}ermanos}%
+        {Catedra}%
       }
       \strng{namehash}{ff60b6fc862ed513709d7268aac7a637}
       \strng{fullhash}{ff60b6fc862ed513709d7268aac7a637}
@@ -177,82 +358,436 @@
       \true{singletitle}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Maria: {N}ovela {a}mericana}
-      \field{year}{1894}
-      \verb{url}
-      \verb https://books.google.com/books?id=kooCAAAAYAAJ&printsec=frontcover#v=onepage&q&f=falsehttps://books.google.com/books?id=kooCAAAAYAAJ&printsec=frontcover#v=onepage&q&f=false
+      \field{title}{María}
+      \field{year}{2012}
+    \endentry
+    \entry{Jagoe2003}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5c14ac52492b5e2abbbf7c73c4f52319}{Jagoe}{J\bibinitperiod}{Eva-Lynn\bibnamedelima Alicia}{E\bibinithyphendelim L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5c14ac52492b5e2abbbf7c73c4f52319}
+      \strng{fullhash}{5c14ac52492b5e2abbbf7c73c4f52319}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cuadernos Americanos}
+      \field{number}{6}
+      \field{title}{Las herencias colombianas: corporealidad y colonización en la obra de Jorge Isaacs}
+      \field{volume}{17}
+      \field{year}{2003}
+      \field{pages}{144\bibrangedash}
+      \range{pages}{-1}
+      \verb{file}
+      \verb :../../../literature_repository/jagoe_herenciasColombianasIsaacs.pdf:PDF
       \endverb
     \endentry
-    \entry{Marmol1877}{book}{}
+    \entry{McGrady2012}{inbook}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=23232c0761694ae200f8bb687f35a976}{Mármol}{M\bibinitperiod}{José}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a9bc72c2d4c64afb34707fa6ac65ef57}{McGrady}{M\bibinitperiod}{Donald}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Madrid}%
+      }
+      \list{publisher}{1}{%
+        {Catedra}%
+      }
+      \strng{namehash}{a9bc72c2d4c64afb34707fa6ac65ef57}
+      \strng{fullhash}{a9bc72c2d4c64afb34707fa6ac65ef57}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Introducción}
+      \field{title}{María}
+      \field{year}{2012}
+    \endentry
+    \entry{Mejia1976}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a4d1f51622a2238ae68b774a8df1d759}{Mejía}{M\bibinitperiod}{Gustavo}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a4d1f51622a2238ae68b774a8df1d759}
+      \strng{fullhash}{a4d1f51622a2238ae68b774a8df1d759}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Escritura}
+      \field{number}{2}
+      \field{title}{La novela de la decadencia de la clase latifundista: \textit{María} de Jorge Isaacs}
+      \field{volume}{2}
+      \field{year}{1976}
+      \field{pages}{261\bibrangedash 278}
+      \range{pages}{18}
+      \verb{file}
+      \verb :../../../literature_repository/mejía_novelaDecandenciaMaría.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Menton1978}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=19ced0d398b9a079101ed9c4529e0e88}{Menton}{M\bibinitperiod}{Seymour}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Bogota}%
+      }
+      \list{publisher}{1}{%
+        {Plaza y Janes}%
+      }
+      \strng{namehash}{19ced0d398b9a079101ed9c4529e0e88}
+      \strng{fullhash}{19ced0d398b9a079101ed9c4529e0e88}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{La novela colombiana: Planetas y satelites}
+      \field{year}{1978}
+    \endentry
+    \entry{Montes1997}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=bd9b974e10f7f61dc5a53da9d2c21771}{Montes}{M\bibinitperiod}{José\bibnamedelima Joaquín}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=5033a6e3e30511de18809b6bda154697}{Gómez}{G\bibinitperiod}{Ximena\bibnamedelimb Pachón;\bibnamedelimb Francois\bibnamedelimb Correa;\bibnamedelimb Elsa\bibnamedelima Benavides}{X\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Santa Fé de Bogotá}%
+      }
+      \list{publisher}{1}{%
+        {Imprenta patriotica del Instituto Caro y Cuervo}%
+      }
+      \strng{namehash}{bd9b974e10f7f61dc5a53da9d2c21771}
+      \strng{fullhash}{bd9b974e10f7f61dc5a53da9d2c21771}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{El Español de Colombia y las lenguas indígenas}
+      \field{title}{Lenguas amerindias: condiciones socio-lingüísticas en Colombia}
+      \field{year}{1997}
+      \field{pages}{27\bibrangedash 83}
+      \range{pages}{57}
+    \endentry
+    \entry{Moretti2013}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=60e0776eab9ad2bb3da78fa156996838}{Moretti}{M\bibinitperiod}{Franco}{F\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
         {New York}%
       }
       \list{publisher}{1}{%
-        {Oxford University Press}%
+        {Verso}%
       }
-      \strng{namehash}{23232c0761694ae200f8bb687f35a976}
-      \strng{fullhash}{23232c0761694ae200f8bb687f35a976}
+      \strng{namehash}{60e0776eab9ad2bb3da78fa156996838}
+      \strng{fullhash}{60e0776eab9ad2bb3da78fa156996838}
       \field{sortinit}{M}
       \field{sortinithash}{2684bec41e9697b92699b46491061da2}
       \true{singletitle}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Amalia}
-      \field{year}{1877}
-      \verb{url}
-      \verb https://ia801407.us.archive.org/25/items/amalia04mrgoog/amalia04mrgoog.pdf
-      \endverb
+      \field{title}{Distant Reading}
+      \field{year}{2013}
     \endentry
-    \entry{Mitre1847}{book}{}
+    \entry{Musselwhite2006}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=165481379de6161a862e701049c82134}{Mitre}{M\bibinitperiod}{Bartolomé}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5be51efddcfca592184911223a6baecc}{Musselwhite}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
       }
-      \list{location}{1}{%
-        {Paz de Ayacucho}%
-      }
-      \list{publisher}{1}{%
-        {Imprenta de la Época}%
-      }
-      \strng{namehash}{165481379de6161a862e701049c82134}
-      \strng{fullhash}{165481379de6161a862e701049c82134}
+      \strng{namehash}{5be51efddcfca592184911223a6baecc}
+      \strng{fullhash}{5be51efddcfca592184911223a6baecc}
       \field{sortinit}{M}
       \field{sortinithash}{2684bec41e9697b92699b46491061da2}
       \true{singletitle}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Soledad}
-      \field{year}{1847}
-      \verb{url}
-      \verb http://www.cervantesvirtual.com/obra-visor-din/soledad-novela-original--0/html/ff1eaee6-82b1-11df-acc7-002185ce6064_2.html#I_0_
+      \field{journaltitle}{Romance Studies}
+      \field{title}{The Colombia of \textit{María}: \enquote{Un país de cafres}}
+      \field{volume}{24}
+      \field{year}{2006}
+      \field{pages}{41\bibrangedash 54}
+      \range{pages}{14}
+      \verb{file}
+      \verb :/home/randy/Dropbox/office_current/Documents/docear_projects/isu_lan/literature_repository/musselwhite_unPaisDeCafres.pdf:PDF
       \endverb
     \endentry
-    \entry{Palacios1886}{book}{}
+    \entry{Ordonez2005}{inbook}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=7208241a76e3970cfbeb744cd660de62}{Palacios}{P\bibinitperiod}{Eustaquio}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4f14fd6d8cbf7439e228eb37f0867f5d}{Ordóñez}{O\bibinitperiod}{Montserrat}{M\bibinitperiod}{}{}{}{}}%
       }
       \list{location}{1}{%
-        {NA}%
+        {Madrid}%
       }
       \list{publisher}{1}{%
-        {NP}%
+        {Iberoamericana; Vervuert}%
       }
-      \strng{namehash}{7208241a76e3970cfbeb744cd660de62}
-      \strng{fullhash}{7208241a76e3970cfbeb744cd660de62}
+      \strng{namehash}{4f14fd6d8cbf7439e228eb37f0867f5d}
+      \strng{fullhash}{4f14fd6d8cbf7439e228eb37f0867f5d}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Soledad Acosta de Samper: ¿Un intento fallido de literatura nacional? \textit{Laura}, una historia perdida}
+      \field{title}{Soledad Acosta de Samper: escritura, género y nación en el siglo XIX}
+      \field{year}{2005}
+      \field{pages}{257\bibrangedash 66}
+      \range{pages}{10}
+    \endentry
+    \entry{Ortiz2007}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3bb7249434a731a5286d624d5a0eff93}{Ortiz}{O\bibinitperiod}{Lucía}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Madrid}%
+      }
+      \list{publisher}{1}{%
+        {Iberoamericana; Vervuert}%
+      }
+      \strng{namehash}{3bb7249434a731a5286d624d5a0eff93}
+      \strng{fullhash}{3bb7249434a731a5286d624d5a0eff93}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{El negro y la creación romántica de una identidad nacional. Hacia una relectura de \textit{María} de Jorge Isaacs}
+      \field{title}{Chambacú, la historia la escribes tú; Ensayos sobre cultura afrocolombiana}
+      \field{year}{2007}
+      \field{pages}{361\bibrangedash 70}
+      \range{pages}{11}
+    \endentry
+    \entry{Palacios2002}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=075119d646804d01505c5d0e892198aa}{Palacios}{P\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=91de827af941f9375698f13462eaead2}{Safford}{S\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=70966c815dc11bc6ae03854ba296de50}{García}{G\bibinitperiod}{Trans.\bibnamedelimi Ángela}{T\bibinitperiod\bibinitdelim Á\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Bogotá}%
+      }
+      \list{publisher}{1}{%
+        {Grupo Editorial Norma}%
+      }
+      \strng{namehash}{f410c5e9f3a530c971bbf28328c24018}
+      \strng{fullhash}{f410c5e9f3a530c971bbf28328c24018}
       \field{sortinit}{P}
       \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
       \true{singletitle}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{El {a}lferez {r}eal}
-      \field{year}{1886}
+      \field{title}{Colombia: país fragmentado, sociedad dividida}
+      \field{year}{2002}
+    \endentry
+    \entry{Patino1992}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0dd73df146986e09f5910fbc5d43ab16}{Patiño}{P\bibinitperiod}{German}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0dd73df146986e09f5910fbc5d43ab16}
+      \strng{fullhash}{0dd73df146986e09f5910fbc5d43ab16}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Boletín cultural y bibliográfico}
+      \field{number}{29}
+      \field{title}{El Influjo de \textit{María}}
+      \field{volume}{29}
+      \field{year}{1992}
+      \field{pages}{22\bibrangedash 39}
+      \range{pages}{18}
+      \verb{file}
+      \verb :/home/randy/Dropbox/office_current/Documents/docear_projects/isu_lan/literature_repository/patiño_influjoMaríaCapitalismo_1992.pdf:PDF;:/home/randy/Documents/docear_projects/isu_lan/literature_repository/patiño_influjoMaríaCapitalismo_1992.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Patriau2004}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=51cdeaca82e80d9c7be2d7d87fdf5af0}{Patriau}{P\bibinitperiod}{Gustavo\bibnamedelima Faverón}{G\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{51cdeaca82e80d9c7be2d7d87fdf5af0}
+      \strng{fullhash}{51cdeaca82e80d9c7be2d7d87fdf5af0}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Iberoamericana}
+      \field{number}{207}
+      \field{title}{Judasimo y desarraigo en \textit{María} de Jorge Isaacs}
+      \field{volume}{70}
+      \field{year}{2004}
+      \field{pages}{341\bibrangedash 357}
+      \range{pages}{17}
+      \verb{file}
+      \verb :/home/randy/Documents/docear_projects/isu_lan/literature_repository/patriau_JudaismoDesarraigo.pdf:PDF
+      \endverb
+    \endentry
+    \entry{RCT2014}{manual}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a902f7a1275f47f57554b7ea75ccd0bc}{{R\bibnamedelimb Core\bibnamedelimb Team}}{R\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \strng{fullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2014}
       \verb{url}
-      \verb http://www.colombiaaprende.edu.co/html/productos/1685/articles-200229_alferez.pdf
+      \verb http://www.R-project.org/
+      \endverb
+    \endentry
+    \entry{Skinner2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6ca13639eeb1d1d8f5e7083d266c1504}{Skinner}{S\bibinitperiod}{Lee\bibnamedelima Joan}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6ca13639eeb1d1d8f5e7083d266c1504}
+      \strng{fullhash}{6ca13639eeb1d1d8f5e7083d266c1504}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Symposium}
+      \field{number}{1}
+      \field{title}{The Functions of Landscape in Jorge Isaacs and Soledad Acosta de Samper}
+      \field{volume}{68}
+      \field{year}{2014}
+      \field{pages}{12\bibrangedash 24}
+      \range{pages}{13}
+      \verb{file}
+      \verb :../../../literature_repository/skinner_functionsOfLandscapeIsaacsSamper_2014.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Sommer1991}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=dd269190586976367d58b06e08818f24}{Sommer}{S\bibinitperiod}{Doris}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berkeley}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{dd269190586976367d58b06e08818f24}
+      \strng{fullhash}{dd269190586976367d58b06e08818f24}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Foundational Fictions}
+      \field{title}{Foundational Fictions: the National Romances of Latin America}
+      \field{year}{1991}
+    \endentry
+    \entry{Sommer1997}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=dd269190586976367d58b06e08818f24}{Sommer}{S\bibinitperiod}{Doris}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=b122429c94f1cf1dcfbf1c02820b5ecd}{Lockhart}{L\bibinitperiod}{Darrel\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Garland}%
+      }
+      \strng{namehash}{dd269190586976367d58b06e08818f24}
+      \strng{fullhash}{dd269190586976367d58b06e08818f24}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Jewish Writers of Latin America: a Dictionary}
+      \field{chapter}{Jorge Isaacs}
+      \field{shorttitle}{Jewish Writers}
+      \field{title}{Jorge Isaacs}
+      \field{year}{1997}
+      \field{pages}{268\bibrangedash 274}
+      \range{pages}{7}
+    \endentry
+    \entry{Unzueta2003}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fb5cb7d547ca81666c38d87c07c90f2c}{Unzueta}{U\bibinitperiod}{Fernando}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=3c8008c4e2bd694d3360f98a388088d0}{Chasteen}{C\bibinitperiod}{Sara\bibnamedelimb Castro-Klarén\bibnamedelimb John\bibnamedelima Charles}{S\bibinitperiod\bibinitdelim C\bibinithyphendelim K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Woodrow Wilson Center Press}%
+      }
+      \strng{namehash}{fb5cb7d547ca81666c38d87c07c90f2c}
+      \strng{fullhash}{fb5cb7d547ca81666c38d87c07c90f2c}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Scenes of Reading}
+      \field{note}{Beyond}
+      \field{title}{Beyond Imagined Communities}
+      \field{year}{2003}
+      \field{pages}{115\bibrangedash 160}
+      \range{pages}{46}
+    \endentry
+    \entry{Unzueta2002}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fb5cb7d547ca81666c38d87c07c90f2c}{Unzueta}{U\bibinitperiod}{Fernando}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fb5cb7d547ca81666c38d87c07c90f2c}
+      \strng{fullhash}{fb5cb7d547ca81666c38d87c07c90f2c}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Chasqui Revista de literatura latinoamericana}
+      \field{number}{2}
+      \field{shorttitle}{Novel Subjects}
+      \field{title}{Novel Subjects: On Reading and National (Subject) Formation}
+      \field{volume}{31}
+      \field{year}{2002}
+      \field{pages}{75\bibrangedash 94}
+      \range{pages}{20}
+      \verb{file}
+      \verb :/home/randy/Documents/docear_projects/isu_lan/literature_repository/unzueta_novelSubjects.pdf:PDF
+      \endverb
+    \endentry
+    \entry{White1980}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=44f677e9d7b159501a25c6597dbdcb88}{White}{W\bibinitperiod}{Hayden}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{44f677e9d7b159501a25c6597dbdcb88}
+      \strng{fullhash}{44f677e9d7b159501a25c6597dbdcb88}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \true{singletitle}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Critical Inquiry}
+      \field{number}{1}
+      \field{title}{The Value of Narrativity in the Representation of Reality}
+      \field{volume}{7}
+      \field{year}{1980}
+      \field{pages}{5\bibrangedash 27}
+      \range{pages}{23}
+      \verb{file}
+      \verb :/home/reganna/Docear/projects/thesis/literature_repository/white-annotated.pdf:PDF
       \endverb
     \endentry
   \endsortlist
+  \missing{Project G}
 \endrefsection
 \endinput
 

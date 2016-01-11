@@ -1,17 +1,17 @@
-[0] Config.pm:325> INFO - This is Biber 2.1
+[1] Config.pm:325> INFO - This is Biber 2.1
 [1] Config.pm:328> INFO - Logfile is 'chapter1.blg'
-[62] biber:276> INFO - === mar dic 22, 2015, 10:14:50
-[62] Biber.pm:334> INFO - Reading 'chapter1.bcf'
-[175] Biber.pm:646> INFO - Found 37 citekeys in bib section 0
-[187] Biber.pm:2978> INFO - Processing section 0
-[199] Biber.pm:3116> INFO - Looking for bibtex format file '/home/randy/Documents/docear_projects/isu_lan/_data/14E63BA42E733287W8IBFFHMYMRV2A8RT03J/default_files/thesis.bib' for section 0
-[210] bibtex.pm:1010> INFO - Decoding LaTeX character macros into UTF-8
-[221] bibtex.pm:884> INFO - Found BibTeX data source '/home/randy/Documents/docear_projects/isu_lan/_data/14E63BA42E733287W8IBFFHMYMRV2A8RT03J/default_files/thesis.bib'
-[262] Utils.pm:146> WARN - I didn't find a database entry for 'Project G' (section 0)
-[687] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[687] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[687] Biber.pm:2855> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
-[687] Biber.pm:2859> INFO - No sort tailoring available for locale 'en-US'
-[761] bbl.pm:505> INFO - Writing 'chapter1.bbl' with encoding 'UTF-8'
-[765] bbl.pm:596> INFO - Output to chapter1.bbl
-[765] Biber.pm:107> INFO - WARNINGS: 1
+[69] biber:276> INFO - === dom ene 10, 2016, 13:00:11
+[69] Biber.pm:334> INFO - Reading 'chapter1.bcf'
+[228] Biber.pm:646> INFO - Found 37 citekeys in bib section 0
+[248] Biber.pm:2978> INFO - Processing section 0
+[267] Biber.pm:3116> INFO - Looking for bibtex format file '/home/randy/Documents/references/references.bib' for section 0
+[287] bibtex.pm:1010> INFO - Decoding LaTeX character macros into UTF-8
+[306] bibtex.pm:884> INFO - Found BibTeX data source '/home/randy/Documents/references/references.bib'
+[367] Utils.pm:146> WARN - I didn't find a database entry for 'Project G' (section 0)
+[957] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[957] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[957] Biber.pm:2855> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[957] Biber.pm:2859> INFO - No sort tailoring available for locale 'en-US'
+[1057] bbl.pm:505> INFO - Writing 'chapter1.bbl' with encoding 'UTF-8'
+[1062] bbl.pm:596> INFO - Output to chapter1.bbl
+[1063] Biber.pm:107> INFO - WARNINGS: 1

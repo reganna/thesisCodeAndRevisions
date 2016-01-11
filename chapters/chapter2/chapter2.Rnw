@@ -1,7 +1,7 @@
-%<<SetParent, include=FALSE>>=
-%library(knitr)
-%set_parent('../main_thesis.Rnw')
-%@
+<<SetParent, include=FALSE>>=
+library(knitr)
+set_parent('../main_thesis.Rnw')
+@
 
 %\begin{singlespace}
 %	\setcounter{chapter}{1}
@@ -182,7 +182,48 @@ In order to examine vocabulary richness in different length texts I have used th
 As Figure 4 shows, Galdós continues to introduce new vocabulary at a greater rate than Isaacs.
 Given the fact that Galdós is writing from the more linguistically established peninsula, it would appear that his rich vocabulary was not directed at adding words to the Spanish lexicon. 
 
-Figure 4:
+
+%%% Move both of these to chp2 %%%
+Figure 
+<<Figure 3, echo=FALSE, warning=FALSE, out.width=250, out.height=250>>=
+source("../../code/corpusFunctions.R")
+ttr <- ttrDirectory("../../corpus/corpus")
+author_names <- getAuthorNames("../../corpus/corpus")
+plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
+text(ttr, labels=rownames(ttr), pos = 2, cex = .5)
+@
+Of the many measures for lexical richness outlined by R. Harold Baayen, he maintains that the simple ratio of unique words to total words, or type/token ratio (TTR), is the least informative. 
+The reason being that as texts get longer, the addition of new words slows, therefore TTR is not equally representative in texts of varying lengths. 
+Baayen discusses numerous options for better comparison, vocabulary growth rates of same size text chunks and side by side interpolated growth curves (236)\nocite{Baayen2008}.
+The last two measures will be addressed later, however despite the less robust comparative strength of TTR from the view of linguistic analysis, it does provide a an effective cursory comparison for the purposes of literary investigation. 
+
+
+Having warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure ... offers some clarity.
+In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extrapolated vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
+A comparison of the word frequencies of these two novels in Figure ? helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
+Analysis of the lexicon employed by Isaacs' shows that establishing a stylistic connection is the key to the success of nationally uniting works. 
+As the plot shows, there is a tendency for novels to remain below a certain threshold.
+For the \Sexpr{length(ttr[,1])} novels examined previously through clustering, the mean type/token ration is \Sexpr{mean(ttr[,1])/mean(ttr[,2])}.
+What the shows is that lexical richness may have its limits when it comes to retaining readership. 
+Producing connections with readers is achieved by choosing a limited but specific vocabulary.
+
+Figure 
+<<Vgc, echo=FALSE, out.width=250, out.height=250>>=
+library(zipfR)
+amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
+maria_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
+maria_spc <- tfl2spc(maria_tfl)
+amalia_spc <- tfl2spc(amalia_tfl)
+maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
+amalia.fzm <- lnre("fzm", amalia_spc, exact=FALSE)
+#traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:100) * 230000, variances=TRUE)
+amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
+maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=TRUE)
+plot(maria.fzm.vgc, amalia.fzm.vgc)
+@
+
+
+Figure 
 <<Vgc, echo=FALSE, out.width=250, out.height=250, cache=TRUE>>=
 library(zipfR)
 traf_tfl <- read.tfl("data/trafalgar_freq.csv")

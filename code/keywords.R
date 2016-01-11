@@ -3,7 +3,6 @@ library(qdap)
 
 getTxtFreqs <- function(txtfile, raw=FALSE, rel=TRUE, vec=FALSE){
   text.v <- scan(txtfile, what="character", sep="\n")
-  #text.v <- gsub('([0-9])([[:alpha:]])', '\\1 \\2', text.v)
   novel.v <- paste(text.v, collapse=" ")
   novel.lower.v <- tolower(novel.v)
   novel.words.l <- strsplit(novel.lower.v, "\\W")
@@ -58,17 +57,17 @@ keywords <- function(directoryName){
   for(n in 1:length(corp)){
     text_v <- corpora_wfm[,n]
     ref_v <- rowSums(corpora_wfm[,-n])
-    wordList <- names(which(text_v>2))
+    wordList <- names(which(text_v>0))
     keywordList <- list()
-    pvalues <- data.frame()
-    
+    pvalues <- data.frame(textword = character(length(wordList)), p.value = numeric(length(wordList)), stringsAsFactors = FALSE)
+
       for (i in 1:length(wordList)){
         textword <- wordList[i]
         conTbl <-  rbind(c(ref_v[textword], sum(ref_v)), c(text_v[textword], sum(text_v)))
         conTbl[is.na(conTbl)] <- 0
         test <- chisq.test(conTbl)
         remove(conTbl)
-        pvalues <- rbind(pvalues, data.frame(textword, test$p.value))
+        pvalues[i,] <- c(pvalues, data.frame(textword, test$p.value))
       }
     
     keywordList <- pvalues[which(pvalues$test.p.value < .05),]
@@ -80,9 +79,16 @@ keywords <- function(directoryName){
   
 }
 
-galdos <- as.vector(corpKeywords[[6]])
-stylo(gui = FALSE, mfw.min=1000, mfw.max=1000, corpus.lang="Spanish", features = galdos)
+KwordRatio <- function(directoryName){
+  
+  Ksum <- as.numeric(summary(Kwords))
+  novTotals <- colSums(corpora_wfm)
 
-classify()
-Reduce(intersect, list(maria, amalia, galdos))
+}
+
+# galdos <- as.vector(corpKeywords[[6]])
+# stylo(gui = FALSE, mfw.min=1000, mfw.max=1000, corpus.lang="Spanish", features = galdos)
+# 
+# classify()
+# Reduce(intersect, list(maria, amalia, galdos))
 

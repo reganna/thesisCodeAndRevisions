@@ -221,6 +221,9 @@
       \field{year}{2013}
       \field{pages}{487\bibrangedash 489}
       \range{pages}{3}
+      \verb{file}
+      \verb :Eder2013.pdf:PDF
+      \endverb
       \verb{url}
       \verb http://dh2013.unl.edu/abstracts/
       \endverb
@@ -331,6 +334,9 @@
       \field{year}{2013}
       \field{pages}{1345\bibrangedash 1375}
       \range{pages}{31}
+      \verb{file}
+      \verb Gobat2013_inventionOfLatinAmerica.pdf:Gobat2013_inventionOfLatinAmerica.pdf:PDF
+      \endverb
     \endentry
     \entry{Isaacs2012}{book}{}
       \name{author}{1}{}{%

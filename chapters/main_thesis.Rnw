@@ -1,6 +1,6 @@
 \documentclass[12pt]{report}
 
-\usepackage{../thesis}
+\usepackage{thesis}
 \usepackage{pdflscape}
 \usepackage{rotating}
 \usepackage{setspace}
@@ -37,7 +37,6 @@
 \renewcommand{\chaptername}{{CHAPTER}}
 
 \title{Cracks in the foundation: The myth of Latin American national literatures}
-
 
 
 \begin{document}
@@ -89,8 +88,8 @@ concordance=TRUE
 %<<Introduction, child="proposal/intro.Rnw", eval=TRUE>>=
 %@
 
-%<<Chapter 1, child="chapter1/chapter1.Rnw", eval=TRUE>>=
-%@
+<<Chapter 1, child="chapter1/chapter1.Rnw", eval=TRUE>>=
+@
 
 %<<Chapter 2, child="chapter2/chapter2.Rnw", eval=TRUE>>=
 %@
@@ -101,8 +100,8 @@ concordance=TRUE
 %<<Conclusion, child="conclusion/conclusion.Rnw", eval=FALSE>>=
 %@
 
-<<Copyright, child="copyrightBib/corpusBibliogrpahy.Rnw", eval=TRUE>>=
-@
+%<<Copyright, child="copyrightBib/corpusBibliogrpahy.Rnw", eval=TRUE>>=
+%@
 
 \makeworkscited
 \end{spacing}
