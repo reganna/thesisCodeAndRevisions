@@ -227,9 +227,7 @@ While part of the magnitude of difference is due to the fact that \textit{Trafal
 The extrapolation of vocabulary curves seen in Figure 4 confirms what the hapax comparison shows.
 A comparison of the ratio of hapax legomena to total tokens offers another means of comparing vocabulary richness across the corpora.
 
-
-
-read villa and vosters
+Add discussion of hapax ratio
 
 
 
@@ -262,8 +260,12 @@ plot(maria.fzm.vgc, traf.fzm.vgc, amalia.fzm.vgc, font.fzm.vgc, legend=c('María
 \begin{figure}
 	\caption{Hapax ratio}
 	\label{fig:hapax}
-<<Hapax Ratio, echo=FALSE>>=
 
+<<Hapax Ratio, echo=FALSE>>=
+source("../../code/compareVgc.R")
+hapax <- compareSpcDir('../../tfls')
+plot(hapax)
+text(hapax, labels=rownames(hapax))
 @
 \end{figure}
 
@@ -366,7 +368,7 @@ Milroy goes on to say that within lower prestige language varieties, it is still
 He maintains that a \enquote{standard} variety of a language is generally highly regarded as including the most generally functional structures in a language.
 Authors in the Americas in the nineteenth-century must then have regarded previous literary registers in two ways.
 One, literary Spanish no longer represented common language within their particular geographical space.
-This meant that what had been viewed as \enquote{standard} was no longer the most generally functional variety.
+This meant that what had been viewed as \enquote{standard} was no longer the most generally functional variety, and a new vernacular required legitimization 	.
 Two, they recognized the need to represent local varieties in higher prestige formats, in order to insert them into a social space where they could establish a linguistic separation from their colonial past.
 
 

@@ -1,3 +1,5 @@
+library(zipfR)
+
 createTfls <- function(directoryName){
   files_v <- dir(path=directoryName, pattern="*") 
   for(i in 1:length(files_v)){
@@ -28,6 +30,7 @@ compareVgc <- function(a_path, b_path){
   return(comparisonList)
 }
 
+## Takes a directory of TFL files
 compareVgcDir <- function(directoryName){
   comparisonList <- list()
   files_v <- dir(path=directoryName, pattern="*") 
@@ -42,4 +45,30 @@ compareVgcDir <- function(directoryName){
   name <- gsub("\\_.*", "", files_v)
   names(comparisonList) <- name
   return(comparisonList)
+}
+
+compareSpcDir <- function(directoryName){
+  comparisonList <- list()
+  files_v <- dir(path=directoryName, pattern="*") 
+  for(i in 1:length(files_v)){
+    a_tfl <- read.tfl(file.path(directoryName, files_v[i]))
+    a_spc <- tfl2spc(a_tfl)
+    #a.fzm <- lnre("fzm", a_spc, exact=FALSE)
+    #a.fzm.vgc <- lnre.vgc(a.fzm, (1:230000), variances=TRUE)
+    comparisonList[i] <- list(a_spc)
+    
+  }
+  name <- gsub("\\_.*", "", files_v)
+  names(comparisonList) <- name
+  return(comparisonList)
+}
+
+hapaxRatio <- function(directoryName){
+  spcList <- compareSpcDir(directoryName)
+  hapaxRatioDf <- data.frame(Hapax=as.numeric(), Total=as.numeric())
+  for (i in 1:length(spcList)){
+    hapaxRatioDf <- rbind(hapaxRatioDf, c(N(spcList[[i]]), Vm(spcList[[i]], 1)))
+  }
+  rownames(hapaxRatioDf) <- names(spcList)
+  return(hapaxRatioDf)
 }
