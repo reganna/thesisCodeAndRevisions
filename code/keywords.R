@@ -59,7 +59,7 @@ keywords <- function(directoryName){
     ref_v <- rowSums(corpora_wfm[,-n])
     wordList <- names(which(text_v>0))
     keywordList <- list()
-    pvalues <- data.frame(textword = character(length(wordList)), p.value = numeric(length(wordList)), stringsAsFactors = FALSE)
+    pvalues <- data.frame()
 
       for (i in 1:length(wordList)){
         textword <- wordList[i]
@@ -67,7 +67,7 @@ keywords <- function(directoryName){
         conTbl[is.na(conTbl)] <- 0
         test <- chisq.test(conTbl)
         remove(conTbl)
-        pvalues[i,] <- c(pvalues, data.frame(textword, test$p.value))
+        pvalues <- rbind(pvalues, data.frame(textword, test$p.value))
       }
     
     keywordList <- pvalues[which(pvalues$test.p.value < .05),]
