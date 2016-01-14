@@ -50,7 +50,6 @@ pvalueList <- function(){
 
 keywords <- function(directoryName){
   novelKeywordList <- list()
-  pvalues <- data.frame(word=character(), p=numeric())
   corp <- Corpus(DirSource(directoryName))
   corpora_wfm <- as.wfm(corp)
   
