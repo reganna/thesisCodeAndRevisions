@@ -18,6 +18,7 @@ Of particular interest is Blanco's view that the privileging of \enquote{Realism
 The idea that artificial classifications of genre may hinder subjective analysis is not new.
 Critics such as Ted Underwood have made quantification of the effects of genre distinction central to the digital analysis of large corpora of literature. 
 
+
 In \enquote{Understanding Genre in a Collection of a Million Volumes} Underwood explores an algorithmic approach to genre classification. 
 At first, this appears to risk solidifying the same approach to categorization that has lead to the \enquote{missed discoveries} discussed by Blanco.
 It is to strong say that genre divisions have been historically arbitrary, yet they do miss nuanced classifications, which Underwood refers to as \enquote{fuzzy boundaries} \cite[9]{Underwood2014}.
@@ -26,9 +27,11 @@ This can be seen in the previous examination of \textit{María}.
 While many critics discussed the \enquote{realistic} characteristics of the novel, none classified it as \enquote{Realism}.
 A more nuanced approach, aided by algorithmic classification, helps to soften the edges of the time periods often imposed on genre, potentially uncovering previously missed periods such as the 1850-1870 era of the Spanish novel explored by Blanco.
 
+
 According to his investigation, it is the artificial temporal boundaries between the two \enquote{great canonical traditions of the century} that have caused critics to overlook the value of narratives in this period (425)\nocite{Blanco2000}.
 Blanco argues that by placing works from mid-century into lesser categories such as \textit{costumbrista} or \textit{novelas por entregas}, critics further undermine objective investigation through the imposition of an artificial taxonomy (426)\nocite{Blanco2000}.
 For this reason Underwood applies Thomas Vanderwal's moniker \enquote{folksonomy} to his classification in order to highlight the bottom up approach to the division of textual characteristics \cite{Underwood2014, Vanderwal2007}.
+
 
 Sereni points out that this historical period saw the formation of of new social frameworks that re-examined not only new relationships between ownership and production but also linguistically, culturally, politically and morally \cite[Sereni in][429]{Blanco2000}.
 Both authors highlight the view at the time that literature was an unstoppable cultural force viewed as possessing the ability to shape the morals of society. 
@@ -183,10 +186,21 @@ The reason being that as texts get longer, the addition of new words slows, ther
 Baayen discusses numerous options for better comparison, vocabulary growth rates of same size text chunks and side by side interpolated growth curves (236)\nocite{Baayen2008}.
 The last two measures will be addressed later, however despite the less robust comparative strength of TTR from the view of linguistic analysis, it does provide a an effective cursory comparison for the purposes of literary investigation. 
 
+\begin{figure}
+	\caption{}
+	\label{fig:TTR}
+<<TTR, echo=FALSE, warning=FALSE, out.width=250, out.height=250>>=
+source("../../code/corpusFunctions.R")
+ttr <- ttrDirectory("../../corpus/corpus")
+author_names <- getAuthorNames("../../corpus/corpus")
+plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
+text(ttr, labels=rownames(ttr), pos = 4, cex = .5)
+@
+\end{figure} 
 
-Having warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure ... offers some clarity.
+Having warned that TTR is particularly ineffective at comparisons of sample of differing lengths, a look at Figure~\ref{fig:TTR} offers some clarity.
 In the case of Amalia, an anamolous TTR would be reflected by a close approximation of the extrapolated vocabulary growth curve of \textit{María}, to that of the real curve of \textit{Amalia}.
-A comparison of the word frequencies of these two novels in Figure ? helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
+A comparison of the word frequencies of these two novels in Figure~\ref{fig:compareVgc} helps to emphasize why there would be a broad difference in terms of lexical connection to their readers.
 Analysis of the lexicon employed by Isaacs' shows that establishing a stylistic connection is the key to the success of nationally uniting works. 
 As the plot shows, there is a tendency for novels to remain below a certain threshold.
 For the \Sexpr{length(ttr[,1])} novels examined previously through clustering, the mean type/token ration is \Sexpr{mean(ttr[,1])/mean(ttr[,2])}.
@@ -197,8 +211,10 @@ Producing connections with readers is achieved by choosing a limited but specifi
 At this point it is worth demonstrating that Galdós and Isaacs used unique lexicons irrespective of the length of their texts.
 The ability of text length to skew measures like TTR is precisely why Baayen has proposed alternatives.
 In order to examine vocabulary richness in different length texts I have used the \enquote{zipfR} package to extrapolate vocabulary growth curves for comparison.
-As Figure 4 shows, Galdós continues to introduce new vocabulary at a greater rate than Isaacs.
+As Figure~\ref{fig:compareVgc} shows, Galdós continues to introduce new vocabulary at a greater rate than Isaacs.
 Given the fact that Galdós is writing from the more linguistically established peninsula, it would appear that his rich vocabulary was not directed at adding words to the Spanish lexicon. 
+It also reinforces the idea that Isaacs was introducing a specific, new vocabulary, which he establishes early in the novel. 
+Galdós, on the other hand, introduces a colloquial register that is new to literary language, adding it to his already rich vocabulary.
 
 Comparing some unique words from \textit{Trafalgar} and their first appearances in the Google N-gram data confirms this assumption.
 Galdós redefines Spanish in a manner distinct from Isaacs, and defining Spanish was an intense debate throughout the mid-century.
@@ -211,84 +227,76 @@ While part of the magnitude of difference is due to the fact that \textit{Trafal
 The extrapolation of vocabulary curves seen in Figure 4 confirms what the hapax comparison shows.
 A comparison of the ratio of hapax legomena to total tokens offers another means of comparing vocabulary richness across the corpora.
 
+Add discussion of hapax ratio
 
-
-read villa and vosters
-
-\begin{figure}
-	\caption{}
-<<TTR, echo=FALSE, warning=FALSE, out.width=250, out.height=250>>=
-source("../../code/corpusFunctions.R")
-ttr <- ttrDirectory("../../corpus/corpus")
-author_names <- getAuthorNames("../../corpus/corpus")
-plot(ttr, main = "TTR of Thesis Subcorpora", xlab= "Types", ylab = "Tokens")
-text(ttr, labels=rownames(ttr), pos = 2, cex = .5)
-@
-\end{figure} 
 
 
 \begin{figure}
 	\caption{}
+	\label{fig:compareVgc}
 <<Vgc, echo=FALSE, out.width=250, out.height=250>>=
-library(zipfR)
-amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
-maria_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
-maria_spc <- tfl2spc(maria_tfl)
-amalia_spc <- tfl2spc(amalia_tfl)
-maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
-amalia.fzm <- lnre("fzm", amalia_spc, exact=FALSE)
-#traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:100) * 230000, variances=TRUE)
-amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
-maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=TRUE)
-plot(maria.fzm.vgc, amalia.fzm.vgc)
-@
-\end{figure}
-
-
-\begin{figure}
-	\caption{}
-<<Vgc, echo=FALSE, out.width=250, out.height=250, cache=TRUE>>=
 library(zipfR)
 amalia_tfl <- read.tfl("../../tfls/marmol_amalia_argentina.txt.tfl")
 traf_tfl <- read.tfl("../../tfls/galdos_trafalgar_spain.txt.tfl")
 maria_tfl <- read.tfl("../../tfls/isaacs_maria_colombia.txt.tfl")
+font_tfl <- read.tfl("../../tfls/Galdos_fontanaDeOro_spain.txt.tfl")
+font_spc <- tfl2spc(font_tfl)
 amalia_spc <- tfl2spc(amalia_tfl)
 maria_spc <- tfl2spc(maria_tfl)
 traf_spc <- tfl2spc(traf_tfl)
+font.fzm <- lnre("fzm", font_spc, exact=FALSE)
 amalia.fzm <- lnre("fzm", amalia_spc, exact=FALSE)
 maria.fzm <- lnre("fzm", maria_spc, exact=FALSE)
 traf.fzm <- lnre("fzm", traf_spc, exact=FALSE)
-amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=TRUE)
-traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:50000), variances=TRUE)
-maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:50000), variances=TRUE)
-plot(maria.fzm.vgc, traf.fzm.vgc, amalia.fzm.vgc, legend=c('María', 'Trafalgar', 'Amalia'))
+font.fzm.vgc <- lnre.vgc(font.fzm, (1:230000), variances=FALSE)
+amalia.fzm.vgc <- lnre.vgc(amalia.fzm, (1:230000), variances=FALSE)
+traf.fzm.vgc <- lnre.vgc(traf.fzm, (1:230000), variances=FALSE)
+maria.fzm.vgc <- lnre.vgc(maria.fzm, (1:230000), variances=FALSE)
+plot(maria.fzm.vgc, traf.fzm.vgc, amalia.fzm.vgc, font.fzm.vgc, legend=c('María', 'Trafalgar', 'Amalia', 'Fontana de oro'))
 @
 \end{figure}
 
 
 \begin{figure}
 	\caption{Hapax ratio}
-<<Hapax Ratio, echo=FALSE>>=
+	\label{fig:hapax}
 
+<<Hapax Ratio, echo=FALSE>>=
+source("../../code/compareVgc.R")
+hapax <- compareSpcDir('../../tfls')
+plot(hapax)
+text(hapax, labels=rownames(hapax))
 @
 \end{figure}
 
+
 \section{Solve the Problem}
 \section{Draw out the Implications}
-As Laura Villa points out, the language ideology debate met with national policy in the 1800's when public teachers promoted a refined orthography in order to better facilitate reducing illiteracy.
+Villa and Rik Vosters point out that orthographic conflicts are \enquote{powerful sources to understand language change, geopolitical orders and social structures} \autocite{Villa2015a}.
+The connection between orthography and lexicon is close enough that extending Villa and Vosters ideas to include the discussion of literary vocabulary helps demonstrate the sociological connotations of word choice.
+In fact, their argument opens by qualifying that \enquote{this process is certainly not limited to spelling features} but includes any process of \enquote{transformation of the sign relationship between linguistic features and the social images to which they are linked} \autocite*[203]{Villa2015a}.
+In many contexts using a particular vocabulary to define oneself ideologically would result in a literal statement using the known signs and symbols of a language.
+However, in the context of the ex-Spanish colonies, marking identity with words that could be considered borrowed from indigenous sources or re-purposed in order to create definitions for the new colonial paradigm results in an ideological statement within the same language, much like that accomplished through changes in orthography.
+Through this process a specific feature or practice of language use is strongly and often exclusively associated with a specific group of language users.
+Distinguishing regional characteristics in modern Spanish is, today, a well established field of study.
+However, during the nineteenth-century, processes of regional linguistic marking, whether phonetic, orthographic, or lexical, were beginning to be established.
+
+As Laura Villa points out, the language ideology debate met with national policy in the 1800's when public teachers promoted a refined orthography in order to better facilitate reducing illiteracy\nocite{Villa2015a}.
 This debate between educators and the Real Academia Española emerged simultaneous to the efforts in the Americas to establish and refine standards for Spanish in the Americas.
-Domingo Sarmiento and Andres Bello proposed two different refinements of Spanish grammar and orthography.
+Domingo Faustino Sarmiento and Andres Bello proposed two different refinements of Spanish grammar and orthography.
 At the same time other efforts to establish the American lexicon through cataloging the growing vernacular were widespread. 
 The connection to state policy in the case of education in Spain was less over orthography than control over education policy that would shape the nation-forming public.
-As Angel Rama points out in \textit{La ciudad letrada}, control over reading and writing had been a device of political control for centuries.
-The centuries control over access to law and religion made the powerful connection between language and politics clear to the ruling classes.
+As Vosters elaborates, it is no accident that the debate between Sarmiento and Bello, as well as the debate in Spain, \enquote{ocurred amidst the intense nation-building activity that, both in Spain and in Latin America, followed the }
+As Angel Rama points out in \textit{La ciudad letrada}, control over reading and writing had been a device of political control for centuries, and limiting access to law and religion made the powerful connection between language and politics imperative to the ruling classes.
+
 
 Anderson points out that the importance of print vernaculars rose as unifying languages like Latin lost traction.
 He notes that "the fall of Latin exemplified a larger process in which the sacred communities integrated by old sacred languages were gradually fragmented, pluralized, and territorialized \cite[19]{Anderson2006}. 
 In Anderson's view, this \enquote{vernacularization}, coupling with expanding printing press capabilities, would have produced to many small inconsequential markets of \enquote{petty} proportions \cite[43]{Anderson2006}.
 While Spanish in the Americas has not distinguished itself to the degree of the descendants of Latin, the nationalist drive to \enquote{associate language with territorial units} was nevertheless influential (43).
 The struggle for distinction in the Americas was bottom-up, attempting to create regional identity within the ex-colonial linguistic superstrata.
-In Spain, for the controlling class, the struggle was top down, fighting to maintain linguitic hegemony while regional language attempted to re-define themselves as central power declined.
+In Spain, for the controlling class, the struggle was top down, fighting to maintain linguistic hegemony while regional language attempted to re-define themselves as central power declined.
+
 
 In \textit{Trafalgar}, this shows not only in Galdós' rich lexicon, but the source of his vocabulary as well. 
 As Urey has mentioned the semantic re-purposing of terms, many military, by his characters provides one source.
@@ -301,18 +309,16 @@ Even taking into consideration a skewed corpus composition, these two examples p
 There are 6660 words, not lemmatized, in \textit{Trafalgar} that do not occur in \textit{María}, which itself has only 2220 unique terms.
 So while Isaacs gleaned much of his unique vocab from regional and indigenous vernacular, Galdós, and other peninsular author, turned to the archives.
 
+
 %Rama p49 translation and semantics
 While the importance of individual verbs over the course of the author's lexicon may not seem influential , it has a cumulative effect.
 As Rama points out the educated elite throughout history has acted as translator of new and borrowed terms in order to determine what is admissable to \enquote{la norma cultural} \cite[50]{Rama2002}
-
 The Spanish example stresses the awareness at the time of the identity forming power of language. The evolution of Gabriel as narrator throughout the \textit{Episodios nacionales}, as Urey points out, calls attention to the importance of writing and its ability to influence the reader. In \textit{María} this sentiment manifests itself in Isaacs meta-commentary on reading as it pertains to his characters personal qualities. This literary reflection of regional identification calls into question the validity of a comparison of nationalism and literature outside of its regional context. Consequently, looking for patterns in \enquote{Latin American} national literatures may yield results given common historical beginnings. However understanding individual contributions of literatures is more productive within their own frame of reference.
 
 
 
 According to Rodríguez, Galdós had a distinct purpose for looking back in history which was to \enquote{reconstruct the past as an organic continuum} \cite[28]{Rodriguez1967}.
 Distancing the narrator served to create a causal relationship between history and national development.
-
-
 It could certainly be argued that much of the separation in vocab between \textit{Trafalgar} and other novels of the time is due the novel's wealth of nautical vocabulary.
 While it is certainly a justifiable concern, I would argue that this nevertheless reflects the identity of  Galdós' audience.
 Spain's internalization of its maritime history makes the vocabulary of \textit{Trafalgar} as important an identifying characteristic as the indeginisms of the Americas.
@@ -353,9 +359,25 @@ This helps to explain the focus on a losing battle, attempting to unite the vari
 The commentary on nation state is not entirely limited to matters of regional political divisions and military history.
 Galdós also weaves into \textit{Trafalgar}, and to a much larger extent his other novels, allegories of family, love, and politics equal to those found in the Americas.
 
-conclusion
-Ngugi - returning the center
+\section{Draw out the Implications}
+These authors used a rich vocabulary in order to connect with, and help define, a specific social connection within in limited geographic space.
+Unzueta maintains that the success of these novels connection with a wide readership depended on expanding the novel's audience through public reading.
+The intentional vocabulary in the founding fictions was new to literary registers.
+James Milroy points out that one challenge to historical linguists has been the veracity of Labov's statement that \enquote{no cases have been recorded in which the highest status social group acts as the innovating group} \autocite[574]{Milroy2012}.
+Milroy goes on to say that within lower prestige language varieties, it is still the highest status members that lead change (574).
+He maintains that a \enquote{standard} variety of a language is generally highly regarded as including the most generally functional structures in a language.
+Authors in the Americas in the nineteenth-century must then have regarded previous literary registers in two ways.
+One, literary Spanish no longer represented common language within their particular geographical space.
+This meant that what had been viewed as \enquote{standard} was no longer the most generally functional variety, and a new vernacular required legitimization 	.
+Two, they recognized the need to represent local varieties in higher prestige formats, in order to insert them into a social space where they could establish a linguistic separation from their colonial past.
 
-In historical investigations of linguistic phenomena recent scholarship has questioned top down qualitative divisions of diachronic periods. Stephen Gries is one linguist developing methods of bottom-up analysis, which while methodologically different from techiniques in digital literary analysis, theoretically relevant question of what degree of granularity is necessary is necessary when investigating an historical phenomenon? 
+
+Milroy adds that, ideologically, \enquote{the history of a language is intimately linked with the history of of a people, and if that national history is glorious, then the history of the language is also necessarilly glorious} \autocite[575]{Milroy2012}.
+It stands to reason that, decades later when these founding fictions were being institutionalized into educational systems that were accurate representations of local vernacular.
+In historical investigations of linguistic phenomena recent scholarship has questioned top down qualitative divisions of diachronic periods. 
+Stephen Gries is one linguist developing methods of bottom-up analysis, which while methodologically different from techniques in digital literary analysis, theoretically relevant question of what degree of granularity is necessary when investigating an historical phenomenon? 
+If writing reflected language changes already in progress, and broad bottom up textual investigations reveal patterns otherwise difficult to detect through individual readings, then applying these methods to nation forming fictions will reveal new ways at looking at the intersection of literature and nation formation.
+More importantly, studies are necessary in order to help establish methods for examining post-nationalist identities in a digital age.
+
 
 %\makeworkscited
