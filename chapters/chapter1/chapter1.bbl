@@ -39,26 +39,6 @@
       \field{title}{Imagined Communities}
       \field{year}{2006}
     \endentry
-    \entry{Baayen2008}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=9d1e4971080305d14562828cd71b9216}{Baayen}{B\bibinitperiod}{R.\bibnamedelimi Harold}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Cambridge}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{9d1e4971080305d14562828cd71b9216}
-      \strng{fullhash}{9d1e4971080305d14562828cd71b9216}
-      \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
-      \true{singletitle}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Analyzing Linguistic Data: A Practical Introduction to Statistics Using R}
-      \field{year}{2008}
-    \endentry
     \entry{Beckman2012}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=d152d6aa792cc96875b80a6c2ea57adc}{Beckman}{B\bibinitperiod}{Ericka}{E\bibinitperiod}{}{}{}{}}%
@@ -195,37 +175,6 @@
       \field{title}{Imitación, asimilación, importación y posesión: una lectura cursi de \textit{María} de Jorge Isaacs}
       \verb{file}
       \verb :../../../literature_repository/paolo_imitaciónAsimilaciónMaría.pdf:PDF
-      \endverb
-    \endentry
-    \entry{Eder2013}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,hash=5b65f6d84607e8441592a6533c08ee07}{Eder}{E\bibinitperiod}{Maciej}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=9d1ab665c2ba43842d5c50753eec480c}{Kestemont}{K\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=6954eb37d5672b1242b1986e0c3f12df}{Rybicki}{R\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Lincoln, NE}%
-      }
-      \list{organization}{1}{%
-        {University of Nebraska-Lincoln}%
-      }
-      \strng{namehash}{9e8a229edc3885fee35588fe02ce660e}
-      \strng{fullhash}{9e8a229edc3885fee35588fe02ce660e}
-      \field{sortinit}{E}
-      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
-      \true{singletitle}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Digital Humanities 2013: Conference Abstracts}
-      \field{title}{Stylometry with R: a suite of tools}
-      \field{year}{2013}
-      \field{pages}{487\bibrangedash 489}
-      \range{pages}{3}
-      \verb{file}
-      \verb :Eder2013.pdf:PDF
-      \endverb
-      \verb{url}
-      \verb http://dh2013.unl.edu/abstracts/
       \endverb
     \endentry
     \entry{Embree1998}{book}{}
@@ -627,29 +576,6 @@
       \verb :/home/randy/Documents/docear_projects/isu_lan/literature_repository/patriau_JudaismoDesarraigo.pdf:PDF
       \endverb
     \endentry
-    \entry{RCT2014}{manual}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=a902f7a1275f47f57554b7ea75ccd0bc}{{R\bibnamedelimb Core\bibnamedelimb Team}}{R\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Vienna, Austria}%
-      }
-      \list{organization}{1}{%
-        {R Foundation for Statistical Computing}%
-      }
-      \strng{namehash}{a902f7a1275f47f57554b7ea75ccd0bc}
-      \strng{fullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
-      \field{sortinit}{R}
-      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
-      \true{singletitle}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{R: A Language and Environment for Statistical Computing}
-      \field{year}{2014}
-      \verb{url}
-      \verb http://www.R-project.org/
-      \endverb
-    \endentry
     \entry{Skinner2014}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=6ca13639eeb1d1d8f5e7083d266c1504}{Skinner}{S\bibinitperiod}{Lee\bibnamedelima Joan}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
@@ -787,7 +713,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{Project G}
 \endrefsection
 \endinput
 

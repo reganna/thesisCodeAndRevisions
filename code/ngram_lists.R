@@ -76,3 +76,7 @@ compareNouns <- function(directoryName){
   return(directory_nouns)
 }
   
+ngramCall <- function(word, letter){
+  ngramData <- read.csv(pipe(sprintf('grep %s %s', word, letter)), sep="\t")
+  return(ngramData)
+}
