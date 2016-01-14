@@ -8,8 +8,14 @@
 .aux
 .bbl
 .blg
+<<<<<<< HEAD
 .log
 .bcf
 .out
 .xml
 .synctex.gz
+=======
+.gz
+.xml
+
+>>>>>>> chapterOnePreCommittee
