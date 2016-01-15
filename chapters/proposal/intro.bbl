@@ -547,33 +547,13 @@
       \strng{fullhash}{9570cac5e27ea4bc4a7319d88b59f8fc}
       \field{sortinit}{J}
       \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \true{singletitle}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{note}{Macroanalysis}
       \field{shorttitle}{Macroanalysis}
       \field{title}{Macroanalysis; Digital Methods and Literary History}
       \field{year}{2013}
-    \endentry
-    \entry{Jockers2014}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=9570cac5e27ea4bc4a7319d88b59f8fc}{Jockers}{J\bibinitperiod}{Matthew\bibnamedelima L.}{M\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Lincoln}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{9570cac5e27ea4bc4a7319d88b59f8fc}
-      \strng{fullhash}{9570cac5e27ea4bc4a7319d88b59f8fc}
-      \field{sortinit}{J}
-      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{note}{Text Analysis}
-      \field{shorttitle}{Text Analysis}
-      \field{title}{Text Analysis with R for Students of Literature}
-      \field{year}{2014}
     \endentry
     \entry{Kempen2007}{thesis}{}
       \name{author}{1}{}{%
@@ -1253,7 +1233,7 @@
       \field{pages}{228\bibrangedash 247}
       \range{pages}{20}
       \verb{file}
-      \verb :/home/randy/Documents/docear_projects/isu_lan/literature_repository/villa_orthographicDebatesSpain_2015.pdf:PDF
+      \verb Villa2015_orthographicDebatesSpain_2015.pdf:Villa2015_orthographicDebatesSpain_2015.pdf:PDF
       \endverb
     \endentry
     \entry{Vogeley2001}{book}{}

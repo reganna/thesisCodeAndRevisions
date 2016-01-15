@@ -3,10 +3,6 @@ library(knitr)
 set_parent('../main_thesis.Rnw')
 @
 
-\begin{singlespace}
-	\chapter{Introduction}
-\end{singlespace}
-
 %\enquote{You shall know a word by the company it keeps} J.R. Firth
 
 \noindent
@@ -88,7 +84,9 @@ This thesis will explore  current analysis of three novels for two purposes.
 First, it will highlight through close readings the characteristics that have led scholars to associate these novels with the formation of nations. 
 The analysis itself will consist of scrutinizing the results of several separate methods. 
 One method will be to examine words that appear at an unusually high frequency in a given novel when compared to a larger corpus of Spanish word frequencies. 
-This method, the needle-in-a-haystack approach, will shed light on the lexical uniqueness of these works\nocite{Cvrcek2014}. For diachronic context these keywords can then be evaluated by their historical frequency in order to analyze the evolving localized lexicon that was promoted in these purportedly unifying texts. 
+Another approach to textual analysis is the needle-in-a-haystack method (NHM) for keyword selection, proposed by Václav Cvrček and Masako Fidler. 
+This method will shed light on the lexical uniqueness of these works\nocite{Cvrcek2014}. 
+For diachronic context these keywords can then be evaluated by their historical frequency in order to analyze the evolving localized lexicon that was promoted in these purportedly unifying texts. 
 Another method, topic modeling a select group of foundational novels to generate groups of words in common discourse, will provide the context for exploring why some novels became iconic and others have been passed over for the status of national treasures. 
 In addition, it provides a quantitative link to Unzueta's contention that public readings fomented the national \enquote{imagining} of the nineteenth century. 
 Those novels most suited to oral style, he maintains, gained greater \enquote{readership,} in his broad understanding of reading. 
@@ -100,12 +98,12 @@ Comparing stylistic features will show how the novels contained unique rich voca
 Examining lexical richness using practices outlined by Harold R. Baayen in \textit{Analyzing Linguistic Data} will serve to validate that their status does not derive from a frivolously rich vocabulary but rather from a limited and intentional lexicon aimed at connecting with their local readership\nocite{Baayen2008}.
 
 
-
 Some insight can be gained from analyzing words that are completely unique to a target corpus (a novel or group of novels in this case) in comparison to a reference corpus. The reference corpus I will be using is the collection of all Spanish language texts available from Project Gutenberg \autocite{Gutenberg2015}. 
 The target corpus consists of the novels chosen for close reading and those mentioned frequently in the scholarship analyzing those particular texts. In examining \textit{María,} for example, I find numerous words that are introduced to wide scale printing by Isaacs' work by examining historical usage of words not apparent in the larger Gutenberg corpus using Google's n-gram data and cross referencing with the more extensively annotated \textit{Corpus del Español}\nocite{Michel2011, Davies2012}. 
 This method leaves unexamined a vast vocabulary that may occur with only slight frequency in the reference corpus but whose increased usage in the novels examined may point to interesting lexical features. 
-It is from this point that Unzueta's argument can be connected with another approach to textual analysis proposed by Václav Cvrček and Masako Fidler, the needle-in-a-haystack method (NHM) for keyword selection. 
-These can then be applied to the classification of texts from a larger corpus in order to highlight the stylistic differences between nations. Adam Kilgarriff discusses several different versions of keyword selection and I will be using the method which forms the basis of NHM \nocite{Kilgarriff}. Any code that has been written and executed by myself is owed in part or full to two resources: 1) Matthew Jocker's pivotal introduction \textit{Text Analysis with R for Students of Literature;} 2) Harold R. Baayen's \textit{Analyzing Linguistic Data} \nocite{Jockers2014}\nocite{Baayen2008}. 
+It is from this point that Unzueta's argument can be connected with NHM. 
+These can then be applied to the classification of texts from a larger corpus in order to highlight the stylistic differences between nations. Adam Kilgarriff discusses several different versions of keyword selection and I will be using the method which forms the basis of NHM \nocite{Kilgarriff}. 
+%Any code that has been written and executed by myself is owed in part or full to two resources: 1) Matthew Jocker's pivotal introduction \textit{Text Analysis with R for Students of Literature;} 2) Harold R. Baayen's \textit{Analyzing Linguistic Data} \nocite{Jockers2014}\nocite{Baayen2008}. 
 
 
 %For this thesis, I have chosen to examine novels based on their importance in current theories regarding the development of nation in Latin America. 
@@ -125,15 +123,15 @@ However, keyword comparison helps show that, stylistically, it could be read as 
 Sommer points out that, in her opinion, the success of Colombia's founding fiction \textit{María} as a nation-building piece of literature is somewhat of an anomaly when compared to the other novels she has examined. 
 Looking at its lexical characteristics, this thesis will show that the novel is anomalous when viewed through the lens of artificially delimited cultural boundaries.
 
-Chapter 2 focuses on the exploitation of language in Galdós' \textit{Trafalgar} and a discussion of the importance of digital analysis. 
-Examining the novel \textit{Trafalgar} by Benitez Pérez Galdós offers a distinct contrast to the Latin American example and also highlights the inherent differences despite their shared language.
+Chapter 2 focuses on the exploitation of language in Benitez Pérez Galdós' \textit{Trafalgar} and a discussion of the importance of digital analysis. 
+Examining \textit{Trafalgar} offers a distinct contrast to the Latin American example and also highlights the inherent differences despite their shared language.
 Isaacs attempted to use vocabulary to highlight the regional differences obscured beneath a shared colonial language. 
 This chapter will show how Galdós employed an audience uniting vernacular to incite national sentiment and erode regional sympathies. 
 %In the nineteenth century Spain underwent its own struggle with identity and nationhood. 
 However, the novel had an established relationship with the Spanish public and Castilian as a national identity had established a firmer place in its evolution.
 Chapter 2 then discusses why using corpus comparison in historical literary analysis can help redefine previously biased classifications of cultural boundaries.
 
-Chapter 3 examines critic's views José Marmol's novel \textit{Amalia}, emphasizing claims that lost its place in the \enquote{foundational ficitons} because other works connected better with the language of the masses \autocite{Sommer1991}. 
+Chapter 3 examines other critic's views of José Marmol's novel \textit{Amalia}, emphasizing claims that lost its place in the \enquote{foundational ficitons} because of other works connected better with the language of the masses \autocite{Sommer1991}. 
 According to Sommer, \textit{Amalia} failed to usurp the canonical spot in Argentina from \textit{Martin Fierro} \autocite*[111]{Sommer1991}.
 %There remains a question posed by Sommer in regards to national romances that is applicable to the larger context novels as nation forming catalysts. 
 She maintains that now, \textit{Amalia} \enquote{is read more as a period piece than as a founding text} \cite[111]{Sommer1991}. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.12)  31 DEC 2015 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.12)  15 JAN 2016 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -74,11 +74,9 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
-)
-(/home/randy/thesis/chapters/thesis.sty
+) (../thesis.sty
 
-LaTeX Warning: You have requested package `/home/randy/thesis/chapters/thesis',
-
+LaTeX Warning: You have requested package `../thesis',
                but the package provides `thesis'.
 
 Package: thesis 
@@ -1011,65 +1009,62 @@ LaTeX Info: Redefining \nameref on input line 100.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+ [1
 
-Chapter 1.
-[1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6]
-[7] [8] [9] [10] [11] [12]
-Overfull \hbox (16.64964pt too wide) in paragraph at lines 297--297
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8
+] [9] [10] [11] [12]
+Overfull \hbox (16.64964pt too wide) in paragraph at lines 295--295
 []\OT1/ptm/m/n/12 Gobat, Michel. \  The In-ven-tion of Latin Amer-ica: A Transn
 a-tional His-tory of Anti-Imperialism,
  []
 
 [13]
-Overfull \hbox (4.83716pt too wide) in paragraph at lines 297--297
+Overfull \hbox (4.83716pt too wide) in paragraph at lines 295--295
 []\OT1/ptm/m/n/12 Michel, Jean-Baptiste. \  Quan-ti-ta-tive Anal-y-sis of Cul-t
 ure Us-ing Mil-lions of Dig-itzed Books."
  []
 
 [14]
-Overfull \hbox (22.69931pt too wide) in paragraph at lines 297--297
+Overfull \hbox (22.69931pt too wide) in paragraph at lines 295--295
 []\OT1/ptm/m/n/12 Patriau, Gus-tavo Faver[]on. \  Ju-dasimo y de-sar-raigo en \
 OT1/ptm/m/it/12 Mar[]^^Pa \OT1/ptm/m/n/12 de Jorge Isaacs." \OT1/ptm/m/it/12 Re
 -vista Iberoamer-
  []
 
 [15]
-Overfull \hbox (3.15253pt too wide) in paragraph at lines 297--297
+Overfull \hbox (3.15253pt too wide) in paragraph at lines 295--295
 []\OT1/ptm/m/n/12 Unzueta, Fer-nando. \  Be-yond Imag-ined Com-mu-ni-ties." Ed.
  Sara Castro-Klar[]en John Charles
  []
 
 [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
  [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./intro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
 Package rerunfilecheck Info: File `intro.out' has not changed.
-(rerunfilecheck)             Checksum: 801D62DD1A15D68C626BAEEC19C65BEA;47.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'intro.run.xml'.
 \openout1 = `intro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 15206 strings out of 495000
- 248154 string characters out of 6181168
- 741992 words of memory out of 5000000
- 18133 multiletter control sequences out of 15000+600000
+ 15199 strings out of 495000
+ 247912 string characters out of 6181168
+ 740955 words of memory out of 5000000
+ 18128 multiletter control sequences out of 15000+600000
  7207 words of font info for 19 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,11n,92p,1322b,1764s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,1322b,1764s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on intro.pdf (17 pages, 72964 bytes).
+Output written on intro.pdf (17 pages, 72165 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 94 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
