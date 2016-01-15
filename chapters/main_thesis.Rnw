@@ -88,8 +88,8 @@ concordance=TRUE
 %<<Introduction, child="proposal/intro.Rnw", eval=TRUE>>=
 %@
 
-<<Chapter 1, child="chapter1/chapter1.Rnw", eval=TRUE>>=
-@
+%<<Chapter 1, child="chapter1/chapter1.Rnw", eval=TRUE>>=
+%@
 
 %<<Chapter 2, child="chapter2/chapter2.Rnw", eval=TRUE>>=
 %@

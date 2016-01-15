@@ -3,4 +3,11 @@ library(knitr)
 set_parent('../main_thesis.Rnw')
 @
 
+Not all Romance novels from the Americas shared Isaacs tone, and \textit{María} is different in some repects than many other foundational works typically examined alongside the question of national literatures.
+\textit{María's} uniqueness was seen by some critics as a redeeming quality, of the ending of the novel Cortázar comments: \enquote{No han sido pocos los que han pensado que \textit{María}, como obra de arte y tratándose del desenlace, supera a las novelas que se le parecen} \autocite[57]{Cortazar1908}.
+Sommer offers an illuminating counter example to the popularity of \textit{María} and \textit{Sab} in the Argentine novel \textit{Amalia} which she admits \enquote{is read more as a period piece than as a founding text} \autocite[111]{Sommer1991}.
+Instead \textit{Martín Fierro} by José Hernández became Argentina's national epic because it \enquote{constructed a national voice by appropriating the language of \enquote{authentic} but notoriously shiftless Argentines for patriotic and rational projects} \autocite[111]{Sommer1991}.
+
+Zamorra on reclassification
+
 \makeworkscited
