@@ -76,13 +76,19 @@ compareNouns <- function(directoryName){
   return(directory_nouns)
 }
   
-ngramCall <- function(wordlist, letter){
+ngramCall <- function(wordlist){
   ngramData <- list()
   for(i in 1:length(wordlist)){
     word <- wordlist[i]
     letter <- substr(word, 1, 1)
-    ngramData[[i]] <- read.csv(pipe(sprintf('grep %s %s', word, letter)), sep="\t")
+    ngramData[[i]] <- getNgrams(word, letter)
+    #ngramData[[i]] <- read.csv(pipe(sprintf('grep %s %s', word, letter)), sep="\t")
     final_df <- as.data.frame(rbindlist(ngramData))
   }
   return(final_df)
+}
+
+getNgrams <- function(word, letter) {
+  tryCatch(read.csv((pipe(sprintf('grep %s %s', word, letter)))),
+           error = function(e) {data.frame(word, NA, NA, NA)})
 }
