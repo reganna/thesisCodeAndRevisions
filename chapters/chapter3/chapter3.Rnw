@@ -10,13 +10,16 @@ amalia <-as.data.frame(getTxtFreqs('~/Documents/thesis/corpus/corpus/marmol_amal
 fierro <-as.data.frame(getTxtFreqs('~/Documents/thesis/corpus/corpus/hernandez_martinFierro_argentina.txt', raw=TRUE))
 
 @
+
 Analyzing their lexical composition using only high frequency characteristics should, as Jockers discussed, show alignment by author, with a larger coherence possibly as a result of national style as well.
 Instead, as shown in Figure 1, the features that may typify a particular genre are less influential than other features that show a distinct grouping than those of critical scholarly intuition.
+
 <<Figure 1, echo=FALSE, message=FALSE, warning=FALSE, results='hide', out.width=250, out.height=250>>=
 library(stylo)
 par(mfrow=c(1,2))
-a <- stylo(gui = FALSE, mfw.min=500, mfw.max=500, corpus.lang="Spanish", corpus.dir="../../corpus/corpus", features="../../corpus/wordlist.txt")
+a <- stylo(gui = FALSE, mfw.min=500, mfw.max=500, corpus.lang="Spanish", corpus.dir="../../corpus/corpus")
 @
+%features="../../corpus/wordlist.txt
 
 %<<AmaliaVgc, echo=FALSE, out.width=250, out.height=250, cache=TRUE>>=
 
@@ -138,7 +141,7 @@ Isaacs lack of involvement in state formation is reflected in the distinct nosta
 
 
 \section{Presentation of the digital data}
-The first step in supporting the idea that these national literatures are regionally distinct is to establish that the fact that they \enquote{read} differently.
+The first step in supporting the idea that these national literatures are ly distinct is to establish that the fact that they \enquote{read} differently.
 Cluster analysis compares the degree of difference between objects with a group of shared characteristics, in this case novels sharing vocabulary.
 While this method does not prove a particular set of regional characteristics, it does show some interesting tendencies that support looking beyond broad historical classifications. 
 Figure 1 shows a cluster dendrogram that was made with the \textit{stylo} package for R using Euclidean distance and the top 2000 most frequent words in the corpora \autocite{Eder2013, RCT2014}.

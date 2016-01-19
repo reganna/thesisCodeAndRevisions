@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.12)  7 JAN 2016 20:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.12.12)  15 JAN 2016 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,7 +990,7 @@ Package biblatex Info: ... file 'chapter3.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Pera2012
+(biblatex)                Leavitt1926
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1018,15 +1018,15 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Cvrcek https://www.aatseel.org/100111/pdf/4a8_3_cvrek
-.pdf
+(biblatex)                Pera2012
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Leavitt1926
+(biblatex)                Cvrcek https://www.aatseel.org/100111/pdf/4a8_3_cvrek
+.pdf
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 

@@ -16,66 +16,71 @@ A re-examination of the literature of the 19th century may at first glance may a
 However, even without the application of new analytical techniques, Alda Blanco argues that there still exists a need for a renewed approach to the mid-nineteenth century in traditional scholarship \cite[423]{Blanco2000}.
 Of particular interest is Blanco's view that the privileging of \enquote{Realism} by critics has obfuscated the reading of this period \cite[433]{Blanco2000}.
 The idea that artificial classifications of genre may hinder subjective analysis is not new.
-Critics such as Ted Underwood have made quantification of the effects of genre distinction central to the digital analysis of large corpora of literature. 
+Critics such as Ted Underwood have made quantification of the effects of genre distinction central to the digital analysis of large corpora of literature.
+I argue in this chapter that quantitative approaches to literary corpora can also reveal new connections between literary language and the evolution of the concept of nation. 
 
 
 In \enquote{Understanding Genre in a Collection of a Million Volumes} Underwood explores an algorithmic approach to genre classification. 
 At first, this appears to risk solidifying the same approach to categorization that has lead to the \enquote{missed discoveries} discussed by Blanco.
-It is to strong say that genre divisions have been historically arbitrary, yet they do miss nuanced classifications, which Underwood refers to as \enquote{fuzzy boundaries} \cite[9]{Underwood2014}.
-He states the strength of statistical models in genre classification is that \enquote{by characterizing and instance's mixed membership in multiple classes, or by predicting its likelihood of membership in a single class as a continuous variable} \cite[9]{Underwood2014}.
+It is too strong say that genre divisions have been historically arbitrary, yet they do miss nuanced classifications, which Underwood refers to as \enquote{fuzzy boundaries} \cite[9]{Underwood2014}.
+He states the strength of statistical models in genre classification is \enquote{characterizing and instance's mixed membership in multiple classes, or by predicting its likelihood of membership in a single class as a continuous variable} \cite[9]{Underwood2014}.
 This can be seen in the previous examination of \textit{María}.
 While many critics discussed the \enquote{realistic} characteristics of the novel, none classified it as \enquote{Realism}.
 A more nuanced approach, aided by algorithmic classification, helps to soften the edges of the time periods often imposed on genre, potentially uncovering previously missed periods such as the 1850-1870 era of the Spanish novel explored by Blanco.
-
-
 According to his investigation, it is the artificial temporal boundaries between the two \enquote{great canonical traditions of the century} that have caused critics to overlook the value of narratives in this period (425)\nocite{Blanco2000}.
 Blanco argues that by placing works from mid-century into lesser categories such as \textit{costumbrista} or \textit{novelas por entregas}, critics further undermine objective investigation through the imposition of an artificial taxonomy (426)\nocite{Blanco2000}.
 For this reason Underwood applies Thomas Vanderwal's moniker \enquote{folksonomy} to his classification in order to highlight the bottom up approach to the division of textual characteristics \cite{Underwood2014, Vanderwal2007}.
+Categorizations based on the concept of nation demand a similar re-imagining based on bottom up approaches to large corpora.
+This smaller study serves to examine the methods necessary for examining broader phenomena in the future.
 
 
-Sereni points out that this historical period saw the formation of of new social frameworks that re-examined not only new relationships between ownership and production but also linguistically, culturally, politically and morally \cite[Sereni in][429]{Blanco2000}.
+Blanco also points out that this historical period saw the formation of new social frameworks that re-examined not only new relationships between ownership and production but also linguistically, culturally, politically and morally \autocite[429]{Blanco2000}.
 Both authors highlight the view at the time that literature was an unstoppable cultural force viewed as possessing the ability to shape the morals of society. 
-According to Blanco, in Spain this brought into question the very idea of morality itself (429)\nocite{Blanco2000}.
-Nocedal furthermore insists ,that the novel be verisimilar, particularly in relationship to the two categories which he considers to be the most
+In Spain, this brought into question the very idea of morality itself (429)\autocite{Blanco2000}.
+Cándido Nocedal furthermore insists that the novel be verisimilar, particularly in relationship to the two categories which he considers to be the most
 problematic and dangerous in the novelistic text: the representation of gender and class relations \cite[430]{Blanco2000}.
-Nocedal demands that novelistic verisimilitude be the representation of that which is “naturally” complementary between the sexes and among the social classes. 
+Nocedal demanded that novelistic verisimilitude be the representation of that which is “naturally” complementary between the sexes and among the social classes. 
 Therefore he argues that the novel should not depict gender and class relationships as conflict or struggle \cite[430]{Blanco2000}.
+
 
 Benito Pérez Galdós was one of the most prolific writers in 19th century Spain. 
 Part of his literary production consists of the series of 46 novels written between 1872 and 1912 known as \textit{Los episodios nacionales}.
 The works are divided up into five series with common themes and protagonists creating a historical continuum that chronicles Spanish history from 1805 to 1868.
-The first novel in this series, \textit{Trafalgar}, is narrated by Gabriel Araceli.
-The narrator presents himself in the beginning of the novel as an old man reflecting on his youth.
+The first novel in this series, \textit{Trafalgar}, is narrated by Gabriel Araceli, who presents himself in the beginning of the novel as an old man reflecting on his youth.
+
 Gabriel has come to live with Don Alonso Gutiérrez de Cisniega and his wife Doña Francisca after the death of his mother.
 Don Alonso and Doña Francisca have a daughter of their own who is engaged to a young soldier named Malespina.
+Marcial, Don Alonso and Gabriel leave secretly one morning to go off and defend Spain in battle.
+As the battle is lost Marcial is wounded and dies in the destruction of the ship he and Gabriel are aboard.
+Malespina is returned to Rosita and Gabriel survives and returns to the home of Doña Francisca and Don Alonso.
+However, Doña Francisca dispatchs him to serve in the home Rosita and Malespina, a task he refuses.
+Gabriel opts to flee to Madrid and promises the reader more tales in future books.
 
-\enquote{by focusing on defeat in the \textit{Episodios}, Galdós attempts to avert the threat of dissolution of Spanish unity} \cite[12]{Kempen2007}
 
 According to Micheal Iarocci \textit{Trafalgar} is the most edited, read and analysed of Galdós' historical novels (183)\nocite{Iarocci2003}.
 Yet he goes on to observe \enquote{if one turns to critical appraisals of the work for indications of the qualities that presumably have accorded \textit{Trafalgar} its privileged standing, one finds that the tacit assertions of superior aesthetic value that might be expected are curiously absent} \cite[183]{Iarocci2003}.
 
+\enquote{by focusing on defeat in the \textit{Episodios}, Galdós attempts to avert the threat of dissolution of Spanish unity} \cite[12]{Kempen2007}
+He envokes the unification of a common enemy at the very end of the novel saying \enquote{quizás la magnitud del desastre apagó todos los resentimientos} \autocite[2099]{Galdos1882}.
+Which Gabriel follows up with the comment \enquote{¿No es triste considerar que sólo la disgracia hace a los hombres hermanos} \autocite[2099]{Galdos1882}?
 
-\enquote{Galdós revitalizó y revolucionó al lector español, hasta entonces acostumbrado a folletines y malas traducciones} \cite[1525]{Urey1992}
-
-Dice en cuanta al Marcial \enquote{su lenguaje es <<mareante>> en su confusión constante de términos y definiciones} \cite[1526]{Urey1992}
 
 \enquote{establece uno de los muchos paralelos importantes a Gabriel, que, como varios críticos han observado, es una figura picaresca, y que, a su edad, tampoco es todo un hombre} \cite[1526]{Urey1992}
 This helps to highlight a tendency, as the 19th century wore on, for authors from the various new republics to depend less on the repetition of old styles and tropes.
 This emphasis in a stylistic separation from their colonial past comes to fruition with the contribution of \textit{modernismo} as the first movement attributed with originating in an ex-Spanish colony.
-
 Urey points out that Gabriel's role as narrator and character narrated put emphasis on the metafictional role of \textit{Trafalgar} \cite[1526]{Urey1992}.
 Another parallel between the work of Isaacs and Galdós' \textit{Trafalgar} is the prominence of description, which Urey points intentionally puts emphasis \enquote{al acto de representar que al mundo representado} \cite[1527]{Urey1992}.
-
-
-An observation unique to \textit{Trafalgar} is that individual characters serve as metaphors for particular time periods in Spain's history \cite[1527]{Urey1992}. 
+%An observation unique to \textit{Trafalgar} is that individual characters serve as metaphors for particular time periods in Spain's history \cite[1527]{Urey1992}. 
 
 
 As mentioned in Chapter 2, Galdós makes explicit commentary on the role of language as an identifying characteristic.
-Sieber demonstrates that the connection of language, be it fictional or not, and identity has long been a component of literature \nocite{Sieber1978}(...).
-The narrator in \textit{Trafalgar} says of Marcial \enquote{usaba un vocabulario formado por los más peregrinos terminachos, pues es costumbre en la gente de mar de todos los países desfigurar la lengua patria hasta convertirla en caricatura} \cite[21]{Galdós1882}.
+\enquote{Galdós revitalizó y revolucionó al lector español, hasta entonces acostumbrado a folletines y malas traducciones} \cite[1525]{Urey1992}
+Sieber demonstrates that the connection of language, be it fictional or not, and identity, has long been a component of literature \autocite*[98]{Sieber1978}.
+The narrator in \textit{Trafalgar} says of Marcial \enquote{usaba un vocabulario formado por los más peregrinos terminachos, pues es costumbre en la gente de mar de todos los países desfigurar la lengua patria hasta convertirla en caricatura} \cite[21]{Galdos1882}.
+Regarding the character Marcial, Urey comments, \enquote{su lenguaje es <<mareante>> en su confusión constante de términos y definiciones} \autocite*[1526]{Urey1992}
 Of particular interest is a passage examined by Urey in which Gabriel explains the meaning of many of Marcial's phrases.
-What this highlights for the purpose here is that this \enquote{inter-language}, not a dialect nor a language of its own, still possesses enough characteristics to merit clarification.
-For Galdós, and many others, these language variations often evidenced a persons class or origin.
+What this highlights for the purpose of this thesis is that this \enquote{inter-language}, not a dialect nor a language of its own, still possesses enough characteristics to merit clarification.
+For Galdós, and many others, these language variations evidenced a persons class or origin.
 
 
 Within the new republics of the former Spanish empire many authors used these identifying characteristics not only to distinguish them from their colonizers, but also in order to avoid being perceived as culturally homogeneous with their neighboring regions and states.
@@ -86,11 +91,11 @@ He elaborates that the emphasis on the word, by making it the subject of \textit
 
 
 Urey states \enquote{el lenguaje puede sugerir un significado por medio de las relaciones entre palabras asociadas} \cite[1529]{Urey}.
-In her case, this supports the idea that Marcial's use of language, particularly applying nautical terms to unconventional signifieds, 
-Vessey's discussion of borrowing's can be applied to this scenario even though Marcial is re-appropriating words from his own language.
+In her case, this supports the idea that Marcial's use of language, particularly applying nautical terms to unconventional signifieds. 
+Even though Marcial is re-appropriating words from his own language, aspects of Rachelle Vessey's discussion of borrowing's can be applied to this scenario .
 Choosing a signifier other than one that would be expected by the receiver can serve only one purpose which is to alter the cultural connotation associated with the word.
 In the ex-colonial case these \enquote{core borrowings} frequently come from indigenous languages.
-In Spain, foreign borrowing is more commonly associated with the Baroque period.
+In Spain, borrowing is more commonly associated with the Baroque period.
 However, the parallel to inter-language borrowing is quite clear given the original of many of these \textit{culitsmos} was the mother language of Spanish, Latin.
 The very term \textit{cultismo} helps to highlight the historical precedent of altering word usage in order to establish social distinction.
 
@@ -98,29 +103,31 @@ The very term \textit{cultismo} helps to highlight the historical precedent of a
 This establishes an historical cycle, one that David Pharies also attributes to social prestige.
 He notes that linguistic changes can be initiated when one social group feels that their identity within a larger community is threatened \cite[15]{Davies2007}.
 According to Pharies, who bases his discussion on theories proposed by William Labov, certain linguistic changes help distinguish those that share values and beliefs (15)\nocite{Pharies2007}.
-Davies adds that \enquote{el grupo emplea una distinción lingüísica para enfatizar una distinción social} \cite[17]{Pharies2007}.
+Pharies adds that \enquote{el grupo emplea una distinción lingüísica para enfatizar una distinción social} \cite[17]{Pharies2007}.
 According to Clare Mar-Molinero, beyond linguistic analysis, the identifying power of language is the only explanation for the effort that humans put into maintaining thousands of mutually incomprehensible modes of communication \cite[2]{Molinero2005}.
 She claims that \enquote{the answer must lie in an innate need and desire to protect difference across groups and communities} \cite[2]{Molinero2005}.
 Mar-Molinero goes on to clarify that \enquote{few if any marked-out states are naturally monocultural} later noting that the attempt to usurp this cultural diversity in the nineteenth century \enquote{laid the seeds for many explosive separatist movements} \cite[10]{Molinero2005}.
 
 
-Anderson acknowledges the phenomenon of linguistic social identification, but he stops short of granting regional dialects a role in the imagining of nations.
+Anderson acknowledges the phenomenon of linguistic social identification, but he stops short of granting regional dialects a significant role in the imagining of nations.
 In fact, he attributes the success of print culture precisely to the homogenization of language.
 He asserts that \enquote{had print capitalism sought to exploit each potential oral vernacular market, it would have remained a capitalism of petty proportions} and continues \enquote{these idiolects were capable of being assembled, within definite limits, into print-languages far fewer in number} \cite[43]{Anderson2006}.
 There is no doubt that this was a conscious undertaking on the part of the newly independent states.
 However, the stylistic features that distinguish the novels examined here can be seen as being used to create the social distinction that Pharies talks about.
 In the former Spanish colonies this distinction helps to reinforce geographic political boundaries.
 In Anderson's study these developing communities of nation must be geographically limited.
-Because the borders throughout the Spanish colonies were evolving throughout the 19th century, language was an especially powerful way to link one's identity to one's territory.
+Because the borders throughout the Spanish colonies were evolving during the 19th century, language was an especially powerful way to link one's identity to a geographic territory.
 The admission into popular readings of a growing number of indigenous borrowing and regional colloquialisms served as an important means to create identity within a largely homologous umbrella of inherited colonial language.
+
 
 Both Isaac's and Galdós were writing about similar socio-political struggles although choosing to treat them in very divergent ways.
 In Eamonn Rodgers' words \enquote{the expulsion of the French from the Peninsula in 1813, had created the image of a fiercely independent people, heroically defending their land and their liberty against a tyrant} \cite[465]{Rodgers2005}.
-Despite their drastically different histories, the timeline for re-defining national identitiy is very similar.
+Despite their drastically different histories, the time-line for re-defining national identity is very similar.
 As Iarocci asserts \enquote{the story of modern Spain continues to begin somewhere within the vicinity of the War of Independence (1808-1814)} \cite[185]{Iarocci2003}.
-Iarocci also points out the importance of not only viewing this as a \enquote{history} but also the \textit{bildungsroman} of Gabriel Araceli \cite[189]{Iarocci2003}.
-Seen as a novel of formation, the love allegories of Latin America appear more closely relatable to Galdós' work.
+Iarocci also points out the importance of not only viewing \textit{Trafalgar} as a \enquote{history} but also the \textit{bildungsroman} of Gabriel Araceli \cite[189]{Iarocci2003}.
+Seen as a novel of personal formation, the love allegories of Latin America appear more closely related to Galdós' work.
 He concludes that \enquote{an analysis of the interconnections between the sentimental and historical plots} helps reveal \enquote{the preoccupation with the social status and meaning of masculinity} \cite[190]{Iarocci2003}.
+
 
 Chapter 1 explored how Sommer connects nationalism and novel in Latin America through the allegory of frustrated eroticism and \enquote{ideal gender models that were teaching future republicans to be passionate in a rational and seductively horizontal way} \cite[191]{Iarocci2003}. 
 \textit{Trafalgar} explores the evolution of gender in Spain.
@@ -128,19 +135,21 @@ According to Iarocci, Galdós' version of history serves to question the \enquot
 The directness of Galdós' treatment is apparent from the outset in the emasculating description of Marcial's aged existence.
 This parallel between participating in history, charging off to battle, and the journey to manhood mirrors \enquote{the assumption of an adult male gender identity on one hand, and the emergence of a nationalist ideology on the other} \cite[193]{Iarocci2003}.
 
+
 Another common thread is the use of a narrator reflecting on history from a temporal distance.
-In \textit{Trafalgar} this distance helps in the justification of what Iarocci called \enquote{naïve, patriotic idealism} in the view of the battles of the past.
+In \textit{Trafalgar} this distance helps in the justification of what Iarocci calls \enquote{naïve, patriotic idealism} in the view of the battles of the past.
 The same narrative distance applies to \textit{María}, while not romanticizing battle and virility, looks longingly at another destructive social institution. 
-For Spain, in the second half of the 19th century many factors contributed to the \enquote{lack of nationalistic zeal} \cite[143]{Storm2004}.
+For Spain, in the second half of the nineteenth century many factors contributed to the \enquote{lack of nationalistic zeal} \cite[143]{Storm2004}.
 Storm notes that the link between the military and national consciousness was particularly weak in Spain \cite[144]{Storm2004}.
-He highlights the fact that in the first part of the 19th century the military and schools were particularly lacking in their \enquote{nationalising functions}, citing illiteracy and conscription as the problems \cite[144]{Storm2004}.
+He highlights the fact that in the first part of the nineteenth century the military and schools were particularly lacking in their \enquote{nationalising functions}, citing illiteracy and conscription as the problem \cite[144]{Storm2004}.
 Storm makes one particularly salient point that is applicable to the criticism of broad generalizations about nationalism throughout Latin America.
 He states that \enquote{nationalism is not one coherent body of thought, but should be studied in its ideological context, as every political current professed its own version of nationalism} (144)\nocite{Storm2004}. 
-In the case of Colombia this case be seen in the broad audience connecting with \textit{María}, despite the fact that Isaacs novel was hardly a defense of the masses.
+In the case of Colombia this can be seen in the broad audience connecting with \textit{María}, despite the fact that Isaacs novel was hardly a defense of the masses.
 
-Early in the novel Galdós' intention to comment on the question of nation with descriptions like \enquote{mil frases inspiradas en el más ardiente patriotismo} \cite[8]{Galdos1882}.
+
+Early in the novel, Galdós' intention to comment on the question of nation with descriptions like \enquote{mil frases inspiradas en el más ardiente patriotismo} \cite[8]{Galdos1882}.
 In \textit{Trafalgar}, the time between Gabriel's old age and his youth emphasizes how this national identity changes with time.
-In retrospect it is not the winning or losing of the battle that matters most but a man's vallancy in the process.
+In retrospect it is not the winning or losing of the battle that matters most but a man's valiance in the process.
 In this same chapter the narrator comments on veracity with the comment \enquote{mi memoria puede hoy solo apreciarlo sólo de un modo vago} \cite[9]{Galdos1882}.
 The meta-commentary on memory does not stop there and is revisited throughout the novel.
 In fact the novel contains a litany of references to the role of memory, with nineteen mentions of \textit{memoria} and 7 of \textit{recuerdos} and 25 of the verb \textit{recuerdo}.
@@ -151,25 +160,25 @@ Following are a some examples:
 \blockquote{cuyos pormenores he conservado en mi memoria, a pesar del tiempo transcurrido}  \cite[392]{Galdos1882}
 \blockquote{aquí mis recuerdos toman un tinte melancólico} \cite[426]{Galdos1882}
 \blockquote{recuerdo perfectamente su hermosura, aunque me sería muy difícil describir sus facciones}.
-Commenting on his own memories is Gabriel's way of justify his version of details, or excusing possible inaccuracies.
-Historical narrative re-frames past events and, as Hayden White points, allows them to be re-purposed \cite[18]{White1980}.
+Commenting on his own memory is Gabriel's way of justify his version of details, or excusing possible inaccuracies.
+Historical narrative re-frames past events and, as Hayden White points out, it allows them to be re-purposed \cite[18]{White1980}.
 He goes so far as to say that for an event to qualify as historical it \enquote{must be susceptible to at least two narrations of its occurence} \cite[23]{White1980}.
-As mentioned in Chapter 1, Isaacs avoids explicit commentary, but this \enquote{displacement}, in Sommer's words, is not any less of a commentary on history than is its direct inclusion in Galdós.
-Both authors set out to re-frame history, Galdós wishes to use events of the past to create unity while Isaacs hopes to move forward into a future that can forget the unfortunate turmoil that surrounds him.
+As mentioned in Chapter 1, Isaacs avoids explicit commentary, but this \enquote{displacement}, in Sommer's words, is not any less of a commentary on history than is its direct inclusion in Galdós' work.
+Both authors set out to re-frame history, Galdós wished to use events of the past to create unity while Isaacs hopes to move forward into a future that can forget the unfortunate turmoil that surrounds him.
 
 
 According to Rodgers, just when Galdós moved to Madrid to study the political situation had worsened.
 Liberals had begun \enquote{embarking on military conspiracies} against the monarchy of Isabella II.
-That Lizardi, Isaacs and Galdós all wrote their novels amidst chaotic social change.
+Isaacs, Mármol, and Galdós all wrote their novels amidst chaotic social change.
 Despite Galdós' often pragmatic political views and realist/historical inclination of his literature, his view of Spain was still rooted in the glory of empire. 
 More specifically, as Iarocci elaborates, despite the challenges of 1805 or the late 1800's or any other epoch, Galdós' message is that Spain will perservere \cite[200]{Iarocci2004}.
-Nevertheless, the treatment of the male gendered role in the formation of history calls into question the \enquote{bourgeois liberal ideal of the nation} present at the time Gladós began his \textit{Episodios} \cite[200]{Iarocci2004}.
-In this respect, anxiety over the patriachal role is much the same as in \textit{María} but distintcly allegorized through battle.
+Nevertheless, the treatment of the male gendered role in the formation of history calls into question the \enquote{bourgeois liberal ideal of the nation} present at the time Galdós began his \textit{Episodios} \cite[200]{Iarocci2004}.
+In this respect, anxiety over the patriarchal role is much the same as in \textit{María} but distintcly allegorized through battle.
 
-As Vogeley points out, this patriarch/nation relationship is fundamental in Lizardi's \textit{Periquillo} \cite[99]{Vogeley2001}.
-Both \textit{Trafalgar} and \textit{Periquillo} explicitly comment on the patrilineage of their narrators.
+As Vogeley points out, this patriarch/nation relationship is fundamental in José Joaquín Fernández de Lizardi's \textit{El Periquillo Sarniento} \cite[99]{Vogeley2001}.
+Both \textit{Trafalgar} and \textit{El Periquillo Sarniento} explicitly comment on the patrilineage of their narrators.
 In the second paragraph of \textit{Trafalgar} Gabriel comments \enquote{Al hablar de mi nacimiento, no imitaré a la mayor parte de los que
-cuentan hechos de su propia vida, quienes empiezan nombrando su parentela, las más veces noble} (?) \cite[add. text]{Galdós...}.
+cuentan hechos de su propia vida, quienes empiezan nombrando su parentela, las más veces noble} (?) \cite[add. text]{Galdós1882}.
 In his very first chapter Lizardi opens by making the link between the relationship to father and the realtionship to nation saying: \enquote{Comienza Periquillo escribiendo el motivo que tuvo para dejar a sus hijos estos cuadernos, y da razón de sus padres, patria, nacimiento y demás ocurrencias de su infancia} (?). 
 That both protagonists fall under the tutelage of military father-figures in their youth broadens the connection of fatherhood making the link to nation that much closer.
 In the ex-Spanish colonies, patriotism up until independence meant \enquote{an allegiance, and love for, the Spanish King} \cite[94]{Vogeley2001}.
@@ -178,13 +187,15 @@ In Spain, the period between the Revolution of 1868 and the loss of the last Spa
 José Carlos Chiaramonte finds lineage inseparable from national identity stating that "la historia nacional [...] es una porción del patrimonio general que cada generación que desaparece lega a la que la reemplaza, ninguna debe transmitirla tal como la recibió sino que todas tienen el deber de agregar algo de certidumbre y claridad" \cite[28]{Chiaramonte2004}.
 Another human construction that relies on generational acquisition is language, just as phonetic variation moves from generation to generation so too does connotative variation.
 As a result, internalizing the meaning of words like \textit{nación, patria, país, estado} relies heavily on regional and familial culture. 
+This raises the question: Do the lexical characteristics of these novels differentiate them along the same lines drawn by the historical concepts of nation and state.
 
+%%% Elaborate Chiaramonte %%%
 
 \section{Presentation of Digital Data}
 Of the many measures for lexical richness outlined by R. Harold Baayen, he maintains that the simple ratio of unique words to total words, or type/token ratio (TTR), is the least informative. 
 The reason being that as texts get longer, the addition of new words slows, therefore TTR is not equally representative in texts of varying lengths. 
 Baayen discusses numerous options for better comparison, vocabulary growth rates of same size text chunks and side by side interpolated growth curves (236)\nocite{Baayen2008}.
-The last two measures will be addressed later, however despite the less robust comparative strength of TTR from the view of linguistic analysis, it does provide a an effective cursory comparison for the purposes of literary investigation. 
+The latter will be addressed later, however despite the less robust comparative strength of TTR from the view of linguistic analysis, it does provide a an effective cursory comparison for the purposes of literary investigation. 
 
 \begin{figure}
 	\caption{}
@@ -210,15 +221,17 @@ Producing connections with readers is achieved by choosing a limited but specifi
 
 At this point it is worth demonstrating that Galdós and Isaacs used unique lexicons irrespective of the length of their texts.
 The ability of text length to skew measures like TTR is precisely why Baayen has proposed alternatives.
-In order to examine vocabulary richness in different length texts I have used the \enquote{zipfR} package to extrapolate vocabulary growth curves for comparison.
+In order to examine vocabulary richness in different length texts I use the \enquote{zipfR} package to extrapolate vocabulary growth curves for comparison of texts of varying lengths.
 As Figure~\ref{fig:compareVgc} shows, Galdós continues to introduce new vocabulary at a greater rate than Isaacs.
-Given the fact that Galdós is writing from the more linguistically established peninsula, it would appear that his rich vocabulary was not directed at adding words to the Spanish lexicon. 
+Given the fact that Galdós is writing from the more linguistically established peninsula, it could be inferred that his rich vocabulary was not directed at adding words to the Spanish lexicon. 
 It also reinforces the idea that Isaacs was introducing a specific, new vocabulary, which he establishes early in the novel. 
 Galdós, on the other hand, introduces a colloquial register that is new to literary language, adding it to his already rich vocabulary.
-
 Comparing some unique words from \textit{Trafalgar} and their first appearances in the Google N-gram data confirms this assumption.
 Galdós redefines Spanish in a manner distinct from Isaacs, and defining Spanish was an intense debate throughout the mid-century.
 The trans-atlantic polemic of refining Spanish grammar, orthography, and lexicon served as a symbol of socio-political struggles \cite[230]{Villa2015}.
+
+
+
 
 The overwhelming amount of word differences between the two novels comes, as would be expected, from words with very low frequencies.
 Around 880 words that occur only once in \textit{María} do not appear in \textit{Trafalgar}.
@@ -332,7 +345,6 @@ By highlighting national roots in non-Spanish languages some critics place an em
 This becomes especially problematic as some critics narrow the origins even further recognizing only the contributions identified with Castilian origins, denying any place in the creation of national identity made by Catalan, Galician or Basque.
 
 
-Add Chiaramonte
 
 According to Storm one of the most overlooked problems in Spanish national unity was the rise of political clientelism in the late nineteenth century \cite[147]{Storm2004}.
 The situation worsened when Spains instituted alternating governance between two parties.

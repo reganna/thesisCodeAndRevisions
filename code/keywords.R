@@ -1,5 +1,6 @@
 library(tm)
 library(qdap)
+library(data.table)
 
 getTxtFreqs <- function(txtfile, raw=FALSE, rel=TRUE, vec=FALSE){
   text.v <- scan(txtfile, what="character", sep="\n")
@@ -58,7 +59,7 @@ keywords <- function(directoryName){
     ref_v <- rowSums(corpora_wfm[,-n])
     wordList <- names(which(text_v>0))
     keywordList <- list()
-    pvalues <- data.frame()
+    pvalues <- list()
 
       for (i in 1:length(wordList)){
         textword <- wordList[i]

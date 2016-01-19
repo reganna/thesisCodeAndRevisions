@@ -1,4 +1,4 @@
-library(zipfR)
+sumalibrary(zipfR)
 
 createTfls <- function(directoryName){
   files_v <- dir(path=directoryName, pattern="*") 

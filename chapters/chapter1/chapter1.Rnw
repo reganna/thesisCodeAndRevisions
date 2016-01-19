@@ -351,7 +351,6 @@ At a finer level of granularity than theme or genre lies the vocabulary chosen b
 
 
 %\section{Solve the problem}
-
 Efraín and María were as impossible a combination as were indigenous and \enquote{colombiano}.
 To be sure, the late nineteenth century definition of Colombian was quite narrow, and Isaacs himself found his Jewish heritage to complicate categorizing his identity \autocite[160]{Jagoe2003}.
 It is Jagoe's examination of \textit{Estudio sobre las tribus indigenas del Magdalena} that helps point out the importance of Isaacs personal experience in examining the role that authorial style plays in unifying nationalist ideologies. 
